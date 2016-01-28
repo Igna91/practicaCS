@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/layoutMain"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCRUMGOL"
+        android:id="@+id/textView"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="58sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="PS - Grupo 2"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffee00"
+        android:textStyle="bold"
+        android:textSize="@dimen/abc_action_button_min_width_overflow_material" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:id="@+id/textViewNombre"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+
+    <EditText android:id="@+id/user" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="@string/prompt_password"
+        android:imeOptions="actionUnspecified"
+        android:textColor="#000"
+        android:maxLines="1" android:singleLine="true"
+        android:layout_below="@+id/textViewNombre"
+        android:foreground="#ffffff"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:id="@+id/textViewPass"
+        android:layout_below="@+id/user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+
+
+    <EditText android:id="@+id/password" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="@string/prompt_password"
+        android:imeActionId="@+id/login"
+        android:imeOptions="actionUnspecified" android:inputType="textPassword"
+        android:textColor="#000"
+        android:maxLines="1" android:singleLine="true"
+        android:layout_below="@+id/textViewPass"
+        android:foreground="#ffffff"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:id="@+id/botonEntrar"
+        android:background="#15ff00"
+        android:textStyle="bold"
+        android:clickable="false"
+        android:layout_marginTop="52dp"
+        android:layout_below="@+id/password"
+        android:layout_marginLeft="70dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:id="@+id/botonRegistrar"
+        android:background="#f00"
+        android:textStyle="bold"
+        android:clickable="false"
+        android:layout_marginTop="52dp"
+        android:layout_marginLeft="180dp"
+        android:layout_below="@+id/password"
+       />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textoError"
+        android:layout_below="@+id/botonEntrar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textColor="#f00"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>

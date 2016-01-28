@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="delantero1" type="id"/>
+    <item name="delantero2" type="id"/>
+    <item name="delantero3" type="id"/>
+    <item name="medio1" type="id"/>
+    <item name="medio2" type="id"/>
+    <item name="medio3" type="id"/>
+    <item name="medio4" type="id"/>
+    <item name="medio5" type="id"/>
+    <item name="defensa1" type="id"/>
+    <item name="defensa2" type="id"/>
+    <item name="defensa3" type="id"/>
+    <item name="defensa4" type="id"/>
+    <item name="portero" type="id"/>
+
+</resources>

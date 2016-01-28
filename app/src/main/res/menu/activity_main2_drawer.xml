@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_equipo" android:icon="@drawable/camiseta"
+            android:title="Equipo" />
+        <item android:id="@+id/nav_partidos" android:icon="@drawable/futbol"
+            android:title="Calendario" />
+        <item android:id="@+id/nav_clasificacion" android:icon="@drawable/clasificacion"
+            android:title="Clasificación" />
+        <item android:id="@+id/nav_fichajes" android:icon="@drawable/fichajes"
+            android:title="Fichajes" />
+    </group>
+
+    <item android:title="Comparte con tus amigos">
+
+     <menu>
+            <item android:id="@+id/nav_share" android:icon="@drawable/social7" android:title="¡Comparte!"/>
+     </menu>
+
+
+    </item>
+
+</menu>

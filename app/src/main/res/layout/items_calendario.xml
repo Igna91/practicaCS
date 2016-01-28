@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical">
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fechaPartido"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:textSize="15sp"
+        />
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultadoPartido"
+        android:textColor="#FFF"
+        android:textSize="15sp"/>
+
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/campoPartido"
+        android:textColor="#FF0"
+        android:textSize="15sp"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/NamePlayer"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="16sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/PricePlayer"
+            android:textColor="#00f"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/PositionPlayer"
+            android:textColor="#f00"
+            android:textSize="14sp"/>
+
+        <TextView android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/TeamPlayer"
+            android:textColor="#0f0"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LayoutBotonFichar"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:layout_width="260dp"
+            android:layout_height="20dp"
+            android:id="@+id/botonFichar"
+            android:visibility="visible"
+            android:text="Fichar"
+            android:focusable="false"
+            android:background="#08f080"
+            android:layout_marginLeft="30dp"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
