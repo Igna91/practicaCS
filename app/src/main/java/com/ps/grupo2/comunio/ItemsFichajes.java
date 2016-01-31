@@ -1,5 +1,4 @@
 package com.ps.grupo2.comunio;
-
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -10,7 +9,6 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import java.io.BufferedInputStream;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -22,9 +20,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.FutureTask;
 
-/**
- * Created by Josué on 03/11/2015.
- */
+
 public class ItemsFichajes extends LinearLayout {
 
     private TextView campo1, campo2, campo3, campo4;
