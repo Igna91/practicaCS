@@ -17,7 +17,8 @@ public class Futbolista implements Serializable {
     private Team equipo;
     private int id;
     String nombreEquipo;
-
+    
+    //esto es un comentario de prueba
     public Futbolista(String n, String p, int punt, int partidos, int precio, boolean titular, boolean mercado, Team equipo, int id){
         nombre = n;
         posicion = p;
