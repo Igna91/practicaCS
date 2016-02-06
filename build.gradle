@@ -22,3 +22,28 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+import org.eclipse.jgit.api.*
+import org.eclipse.jgit.internal.storage.file.FileRepository
+import org.eclipse.jgit.transport.*
+
+def localPath = "D:\\Users\\kaish\\Documents\\GitHub\\practicaCS"
+def remotePath = "https://github.com/miguel1026/practicaCS.git"
+def localRepo = new FileRepository(localPath + "/.git")
+def git = new Git(localRepo)
+
+task commit << {
+    git.add().addFilepattern(".").call();
+    git.commit().setMessage("Added myfile").call();
+}
+
+task Cpush << {
+    def credentials = new UsernamePasswordCredentialsProvider("igna91", "Male1234")
+    def push = git.push();
+    push.setCredentialsProvider(credentials);
+    push.call();
+}
+
+task clone << {
+    Git.cloneRepository().setURI(remotePath).setDirectory(new File(localPath)).call()
+}
