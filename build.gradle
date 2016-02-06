@@ -29,7 +29,7 @@ import org.eclipse.jgit.internal.storage.file.FileRepository
 import org.eclipse.jgit.transport.*
 
 def localPath = "D:\\Users\\kaish\\Documents\\GitHub"
-def remotePath = "https://github.com/miguel1026/practicaCS.git"
+def remotePath = "https://github.com/lauram25/CalidadComunio.git"
 def localRepo = new FileRepository(localPath + "/.git")
 def git = new Git(localRepo)
 
