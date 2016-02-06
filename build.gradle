@@ -27,8 +27,8 @@ import org.eclipse.jgit.api.*
 import org.eclipse.jgit.internal.storage.file.FileRepository
 import org.eclipse.jgit.transport.*
 
-def localPath = "D:\\Users\\kaish\\Documents\\GitHub\\practicaCS"
-def remotePath = "https://github.com/miguel1026/practicaCS.git"
+def localPath = "C:\\Users\\virgi\\Desktop\\algo"
+def remotePath = "https://github.com/lauram25/CalidadComunio.git"
 def localRepo = new FileRepository(localPath + "/.git")
 def git = new Git(localRepo)
 
@@ -38,7 +38,7 @@ task commit << {
 }
 
 task Cpush << {
-    def credentials = new UsernamePasswordCredentialsProvider("igna91", "Male1234")
+    def credentials = new UsernamePasswordCredentialsProvider("vmorte", "Virginia1992")
     def push = git.push();
     push.setCredentialsProvider(credentials);
     push.call();
