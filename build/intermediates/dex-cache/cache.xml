@@ -2,32 +2,18 @@
 <items version="2" >
 
     <item
-        jar="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.1_eda6dc8c270852c30fdf3662ded51c8b83d4bbd9.jar" />
-    </item>
-    <item
-        jar="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_d4305443d7319d162e7ff53c8a4721bf14656501.jar" />
-    </item>
-    <item
-        jar="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_af8bbf71d8b9b5f92d43228697a7bf38731ad38e.jar" />
-    </item>
-    <item
         jar="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="379471b2bd17d9737c050345c08e8c7d16589784">
         <dex dex="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_65863425a997d6741bddea1ac3f8c3c6bde265d1.jar" />
+    </item>
+    <item
+        jar="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.1_eda6dc8c270852c30fdf3662ded51c8b83d4bbd9.jar" />
     </item>
     <item
         jar="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
@@ -37,11 +23,25 @@
         <dex dex="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_9ab73dd7b8bc598b629e2d5f362c4e44b6a98cd3.jar" />
     </item>
     <item
+        jar="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_af8bbf71d8b9b5f92d43228697a7bf38731ad38e.jar" />
+    </item>
+    <item
         jar="C:\Users\kaish\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
         <dex dex="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_21202f75a3e6a5a521cd711ac9a4d257fe6a7a24.jar" />
+    </item>
+    <item
+        jar="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_d4305443d7319d162e7ff53c8a4721bf14656501.jar" />
     </item>
 
 </items>

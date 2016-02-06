@@ -1,13 +1,14 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
+
     repositories {
         jcenter()
         mavenCentral()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:1.5.0'
-
+        classpath 'org.eclipse.jgit:org.eclipse.jgit:4.2.0.201601211800-r'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -27,8 +28,8 @@ import org.eclipse.jgit.api.*
 import org.eclipse.jgit.internal.storage.file.FileRepository
 import org.eclipse.jgit.transport.*
 
-def localPath = "C:\\Users\\virgi\\Desktop\\algo"
-def remotePath = "https://github.com/lauram25/CalidadComunio.git"
+def localPath = "D:\\Users\\kaish\\Documents\\GitHub"
+def remotePath = "https://github.com/miguel1026/practicaCS.git"
 def localRepo = new FileRepository(localPath + "/.git")
 def git = new Git(localRepo)
 
@@ -38,7 +39,7 @@ task commit << {
 }
 
 task Cpush << {
-    def credentials = new UsernamePasswordCredentialsProvider("vmorte", "Virginia1992")
+    def credentials = new UsernamePasswordCredentialsProvider("igna91", "Male1234")
     def push = git.push();
     push.setCredentialsProvider(credentials);
     push.call();
