@@ -22,7 +22,7 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
-
+/*
 import org.eclipse.jgit.api.*
 import org.eclipse.jgit.internal.storage.file.FileRepository
 import org.eclipse.jgit.transport.*
@@ -47,3 +47,4 @@ task Cpush << {
 task clone << {
     Git.cloneRepository().setURI(remotePath).setDirectory(new File(localPath)).call()
 }
+*/
