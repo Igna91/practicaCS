@@ -1,13 +1,9 @@
 package com.ps.grupo2.comunio;
-
 import java.io.Serializable;
 import java.util.Random;
 
-/**
- * Created by Josué on 08/10/2015.
- */
-public class Futbolista implements Serializable {
 
+public class Futbolista implements Serializable {
     private String nombre;
     private String posicion;
     private int puntuacion;
@@ -21,7 +17,8 @@ public class Futbolista implements Serializable {
     private Team equipo;
     private int id;
     String nombreEquipo;
-
+    
+    //esto es un comentario de prueba
     public Futbolista(String n, String p, int punt, int partidos, int precio, boolean titular, boolean mercado, Team equipo, int id){
         nombre = n;
         posicion = p;
