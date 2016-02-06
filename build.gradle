@@ -22,29 +22,3 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
-/*
-import org.eclipse.jgit.api.*
-import org.eclipse.jgit.internal.storage.file.FileRepository
-import org.eclipse.jgit.transport.*
-
-def localPath = "C:\\Users\\virgi\\Desktop\\algo"
-def remotePath = "https://github.com/lauram25/CalidadComunio.git"
-def localRepo = new FileRepository(localPath + "/.git")
-def git = new Git(localRepo)
-
-task commit << {
-    git.add().addFilepattern(".").call();
-    git.commit().setMessage("Added myfile").call();
-}
-
-task Cpush << {
-    def credentials = new UsernamePasswordCredentialsProvider("vmorte", "Virginia1992")
-    def push = git.push();
-    push.setCredentialsProvider(credentials);
-    push.call();
-}
-
-task clone << {
-    Git.cloneRepository().setURI(remotePath).setDirectory(new File(localPath)).call()
-}
-*/
