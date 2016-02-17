@@ -1,3 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\pre-dexed\debug\com.android.support-design-22.2.0_ea83f2af41a6fd50d74921a4c499f76be68489fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\kaish\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\pre-dexed\debug\hamcrest-core-1.3_cc80282607239854ba84ba04c648f08daa9484fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\kaish\.gradle\caches\modules-2\files-2.1\info.cukes\cucumber-jvm-deps\1.0.3\cccdeff234db8b12e91ae2529812f1240b4d5603\cucumber-jvm-deps-1.0.3.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="cccdeff234db8b12e91ae2529812f1240b4d5603">
+        <dex dex="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\pre-dexed\debug\cucumber-jvm-deps-1.0.3_9e412af62673bdc9933124f2e49da7338bf7c18e.jar" />
+    </item>
+    <item
+        jar="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-22.2.0_a39d7aed27798246a21f5308c88262ec5e9975e1.jar" />
+    </item>
+    <item
+        jar="C:\Users\kaish\.gradle\caches\modules-2\files-2.1\info.cukes\gherkin\2.12.2\17138631fa20fd0e44a13e50d6b7be59cee1a94\gherkin-2.12.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="017138631fa20fd0e44a13e50d6b7be59cee1a94">
+        <dex dex="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\pre-dexed\debug\gherkin-2.12.2_d2d205bc3f73e1250c08a3c7c9343b8cf8202ee8.jar" />
+    </item>
+    <item
+        jar="C:\Users\kaish\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0_7f4996a7c2cb5fb52202b67273f34a113e5a2381.jar" />
+    </item>
+    <item
+        jar="C:\Users\kaish\.gradle\caches\modules-2\files-2.1\info.cukes\cucumber-java\1.2.0\1b1c564194d7369a370f9ed7582218743b9e4156\cucumber-java-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="1b1c564194d7369a370f9ed7582218743b9e4156">
+        <dex dex="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\pre-dexed\debug\cucumber-java-1.2.0_57f682583b9c54c6c6726163443de9897e3e79d6.jar" />
+    </item>
+    <item
+        jar="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-22.2.0_d4b930e220979be78d1a962cfd7e822cb415f2b1.jar" />
+    </item>
+    <item
+        jar="C:\Users\kaish\.gradle\caches\modules-2\files-2.1\junit\junit\4.11\4e031bb61df09069aeb2bffb4019e7a5034a4ee0\junit-4.11.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="4e031bb61df09069aeb2bffb4019e7a5034a4ee0">
+        <dex dex="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\pre-dexed\debug\junit-4.11_c17ae48f3e328c3d469176eb4ed6494738d208b8.jar" />
+    </item>
+    <item
+        jar="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0_008e8c5985a772e5badf34d92e142ab6589a304b.jar" />
+    </item>
+    <item
+        jar="C:\Users\kaish\.gradle\caches\modules-2\files-2.1\info.cukes\cucumber-core\1.2.0\578f6dd8f7c4bfbc7ae12cc815bdf98dbd056357\cucumber-core-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="578f6dd8f7c4bfbc7ae12cc815bdf98dbd056357">
+        <dex dex="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\pre-dexed\debug\cucumber-core-1.2.0_add7eea7eb3408b54b4f0b2647a70d0da13b3438.jar" />
+    </item>
+    <item
+        jar="C:\Users\kaish\.gradle\caches\modules-2\files-2.1\info.cukes\cucumber-junit\1.2.0\562af83cab8421ee9343670e65380b18be2e98e2\cucumber-junit-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="562af83cab8421ee9343670e65380b18be2e98e2">
+        <dex dex="D:\Users\kaish\Documents\GitHub\practicaCS\app\build\intermediates\pre-dexed\debug\cucumber-junit-1.2.0_efddf44aa272401a09114143f7fc7824939582f2.jar" />
+    </item>
+
+</items>
