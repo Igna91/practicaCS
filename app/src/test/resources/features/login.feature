@@ -9,3 +9,7 @@ Dado que he introducido el usuario <entrada_1> en el login
 Y que  he introducido la contraseña <entrada_2> en el login
 Cuando oprimo el <boton>
 Entonces el resultado debe ser <resultado> en la pantalla
+  | entrada_1 | entrada_2 |
+  | m         | m         |
+
+
