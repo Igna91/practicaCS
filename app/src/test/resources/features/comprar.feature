@@ -28,11 +28,4 @@ Feature: comprar
 		When I press the "Comprar jugador" button AND I have enough money
 		Then should return <status> and money should be <remainingMoney>
     
-	Examples:
-    | playersToBuy 	| costPlayer 	| idPlayer 	| money | status 	|	remainingMoney 	|
-    |  "Random"		|  		20		|	1		|	50	| 	false	|		50			|
-	|  "Random"		|  		60		|	-1		|	50	| 	false	|		50			|
-	|  "Random"		|  		60		|	1		|	50	| 	false	|		50			|
-	|  "Random"		|  		20		|	1		|	50	| 	true	|		30			|
-	|  "Random"		|  		20		|	-1		|	50	| 	false	|		30			|
 	

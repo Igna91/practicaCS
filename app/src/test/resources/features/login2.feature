@@ -28,13 +28,6 @@ Feature: login
         When the <password> is invalid and the <user> is valid
         Then should return <access>
 		
-	Examples:
-    | user 	| password 	| access 	|
-    |  "m"	|  			|	-1		|
-	| 		|  "m"		|	-1		|
-	|  "p"  |  "m"  	|    1  	|
-	|  "m"  |  "m"  	|    1  	|
-	|  "m"  |  "p"  	|   -1  	|
 	
 	
 	
