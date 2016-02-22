@@ -75,8 +75,8 @@ public class MainActivity extends AppCompatActivity {
                     executor.submit(task);
 
                     id = (Integer) task.get();
-                } catch (Exception e){
-                    System.out.println("Error: "+e);
+                } catch (Exception e) {
+                    System.out.println("Error: " + e);
                 }
                 if (id > 0) {
                     Intent intent = new Intent(MainActivity.this, Main2Activity.class);
@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    private int conexionBD(String user, String pass) {
+    public static int conexionBD(String user, String pass) {
         HttpURLConnection cliente = null;
         URL url = null;
 
@@ -167,8 +167,13 @@ public class MainActivity extends AppCompatActivity {
         return id;
     }
 
+    public static boolean loginAccess(String user, String pass){
+        return ((user != null)&&(!user.equals(""))&&
+                (pass != null)&&(!pass.equals(""))) ? true : false;
+    }
+
     //Clase para ejecutar la conexion a BD
-    private class MyCallable implements Callable<Integer> {
+    public class MyCallable implements Callable<Integer> {
 
         @Override
         public Integer call() throws Exception {
@@ -179,6 +184,8 @@ public class MainActivity extends AppCompatActivity {
             return conexionBD(nombre, pass);
 
         }
+
+
 
     }
 
