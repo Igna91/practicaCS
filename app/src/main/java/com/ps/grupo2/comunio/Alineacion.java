@@ -17,7 +17,6 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 
 
-
 public class Alineacion extends AppCompatActivity {
     Button aux,delantero1,delantero2,delantero3,delantero4,medio1,medio2,medio3,medio4,medio5,defensa1,defensa2,defensa3,defensa4,portero;
 

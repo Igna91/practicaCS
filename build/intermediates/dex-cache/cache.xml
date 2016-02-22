@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
+<items version="2" />
 
+<<<<<<< HEAD
     <item
         jar="C:\Users\Leugim\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
         jumboMode="false"
@@ -45,3 +46,5 @@
     </item>
 
 </items>
+=======
+>>>>>>> 6fa73848a9444725d351dd7551b36c65d27a308e

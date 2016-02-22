@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+<<<<<<< HEAD
+=======
+      <module fileurl="file://$PROJECT_DIR$/cucumber/cucumber.iml" filepath="$PROJECT_DIR$/cucumber/cucumber.iml" />
+>>>>>>> 6fa73848a9444725d351dd7551b36c65d27a308e
       <module fileurl="file://$PROJECT_DIR$/practicaCS.iml" filepath="$PROJECT_DIR$/practicaCS.iml" />
     </modules>
   </component>
