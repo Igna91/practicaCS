@@ -1,0 +1,181 @@
+Feature: comprar
+    As user
+    I want to buy players
+    To improve my team
+
+  Scenario: buy a player but the player has been bought by another          # comprar.feature:6
+    Given a <idPlayer>, <costPlayer> and <money> team
+    When I press the "Comprar jugador" button AND I don't have enough money
+    Then should return <status> and money should be <remainingMoney>
+
+  Scenario: Buy a player not enough money and the player not exist          # comprar.feature:11
+    Given a <idPlayer>, <costPlayer> and <money> team
+    When I press the "Comprar jugador" button AND I don't have enough money
+    Then should return <status> and money should be <remainingMoney>
+
+  Scenario: Buy a player not enough money and the player exist              # comprar.feature:16
+    Given a <idPlayer>, <costPlayer> and <money> team
+    When I press the "Comprar jugador" button AND I don't have enough money
+    Then should return <status> and money should be <remainingMoney>
+
+  Scenario: Buy a player enough money and the player exist            # comprar.feature:21
+    Given a <idPlayer>, <costPlayer> and <money> team
+    When I press the "Comprar jugador" button AND I have enough money
+    Then should return <status> and money should be <remainingMoney>
+
+  Scenario: Buy a player enough money but player not exist            # comprar.feature:26
+    Given a <idPlayer>, <costPlayer> and <money> team
+    When I press the "Comprar jugador" button AND I have enough money
+    Then should return <status> and money should be <remainingMoney>
+# language: es
+Característica: login
+  Para loguearse
+  Como usuario
+  Quiero introducir mi usuario y contraseña
+
+  Escenario: introducir bien la contraseña y mal el usuario     # login.feature:7
+    Dado que he introducido el usuario <entrada_1> en el login
+    Y que  he introducido la contraseña <entrada_2> en el login
+    Cuando oprimo el <boton>
+    Entonces el resultado debe ser <resultado> en la pantalla
+Feature: login
+    As user
+    I want to log in in the application
+    To anybody can´t play with my team
+
+  Scenario Outline: main screen user                 # login2.feature:6
+    Given a user "user" and password "password"
+    When <password> is empty and <user> is not empty
+    Then should return "access"
+
+    Examples: 
+
+  Scenario Outline: main screen user            # login2.feature:12
+    Given a user "user" and password "password" # login2.a_user_and_password(String,String)
+    When "" is empty and "m" is not empty
+    Then should return "access"
+
+  Scenario Outline: main screen user            # login2.feature:13
+    Given a user "user" and password "password" # login2.a_user_and_password(String,String)
+    When "m" is empty and "" is not empty
+    Then should return "access"
+
+  Scenario Outline: main screen user            # login2.feature:14
+    Given a user "user" and password "password" # login2.a_user_and_password(String,String)
+    When "m" is empty and "m" is not empty
+    Then should return "access"
+
+  Scenario: main screen password                          # login2.feature:16
+    Given a user "user" and password "password"           # login2.a_user_and_password(String,String)
+    When <password> is not empty and user <user> is empty # login2.password_is_not_empty_and_user_user_is_empty()
+    Then should return <access>                           # login2.should_return_access()
+
+  Scenario: user incorrect and password correct            # login2.feature:21
+    Given a user "user" and password "password"            # login2.a_user_and_password(String,String)
+    When the <password> is valid and the <user> is invalid # login2.the_password_is_valid_and_the_user_is_invalid()
+    Then should return <access>                            # login2.should_return_access()
+
+  Scenario: user and password are correct                # login2.feature:26
+    Given a user "user" and password "password"          # login2.a_user_and_password(String,String)
+    When the <password> is valid and the <user> is valid # login2.the_password_is_valid_and_the_user_is_valid()
+    Then should return <access>                          # login2.should_return_access()
+      java.lang.AssertionError: expected same:<false> was not:<true>
+      	at org.junit.Assert.fail(Assert.java:88)
+      	at org.junit.Assert.failNotSame(Assert.java:737)
+      	at org.junit.Assert.assertSame(Assert.java:680)
+      	at org.junit.Assert.assertSame(Assert.java:691)
+      	at gradle.cucumber.login2.should_return_access(login2.java:33)
+      	at ✽.Then should return <access>(login2.feature:29)
+
+
+  Scenario: user correct and password incorrect            # login2.feature:31
+    Given a user "user" and password "password"            # login2.a_user_and_password(String,String)
+    When the <password> is invalid and the <user> is valid # login2.the_password_is_invalid_and_the_user_is_valid()
+    Then should return <access>                            # login2.should_return_access()
+Feature: menu
+    As player
+    I want to see the app menu
+    To navigate
+
+  Scenario: See the team               # menu.feature:6
+    Given the app menu
+    When I press the "Equipo" button
+    Then I can see the "Equipo" screen
+
+  Scenario: See calendario                 # menu.feature:11
+    Given the app menu
+    When I press the "Calendario" button
+    Then I can see the "Calendario" screen
+
+  Scenario: See clasificacion                 # menu.feature:16
+    Given the app menu
+    When I press the "Clasificacion" button
+    Then I can see the "Clasificacion" screen
+
+  Scenario: See fichajes               # menu.feature:21
+    Given the app menu
+    When I press the "Fichajes" button
+    Then I can see the Fichajes screen
+
+  Scenario: Share                                 # menu.feature:26
+    Given the app menu
+    When I press the "Comparte en Twitter" button
+    Then I can share my score
+Feature: Team summary
+    As player
+    I want to see my team players and score
+    To keep me updated
+
+  Scenario: not empty principal team             # team_summary.feature:6
+    Given my user team
+    When I press the "Alineacion" button
+    Then I could see my principal team on screen
+
+  Scenario: empty team principal team     # team_summary.feature:11
+    Given my empty user team
+    When I presss the "Alineacion" button
+    Then I could see nothing
+
+  Scenario: not empty reserve team             # team_summary.feature:16
+    Given my user team
+    When I press the "Reservas" button
+    Then I could see my reserve team on screen
+
+  Scenario: empty team reserve team     # team_summary.feature:21
+    Given my empty user team
+    When I presss the "Reservas" button
+    Then I could see nothing
+
+  Scenario: team score                  # team_summary.feature:26
+    Given my user team
+    When I press the "Datos" button
+    Then I could see my score and money
+Feature: vender
+    As user
+    I want to sell players
+    To earn money
+
+  Scenario: Sell a player and that player does not belong to the team # vender.feature:6
+    Given a <team> and <idPlayer>
+    When I press the "Vender jugador" button
+    Then it will not appear on <mercado>
+
+  Scenario: Sell a player and that player not exist # vender.feature:11
+    Given a <team> and <idPlayer>
+    When I press the "Vender jugador" button
+    Then it will not appear on <mercado>
+
+  Scenario: Sell a player and that player does belong to the team # vender.feature:16
+    Given a <team> and <idPlayer>
+    When I press the "Vender jugador" button
+    Then it will appear on <mercado>
+
+  Scenario: Sell a player and the player is already on sale # vender.feature:21
+    Given a <team> and <idPlayer>
+    When I press the "Vender jugador" button
+    Then it will not appear on <mercado>
+
+  Scenario: See players to sell                 # vender.feature:26
+    Given the menu
+    When I press the "Resumen de equipo" button
+    Then I can see the <mercado>

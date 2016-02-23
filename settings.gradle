@@ -1,1 +1,1 @@
-include ':app', ':cucumber'
+include ':app'
