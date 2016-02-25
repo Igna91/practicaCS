@@ -99,19 +99,19 @@ configurations {
         extendsFrom testRuntime
     }
 }
-
-task cucumber() {
+task cucumber () {
     dependsOn assemble, compileTestJava
     doLast {
         javaexec {
             main = "cucumber.api.cli.Main"
+
             classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
-            args = ['--plugin', 'pretty', '--glue', 'gradle.cucumber', 'src/test/resources']
+            args = ['-p', 'rerun', '-p',
+                    "html:Test-REPORT/cucumber-html-report",'-p',"pretty:Test-REPORT/cucumber-pretty.txt",'-p',
+                    "usage:Test-REPORT/cucumber-usage.json",'-p', "junit:Test-REPORT/cucumber-results.xml", '-p', 'rerun:Test-REPORT/cucumber-rerun.txt', '-p', 'json:Test-REPORT/cucumber.json',  'app/src/test/resources/features' ,'--glue',  'gradle.cucumber' ]
+
+
         }
     }
 }
-
-dependencies {
-
-
-}
+//////////////////JENKINS///////////////////

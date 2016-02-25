@@ -1,0 +1,1 @@
+login.feature:7 comprar.feature:6:11:16:21:26 vender.feature:6:11:16:21:26 menu.feature:6:11:16:21:26 login2.feature:12:13:14:16:21:26:31 team_summary.feature:6:11:16:21:26

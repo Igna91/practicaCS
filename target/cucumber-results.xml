@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="24" tests="28" time="0">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="28" tests="28" time="0">
 <testcase classname="comprar" name="buy a player but the player has been bought by another" time="0">
 <skipped><![CDATA[Given a <idPlayer>, <costPlayer> and <money> team...........................undefined
 When I press the "Comprar jugador" button AND I don't have enough money.....undefined
@@ -38,46 +38,46 @@ Entonces el resultado debe ser <resultado> en la pantalla...................unde
 ]]></skipped>
 </testcase>
 <testcase classname="login" name="main screen user" time="0">
-<skipped><![CDATA[Given a user "user" and password "password".................................skipped
+<skipped><![CDATA[Given a user "user" and password "password".................................undefined
 When "" is empty and "m" is not empty.......................................undefined
 Then should return "access".................................................undefined
 ]]></skipped>
 </testcase>
 <testcase classname="login" name="main screen user 2" time="0">
-<skipped><![CDATA[Given a user "user" and password "password".................................skipped
+<skipped><![CDATA[Given a user "user" and password "password".................................undefined
 When "m" is empty and "" is not empty.......................................undefined
 Then should return "access".................................................undefined
 ]]></skipped>
 </testcase>
 <testcase classname="login" name="main screen user 3" time="0">
-<skipped><![CDATA[Given a user "user" and password "password".................................skipped
+<skipped><![CDATA[Given a user "user" and password "password".................................undefined
 When "m" is empty and "m" is not empty......................................undefined
 Then should return "access".................................................undefined
 ]]></skipped>
 </testcase>
 <testcase classname="login" name="main screen password" time="0">
-<system-out><![CDATA[Given a user "user" and password "password".................................skipped
-When <password> is not empty and user <user> is empty.......................skipped
-Then should return <access>.................................................skipped
-]]></system-out>
+<skipped><![CDATA[Given a user "user" and password "password".................................undefined
+When <password> is not empty and user <user> is empty.......................undefined
+Then should return <access>.................................................undefined
+]]></skipped>
 </testcase>
 <testcase classname="login" name="user incorrect and password correct" time="0">
-<system-out><![CDATA[Given a user "user" and password "password".................................skipped
-When the <password> is valid and the <user> is invalid......................skipped
-Then should return <access>.................................................skipped
-]]></system-out>
+<skipped><![CDATA[Given a user "user" and password "password".................................undefined
+When the <password> is valid and the <user> is invalid......................undefined
+Then should return <access>.................................................undefined
+]]></skipped>
 </testcase>
 <testcase classname="login" name="user and password are correct" time="0">
-<system-out><![CDATA[Given a user "user" and password "password".................................skipped
-When the <password> is valid and the <user> is valid........................skipped
-Then should return <access>.................................................skipped
-]]></system-out>
+<skipped><![CDATA[Given a user "user" and password "password".................................undefined
+When the <password> is valid and the <user> is valid........................undefined
+Then should return <access>.................................................undefined
+]]></skipped>
 </testcase>
 <testcase classname="login" name="user correct and password incorrect" time="0">
-<system-out><![CDATA[Given a user "user" and password "password".................................skipped
-When the <password> is invalid and the <user> is valid......................skipped
-Then should return <access>.................................................skipped
-]]></system-out>
+<skipped><![CDATA[Given a user "user" and password "password".................................undefined
+When the <password> is invalid and the <user> is valid......................undefined
+Then should return <access>.................................................undefined
+]]></skipped>
 </testcase>
 <testcase classname="menu" name="See the team" time="0">
 <skipped><![CDATA[Given the app menu..........................................................undefined

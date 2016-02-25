@@ -358,22 +358,9 @@ formatter.step({
   "name": "should return \"access\"",
   "keyword": "Then "
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "user",
-      "offset": 8
-    },
-    {
-      "val": "password",
-      "offset": 28
-    }
-  ],
-  "location": "login2.a_user_and_password(String,String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 54345890,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.match({});
 formatter.result({
@@ -410,22 +397,9 @@ formatter.step({
   "name": "should return \"access\"",
   "keyword": "Then "
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "user",
-      "offset": 8
-    },
-    {
-      "val": "password",
-      "offset": 28
-    }
-  ],
-  "location": "login2.a_user_and_password(String,String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 42512,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.match({});
 formatter.result({
@@ -462,22 +436,9 @@ formatter.step({
   "name": "should return \"access\"",
   "keyword": "Then "
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "user",
-      "offset": 8
-    },
-    {
-      "val": "password",
-      "offset": 28
-    }
-  ],
-  "location": "login2.a_user_and_password(String,String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 37857,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.match({});
 formatter.result({
@@ -510,36 +471,17 @@ formatter.step({
   "name": "should return \u003caccess\u003e",
   "keyword": "Then "
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "user",
-      "offset": 8
-    },
-    {
-      "val": "password",
-      "offset": 28
-    }
-  ],
-  "location": "login2.a_user_and_password(String,String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 40650,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "login2.password_is_not_empty_and_user_user_is_empty()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 47166,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "login2.should_return_access()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 1052859,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenario({
   "line": 21,
@@ -564,36 +506,17 @@ formatter.step({
   "name": "should return \u003caccess\u003e",
   "keyword": "Then "
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "user",
-      "offset": 8
-    },
-    {
-      "val": "password",
-      "offset": 28
-    }
-  ],
-  "location": "login2.a_user_and_password(String,String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 47787,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "login2.the_password_is_valid_and_the_user_is_invalid()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 142987116,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "login2.should_return_access()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 13964,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenario({
   "line": 26,
@@ -618,37 +541,17 @@ formatter.step({
   "name": "should return \u003caccess\u003e",
   "keyword": "Then "
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "user",
-      "offset": 8
-    },
-    {
-      "val": "password",
-      "offset": 28
-    }
-  ],
-  "location": "login2.a_user_and_password(String,String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 73542,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "login2.the_password_is_valid_and_the_user_is_valid()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 84525364,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "login2.should_return_access()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 335128,
-  "error_message": "java.lang.AssertionError: expected same:\u003cfalse\u003e was not:\u003ctrue\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotSame(Assert.java:737)\r\n\tat org.junit.Assert.assertSame(Assert.java:680)\r\n\tat org.junit.Assert.assertSame(Assert.java:691)\r\n\tat gradle.cucumber.login2.should_return_access(login2.java:33)\r\n\tat ✽.Then should return \u003caccess\u003e(login2.feature:29)\r\n",
-  "status": "failed"
+  "status": "undefined"
 });
 formatter.scenario({
   "line": 31,
@@ -673,36 +576,17 @@ formatter.step({
   "name": "should return \u003caccess\u003e",
   "keyword": "Then "
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "user",
-      "offset": 8
-    },
-    {
-      "val": "password",
-      "offset": 28
-    }
-  ],
-  "location": "login2.a_user_and_password(String,String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 63612,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "login2.the_password_is_invalid_and_the_user_is_valid()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 99462120,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "login2.should_return_access()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 13654,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.uri("menu.feature");
 formatter.feature({
