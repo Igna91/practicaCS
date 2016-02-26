@@ -1,7 +1,6 @@
 apply plugin: 'com.android.application'
 
 
-
 android {
     compileOptions.with {
         sourceCompatibility=JavaVersion.VERSION_1_7
@@ -40,5 +39,4 @@ dependencies {
     compile 'info.cukes:cucumber-junit:1.2.0'
     compile 'info.cukes:cucumber-jvm-deps:1.0.3'
 }
-
 

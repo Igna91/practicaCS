@@ -1,0 +1,116 @@
+[
+  {
+    "source": "^the \u003cpassword\u003e is valid and the \u003cuser\u003e is valid$",
+    "steps": [
+      {
+        "name": "the \u003cpassword\u003e is valid and the \u003cuser\u003e is valid",
+        "aggregatedDurations": {
+          "average": 0.101137447,
+          "median": 0.101137447
+        },
+        "durations": [
+          {
+            "duration": 0.101137447,
+            "location": "login.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the \u003cpassword\u003e is valid and the \u003cuser\u003e is invalid$",
+    "steps": [
+      {
+        "name": "the \u003cpassword\u003e is valid and the \u003cuser\u003e is invalid",
+        "aggregatedDurations": {
+          "average": 0.135042422,
+          "median": 0.135042422
+        },
+        "durations": [
+          {
+            "duration": 0.135042422,
+            "location": "login.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^a user \"([^\"]*)\" and password \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "a user \"user\" and password \"password\"",
+        "aggregatedDurations": {
+          "average": 0.007579777,
+          "median": 0.000055234
+        },
+        "durations": [
+          {
+            "duration": 0.052754655,
+            "location": "login.feature:7"
+          },
+          {
+            "duration": 0.000058337,
+            "location": "login.feature:7"
+          },
+          {
+            "duration": 0.00004127,
+            "location": "login.feature:7"
+          },
+          {
+            "duration": 0.000041581,
+            "location": "login.feature:17"
+          },
+          {
+            "duration": 0.000044374,
+            "location": "login.feature:22"
+          },
+          {
+            "duration": 0.000055234,
+            "location": "login.feature:27"
+          },
+          {
+            "duration": 0.000062991,
+            "location": "login.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^\u003cpassword\u003e is not empty and user \u003cuser\u003e is empty$",
+    "steps": [
+      {
+        "name": "\u003cpassword\u003e is not empty and user \u003cuser\u003e is empty",
+        "aggregatedDurations": {
+          "average": 0.000036616,
+          "median": 0.000036616
+        },
+        "durations": [
+          {
+            "duration": 0.000036616,
+            "location": "login.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the \u003cpassword\u003e is invalid and the \u003cuser\u003e is valid$",
+    "steps": [
+      {
+        "name": "the \u003cpassword\u003e is invalid and the \u003cuser\u003e is valid",
+        "aggregatedDurations": {
+          "average": 0.081193327,
+          "median": 0.081193327
+        },
+        "durations": [
+          {
+            "duration": 0.081193327,
+            "location": "login.feature:33"
+          }
+        ]
+      }
+    ]
+  }
+]

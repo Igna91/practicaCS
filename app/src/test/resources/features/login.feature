@@ -1,15 +1,38 @@
-# language: es
-Característica: login
-Para loguearse
-Como usuario
-Quiero introducir mi usuario y contraseña
-
-Escenario: introducir bien la contraseña y mal el usuario
-Dado que he introducido el usuario <entrada_1> en el login
-Y que  he introducido la contraseña <entrada_2> en el login
-Cuando oprimo el <boton>
-Entonces el resultado debe ser <resultado> en la pantalla
-  | entrada_1 | entrada_2 |
-  | m         | m         |
-
-
+Feature: login
+    As user
+    I want to log in in the application
+    To anybody can´t play with my team
+    
+    Scenario Outline: main screen user
+        Given a user "user" and password "password"
+        When  <password> is empty and <user> is not empty
+        Then should return "access"
+	Examples:
+		| 	user 	|	password	|	access	|
+		|	 m	    | 				|	false	|
+		|			|	 m			|	false	|
+		|	m 		|	m			|	true	|
+        
+    Scenario: main screen password
+        Given a user "user" and password "password"
+        When <password> is not empty and user <user> is empty
+        Then should return <access>
+        
+    Scenario: user incorrect and password correct
+        Given a user "user" and password "password"
+        When the <password> is valid and the <user> is invalid
+        Then should return <access>
+    
+    Scenario: user and password are correct
+        Given a user "user" and password "password"
+        When the <password> is valid and the <user> is valid
+        Then should return <access>
+        
+    Scenario: user correct and password incorrect
+        Given a user "user" and password "password"
+        When the <password> is invalid and the <user> is valid
+        Then should return <access>
+		
+	
+	
+	

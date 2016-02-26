@@ -1,23 +1,22 @@
 package com.ps.grupo2.comunio;
 
 
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
-import com.github.mkolisnyk.cucumber.runner.AfterSuite;
-import com.github.mkolisnyk.cucumber.runner.BeforeSuite;
 
 import static junit.framework.TestCase.assertTrue;
 
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {"html:target/cucumber-html-report",
-                "json:target/cucumber.json", "pretty:target/cucumber-pretty.txt",
-                "usage:target/cucumber-usage.json", "junit:target/cucumber-results.xml"
+        plugin = {"html:../Test-REPORT/cucumber-html-report",
+                "json:../Test-REPORT/cucumber.json", "pretty:../Test-REPORT/cucumber-pretty.txt",
+                "usage:../Test-REPORT/cucumber-usage.json", "junit:../Test-REPORT/cucumber-results.xml"
                 },
         //tags = { "@wip" },
         dryRun = false,
@@ -30,14 +29,4 @@ import static junit.framework.TestCase.assertTrue;
 
 public class CucumberTestCase {
 
-        @Test
-        public void prueba(){
-                assertTrue(true);
-        }
-
-        @BeforeSuite
-        public static void setUp(){}
-
-        @AfterSuite
-        public static void tearDown(){}
 }
