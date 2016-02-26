@@ -28,7 +28,7 @@ def git = new Git(localRepo)
 
 task commit << {
     git.add().addFilepattern(".").call();
-    git.commit().setMessage("Added myfile").call();
+    git.commit().setMessage("prueba").call();
 }
 
 task Cpush << {

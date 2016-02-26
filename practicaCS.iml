@@ -41,6 +41,5 @@
     <orderEntry type="library" exported="" scope="TEST" name="cucumber-html-0.2.3" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="cucumber-jvm-deps-1.0.3" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="gherkin-2.12.2" level="project" />
-    <orderEntry type="library" exported="" name="practicaCS.practicaCS" level="project" />
   </component>
 </module>
