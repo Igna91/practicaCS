@@ -12,6 +12,7 @@ import cucumber.api.java.en.When;
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNotSame;
 import static org.junit.Assert.assertSame;
 import static org.junit.Assert.assertTrue;
@@ -56,18 +57,18 @@ public class team_summary {
 
     @Then("^my main football team return$")
     public void my_main_football_team_return() throws Throwable {
-        assertSame(bbdd.equipo.getFutbolistasBD(), equipo.getFutbolistas());
+        assertEquals(bbdd.equipo.getFutbolistasBD(), equipo.getFutbolistas());
         //assertArrayEquals(bbdd.equipo.getFutbolistasBD(), equipo.getFutbolistas());
     }
 
     @Then("^an empty element is returned$")
     public void an_empty_element_is_returned() throws Throwable {
-        assertSame(bbdd.equipo.getFutbolistasBD(), equipo.getFutbolistas());
+        assertEquals(bbdd.equipo.getFutbolistasBD(), equipo.getFutbolistas());
     }
 
     @Then("^my backup equipment will return$")
     public void my_backup_equipment_will_return() throws Throwable {
-        assertSame(bbdd.equipo.getFutbolistasBD(), equipo.getFutbolistas());
+        assertNotEquals(bbdd.equipo.getFutbolistasBD(), equipo.getFutbolistas());
     }
 
     @Then("^my team money will be returned$")

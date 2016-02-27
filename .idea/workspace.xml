@@ -2,79 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5697d18c-e06a-4ac9-a515-ed0777be7120" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/gradle/cucumber/comprar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/bbdd/equipo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/bbdd/jugadores.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/gradle/cucumber/team_summary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/bbdd/userLogin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/gradle/cucumber/vender.java" />
-      <change type="DELETED" beforePath="D:\Users\Leugim\Desktop\practicaCS\.idea\libraries\cucumber_reports_1_0_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Leugim\Desktop\practicaCS\.idea\libraries\practicaCS_practicaCS.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Leugim\Desktop\practicaCS\app\libs\cucumber-reports-1.0.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Leugim\Desktop\practicaCS\app\src\main\java\gradle\cucumber\login2.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Leugim\Desktop\practicaCS\app\src\test\resources\features\login2.feature" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Leugim\Desktop\practicaCS\app\src\test\resources\features\menu.feature" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Leugim\Desktop\practicaCS\features\comprar.feature" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Leugim\Desktop\practicaCS\features\login2.feature" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Leugim\Desktop\practicaCS\features\menu.feature" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Leugim\Desktop\practicaCS\features\step_definitions\unitTest.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Leugim\Desktop\practicaCS\features\support\env.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Leugim\Desktop\practicaCS\features\team_summary.feature" afterPath="" />
-      <change type="DELETED" beforePath="D:\Users\Leugim\Desktop\practicaCS\features\vender.feature" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/ps/grupo2/comunio/Futbolista.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/ps/grupo2/comunio/Futbolista.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/ps/grupo2/comunio/GestionEquipo.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/ps/grupo2/comunio/GestionEquipo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/ps/grupo2/comunio/ItemsFichajes.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/ps/grupo2/comunio/ItemsFichajes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/ps/grupo2/comunio/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/ps/grupo2/comunio/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/ps/grupo2/comunio/Team.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/ps/grupo2/comunio/Team.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/aopalliance_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_22_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_22_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/resources/features/comprar.feature" afterPath="$PROJECT_DIR$/app/src/test/resources/features/comprar.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test-REPORT/cucumber-pretty.txt" afterPath="$PROJECT_DIR$/Test-REPORT/cucumber-pretty.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test-REPORT/cucumber-results.xml" afterPath="$PROJECT_DIR$/Test-REPORT/cucumber-results.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test-REPORT/cucumber-usage.json" afterPath="$PROJECT_DIR$/Test-REPORT/cucumber-usage.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test-REPORT/cucumber.json" afterPath="$PROJECT_DIR$/Test-REPORT/cucumber.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/cucumber_core_1_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/cucumber_core_1_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/cucumber_html_0_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/cucumber_html_0_2_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/cucumber_java_1_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/cucumber_java_1_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/cucumber_junit_1_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/cucumber_junit_1_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/cucumber_jvm_deps_1_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/cucumber_jvm_deps_1_0_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/design_22_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_22_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test-REPORT/cucumber-html-report/formatter.js" afterPath="$PROJECT_DIR$/Test-REPORT/cucumber-html-report/formatter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/gherkin_2_12_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/gherkin_2_12_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test-REPORT/cucumber-html-report/index.html" afterPath="$PROJECT_DIR$/Test-REPORT/cucumber-html-report/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test-REPORT/cucumber-html-report/jquery-1.8.2.min.js" afterPath="$PROJECT_DIR$/Test-REPORT/cucumber-html-report/jquery-1.8.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/local.properties" afterPath="$PROJECT_DIR$/app/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/resources/features/login.feature" afterPath="$PROJECT_DIR$/app/src/test/resources/features/login.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/gradle/cucumber/login.java" afterPath="$PROJECT_DIR$/app/src/main/java/gradle/cucumber/login.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/mockito_core_1_9_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mockito_core_1_9_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/objenesis_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/objenesis_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test-REPORT/cucumber-html-report/report.js" afterPath="$PROJECT_DIR$/Test-REPORT/cucumber-html-report/report.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/spring_aop_4_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/spring_aop_4_0_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/spring_beans_4_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/spring_beans_4_0_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/spring_context_4_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/spring_context_4_0_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/spring_core_4_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/spring_core_4_0_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/spring_expression_4_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/spring_expression_4_0_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/spring_test_4_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/spring_test_4_0_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/spring_web_4_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/spring_web_4_0_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/spring_webmvc_4_0_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/spring_webmvc_4_0_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test-REPORT/cucumber-html-report/style.css" afterPath="$PROJECT_DIR$/Test-REPORT/cucumber-html-report/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_22_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_22_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_22_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_22_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/resources/features/team_summary.feature" afterPath="$PROJECT_DIR$/app/src/test/resources/features/team_summary.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/resources/features/vender.feature" afterPath="$PROJECT_DIR$/app/src/test/resources/features/vender.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/gradle/cucumber/team_summary.java" afterPath="$PROJECT_DIR$/app/src/main/java/gradle/cucumber/team_summary.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="practicaCS.iws" />
@@ -148,8 +76,8 @@
       <file leaf-file-name="team_summary.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/gradle/cucumber/team_summary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50180507">
-              <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+            <state vertical-scroll-proportion="2.635955">
+              <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -2822,7 +2750,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1040" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2830,12 +2758,12 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25714287" sideWeight="0.22335026" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48040885" sideWeight="0.1755102" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19420783" sideWeight="0.1755102" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48040885" sideWeight="0.8244898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19420783" sideWeight="0.8244898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3313,8 +3241,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/gradle/cucumber/team_summary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50180507">
-          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+        <state vertical-scroll-proportion="2.635955">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
