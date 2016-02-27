@@ -160,9 +160,6 @@ public class ItemsFichajes extends LinearLayout {
 
 
         }
-
-
-
         campo1 = (TextView) findViewById(R.id.NamePlayer);
         campo2 = (TextView) findViewById(R.id.PositionPlayer);
         campo3 = (TextView) findViewById(R.id.PricePlayer);
@@ -171,8 +168,24 @@ public class ItemsFichajes extends LinearLayout {
         campo2.setText("Posición: " + futbolista.getPosicion());
         campo3.setText("Equipo Actual: " + futbolista.getNombreEquipo());
         campo4.setText("Precio: " + futbolista.getPrecio() + "k€ ");
-
     }
+
+
+    public static boolean fichar(Futbolista f, Team equipo) {
+
+        boolean correcto = false;
+        if ((f.getId() >0)&&(f.getPrecio() <= equipo.getIngresos()) && (f.getEstaEnMercado()) && (equipo.getId() > 0)){
+            equipo.setGastos(equipo.getGastos() - f.getPrecio());
+            f.setEstaEnMercado(false);
+            equipo.setIngresos(equipo.getIngresos() - f.getPrecio());
+            f.setEquipo(equipo);
+            // Guardar en BBDD.
+            //correcto = conexionBD(f, equipo);
+            correcto = bbdd.equipo.saveEquipo(equipo) && bbdd.jugadores.saveJugador(f);
+        }
+        return correcto;
+    }
+
 
     private boolean conexionBD(Futbolista f, int idEquipo) {
         HttpURLConnection cliente = null;

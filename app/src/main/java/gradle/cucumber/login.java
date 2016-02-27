@@ -1,6 +1,5 @@
 package gradle.cucumber;
 import com.ps.grupo2.comunio.MainActivity;
-
 import cucumber.api.PendingException;
 import cucumber.api.java.en.*;
 import cucumber.api.java.es.*;
@@ -9,53 +8,55 @@ import static org.junit.Assert.*;
 
 
 public class login {
-	
-	public String password="";
-	public String user="";
-	public boolean result=false;
-	public boolean isCorrect=false;
 
+    public String password="";
+    public String user="";
+    public boolean result=false;
 
+    @Given("^a user \"(.*?)\" and password \"(.*?)\"$")
+    public void a_user_and_password(String arg1, String arg2) throws Throwable {
+        password = arg2;
+        user = arg1;
+    }
 
-	@Given("^a user \"([^\"]*)\" and password \"([^\"]*)\"$")
-	public void a_user_and_password(String arg1, String arg2) throws Throwable {
+    @When("^<password> is empty and <user> is not empty$")
+    public void password_is_empty_and_user_is_not_empty() throws Throwable {
+        password = "";
+        user = "m";
+    }
 
-		password = arg2;
-		user = arg1;
-	}
+    @Then("^should let me not access$")
+    public void should_let_me_not_access() throws Throwable {
+        assertFalse(MainActivity.loginAccess(user, password));
+    }
 
-	@When("^<password> is empty and <user> is not empty$")
-	public void password_is_empty_and_user_is_not_empty() throws Throwable {
-		result = MainActivity.loginAccess(user, "");
-	}
+    @When("^<password> is not empty and user <user> is empty$")
+    public void password_is_not_empty_and_user_user_is_empty() throws Throwable {
+        password = "m";
+        user = "";
+    }
 
-	@Then("^should return <access>$")
-	public void should_return_access() throws Throwable {
-		assertTrue(result);
-	}
+    @When("^the <password> is valid and the <user> is invalid$")
+    public void the_password_is_valid_and_the_user_is_invalid() throws Throwable {
+        password = "m";
+        user = "///223+++";
+    }
 
-	@When("^<password> is not empty and user <user> is empty$")
-	public void password_is_not_empty_and_user_user_is_empty() throws Throwable {
-		result = MainActivity.loginAccess("", password);
-		isCorrect=false;
-	}
+    @When("^the <password> is valid and the <user> is valid$")
+    public void the_password_is_valid_and_the_user_is_valid() throws Throwable {
+        password = "m";
+        user = "m";
+    }
 
-	@When("^the <password> is valid and the <user> is invalid$")
-	public void the_password_is_valid_and_the_user_is_invalid() throws Throwable {
-		result = (MainActivity.conexionBD("?",password)>0) ? true: false;
-		System.out.println("Resultado: "+result);
-		isCorrect=false;
-	}
+    @Then("^should let me access$")
+    public void should_let_me_access() throws Throwable {
+        assertTrue(MainActivity.loginAccess(user, password));
+    }
 
-	@When("^the <password> is valid and the <user> is valid$")
-	public void the_password_is_valid_and_the_user_is_valid() throws Throwable {
-		result = (MainActivity.conexionBD(user,password)>0) ? true: false;
-		isCorrect=true;
-	}
-
-	@When("^the <password> is invalid and the <user> is valid$")
-	public void the_password_is_invalid_and_the_user_is_valid() throws Throwable {
-		result = (MainActivity.conexionBD(user,"?")>0) ? true: false;
-		isCorrect=false;
-	}
+    @When("^the <password> is invalid and the <user> is valid$")
+    public void the_password_is_invalid_and_the_user_is_valid() throws Throwable {
+        password = "/3333132+++";
+        user = "m";
+    }
 }
+

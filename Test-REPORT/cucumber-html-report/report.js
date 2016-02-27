@@ -8,85 +8,115 @@ formatter.feature({
 });
 formatter.scenario({
   "line": 6,
-  "name": "buy a player but the player has been bought by another",
+  "name": "The player is not for sale",
   "description": "",
-  "id": "comprar;buy-a-player-but-the-player-has-been-bought-by-another",
+  "id": "comprar;the-player-is-not-for-sale",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
   "line": 7,
-  "name": "a \u003cidPlayer\u003e, \u003ccostPlayer\u003e and \u003cmoney\u003e team",
+  "name": "a \u003cfutboll player\u003e and a \u003cteam id\u003e",
   "keyword": "Given "
 });
 formatter.step({
   "line": 8,
-  "name": "I press the \"Comprar jugador\" button AND I don\u0027t have enough money",
+  "name": "I press the \"Comprar jugador\" button AND the player is not for sale",
   "keyword": "When "
 });
 formatter.step({
   "line": 9,
-  "name": "should return \u003cstatus\u003e and money should be \u003cremainingMoney\u003e",
+  "name": "I should be able to not buy",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "comprar.a_futboll_player_and_a_team_id()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 72708054,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Comprar jugador",
+      "offset": 13
+    }
+  ],
+  "location": "comprar.i_press_the_something_button_and_the_player_is_not_for_sale(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 2109555,
+  "status": "passed"
+});
+formatter.match({
+  "location": "comprar.i_should_be_able_to_not_buy()"
+});
+formatter.result({
+  "duration": 1369867,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 11,
-  "name": "Buy a player not enough money and the player not exist",
+  "name": "The player does not exist",
   "description": "",
-  "id": "comprar;buy-a-player-not-enough-money-and-the-player-not-exist",
+  "id": "comprar;the-player-does-not-exist",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
   "line": 12,
-  "name": "a \u003cidPlayer\u003e, \u003ccostPlayer\u003e and \u003cmoney\u003e team",
+  "name": "a \u003cfutboll player\u003e and a \u003cteam id\u003e",
   "keyword": "Given "
 });
 formatter.step({
   "line": 13,
-  "name": "I press the \"Comprar jugador\" button AND I don\u0027t have enough money",
+  "name": "I press the \"Comprar jugador\" button AND the player not exist",
   "keyword": "When "
 });
 formatter.step({
   "line": 14,
-  "name": "should return \u003cstatus\u003e and money should be \u003cremainingMoney\u003e",
+  "name": "I should be able to not buy",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "comprar.a_futboll_player_and_a_team_id()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 42533,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Comprar jugador",
+      "offset": 13
+    }
+  ],
+  "location": "comprar.i_press_the_something_button_and_the_player_not_exist(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 67955,
+  "status": "passed"
+});
+formatter.match({
+  "location": "comprar.i_should_be_able_to_not_buy()"
+});
+formatter.result({
+  "duration": 17600,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 16,
-  "name": "Buy a player not enough money and the player exist",
+  "name": "Not having enough money",
   "description": "",
-  "id": "comprar;buy-a-player-not-enough-money-and-the-player-exist",
+  "id": "comprar;not-having-enough-money",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
   "line": 17,
-  "name": "a \u003cidPlayer\u003e, \u003ccostPlayer\u003e and \u003cmoney\u003e team",
+  "name": "a \u003cfutboll player\u003e and a \u003cteam id\u003e",
   "keyword": "Given "
 });
 formatter.step({
@@ -96,32 +126,47 @@ formatter.step({
 });
 formatter.step({
   "line": 19,
-  "name": "should return \u003cstatus\u003e and money should be \u003cremainingMoney\u003e",
+  "name": "I should be able to not buy",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "comprar.a_futboll_player_and_a_team_id()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 47911,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Comprar jugador",
+      "offset": 13
+    }
+  ],
+  "location": "comprar.i_press_the_something_button_and_i_dont_have_enough_money(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 69422,
+  "status": "passed"
+});
+formatter.match({
+  "location": "comprar.i_should_be_able_to_not_buy()"
+});
+formatter.result({
+  "duration": 17111,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 21,
-  "name": "Buy a player enough money and the player exist",
+  "name": "Having enough money to buy a football player and the team there",
   "description": "",
-  "id": "comprar;buy-a-player-enough-money-and-the-player-exist",
+  "id": "comprar;having-enough-money-to-buy-a-football-player-and-the-team-there",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
   "line": 22,
-  "name": "a \u003cidPlayer\u003e, \u003ccostPlayer\u003e and \u003cmoney\u003e team",
+  "name": "a \u003cfutboll player\u003e and a \u003cteam id\u003e",
   "keyword": "Given "
 });
 formatter.step({
@@ -131,55 +176,85 @@ formatter.step({
 });
 formatter.step({
   "line": 24,
-  "name": "should return \u003cstatus\u003e and money should be \u003cremainingMoney\u003e",
+  "name": "I should be able to buy my money should be increased",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "comprar.a_futboll_player_and_a_team_id()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 81155,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Comprar jugador",
+      "offset": 13
+    }
+  ],
+  "location": "comprar.i_press_the_something_button_and_i_have_enough_money(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 117822,
+  "status": "passed"
+});
+formatter.match({
+  "location": "comprar.i_should_be_able_to_buy_my_money_should_be_increased()"
+});
+formatter.result({
+  "duration": 1543423,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 26,
-  "name": "Buy a player enough money but player not exist",
+  "name": "Having enough money to buy a football player but the team not exist",
   "description": "",
-  "id": "comprar;buy-a-player-enough-money-but-player-not-exist",
+  "id": "comprar;having-enough-money-to-buy-a-football-player-but-the-team-not-exist",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
   "line": 27,
-  "name": "a \u003cidPlayer\u003e, \u003ccostPlayer\u003e and \u003cmoney\u003e team",
+  "name": "a \u003cfutboll player\u003e and a \u003cteam id\u003e",
   "keyword": "Given "
 });
 formatter.step({
   "line": 28,
-  "name": "I press the \"Comprar jugador\" button AND I have enough money",
+  "name": "I press the \"Comprar jugador\" button AND I have enough money but team not exist",
   "keyword": "When "
 });
 formatter.step({
   "line": 29,
-  "name": "should return \u003cstatus\u003e and money should be \u003cremainingMoney\u003e",
+  "name": "I should be able to not buy",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "comprar.a_futboll_player_and_a_team_id()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 47911,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Comprar jugador",
+      "offset": 13
+    }
+  ],
+  "location": "comprar.i_press_the_button_AND_I_have_enough_money_but_team_not_exist(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 246400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "comprar.i_should_be_able_to_not_buy()"
+});
+formatter.result({
+  "duration": 20533,
+  "status": "passed"
 });
 formatter.uri("login.feature");
 formatter.feature({
@@ -189,13 +264,13 @@ formatter.feature({
   "id": "login",
   "keyword": "Feature"
 });
-formatter.scenarioOutline({
+formatter.scenario({
   "line": 6,
   "name": "main screen user",
   "description": "",
   "id": "login;main-screen-user",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline"
+  "type": "scenario",
+  "keyword": "Scenario"
 });
 formatter.step({
   "line": 7,
@@ -209,79 +284,7 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
-  "name": "should return \"access\"",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 10,
-  "name": "",
-  "description": "",
-  "id": "login;main-screen-user;",
-  "rows": [
-    {
-      "cells": [
-        "user",
-        "password",
-        "access"
-      ],
-      "line": 11,
-      "id": "login;main-screen-user;;1"
-    },
-    {
-      "cells": [
-        "m",
-        "",
-        "false"
-      ],
-      "line": 12,
-      "id": "login;main-screen-user;;2"
-    },
-    {
-      "cells": [
-        "",
-        "m",
-        "false"
-      ],
-      "line": 13,
-      "id": "login;main-screen-user;;3"
-    },
-    {
-      "cells": [
-        "m",
-        "m",
-        "true"
-      ],
-      "line": 14,
-      "id": "login;main-screen-user;;4"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.scenario({
-  "line": 12,
-  "name": "main screen user",
-  "description": "",
-  "id": "login;main-screen-user;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 7,
-  "name": "a user \"user\" and password \"password\"",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 8,
-  "name": " is empty and m is not empty",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 9,
-  "name": "should return \"access\"",
+  "name": "should let me not access",
   "keyword": "Then "
 });
 formatter.match({
@@ -298,123 +301,25 @@ formatter.match({
   "location": "login.a_user_and_password(String,String)"
 });
 formatter.result({
-  "duration": 52754655,
+  "duration": 129555,
   "status": "passed"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.scenario({
-  "line": 13,
-  "name": "main screen user",
-  "description": "",
-  "id": "login;main-screen-user;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 7,
-  "name": "a user \"user\" and password \"password\"",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 8,
-  "name": "m is empty and  is not empty",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 9,
-  "name": "should return \"access\"",
-  "keyword": "Then "
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "user",
-      "offset": 8
-    },
-    {
-      "val": "password",
-      "offset": 28
-    }
-  ],
-  "location": "login.a_user_and_password(String,String)"
+  "location": "login.password_is_empty_and_user_is_not_empty()"
 });
 formatter.result({
-  "duration": 58337,
+  "duration": 45467,
   "status": "passed"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.scenario({
-  "line": 14,
-  "name": "main screen user",
-  "description": "",
-  "id": "login;main-screen-user;;4",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 7,
-  "name": "a user \"user\" and password \"password\"",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 8,
-  "name": "m is empty and m is not empty",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 9,
-  "name": "should return \"access\"",
-  "keyword": "Then "
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "user",
-      "offset": 8
-    },
-    {
-      "val": "password",
-      "offset": 28
-    }
-  ],
-  "location": "login.a_user_and_password(String,String)"
+  "location": "login.should_let_me_not_access()"
 });
 formatter.result({
-  "duration": 41270,
+  "duration": 298711,
   "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
 formatter.scenario({
-  "line": 16,
+  "line": 11,
   "name": "main screen password",
   "description": "",
   "id": "login;main-screen-password",
@@ -422,18 +327,18 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 17,
+  "line": 12,
   "name": "a user \"user\" and password \"password\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 18,
+  "line": 13,
   "name": "\u003cpassword\u003e is not empty and user \u003cuser\u003e is empty",
   "keyword": "When "
 });
 formatter.step({
-  "line": 19,
-  "name": "should return \u003caccess\u003e",
+  "line": 14,
+  "name": "should let me not access",
   "keyword": "Then "
 });
 formatter.match({
@@ -450,26 +355,25 @@ formatter.match({
   "location": "login.a_user_and_password(String,String)"
 });
 formatter.result({
-  "duration": 41581,
+  "duration": 96800,
   "status": "passed"
 });
 formatter.match({
   "location": "login.password_is_not_empty_and_user_user_is_empty()"
 });
 formatter.result({
-  "duration": 36616,
+  "duration": 19067,
   "status": "passed"
 });
 formatter.match({
-  "location": "login.should_return_access()"
+  "location": "login.should_let_me_not_access()"
 });
 formatter.result({
-  "duration": 1260142,
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat gradle.cucumber.login.should_return_access(login.java:34)\r\n\tat ✽.Then should return \u003caccess\u003e(login.feature:19)\r\n",
-  "status": "failed"
+  "duration": 104622,
+  "status": "passed"
 });
 formatter.scenario({
-  "line": 21,
+  "line": 16,
   "name": "user incorrect and password correct",
   "description": "",
   "id": "login;user-incorrect-and-password-correct",
@@ -477,18 +381,18 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 22,
+  "line": 17,
   "name": "a user \"user\" and password \"password\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 23,
+  "line": 18,
   "name": "the \u003cpassword\u003e is valid and the \u003cuser\u003e is invalid",
   "keyword": "When "
 });
 formatter.step({
-  "line": 24,
-  "name": "should return \u003caccess\u003e",
+  "line": 19,
+  "name": "should let me not access",
   "keyword": "Then "
 });
 formatter.match({
@@ -505,26 +409,25 @@ formatter.match({
   "location": "login.a_user_and_password(String,String)"
 });
 formatter.result({
-  "duration": 44374,
+  "duration": 87022,
   "status": "passed"
 });
 formatter.match({
   "location": "login.the_password_is_valid_and_the_user_is_invalid()"
 });
 formatter.result({
-  "duration": 135042422,
+  "duration": 57200,
   "status": "passed"
 });
 formatter.match({
-  "location": "login.should_return_access()"
+  "location": "login.should_let_me_not_access()"
 });
 formatter.result({
-  "duration": 163529,
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat gradle.cucumber.login.should_return_access(login.java:34)\r\n\tat ✽.Then should return \u003caccess\u003e(login.feature:24)\r\n",
-  "status": "failed"
+  "duration": 252267,
+  "status": "passed"
 });
 formatter.scenario({
-  "line": 26,
+  "line": 21,
   "name": "user and password are correct",
   "description": "",
   "id": "login;user-and-password-are-correct",
@@ -532,18 +435,18 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 27,
+  "line": 22,
   "name": "a user \"user\" and password \"password\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 28,
+  "line": 23,
   "name": "the \u003cpassword\u003e is valid and the \u003cuser\u003e is valid",
   "keyword": "When "
 });
 formatter.step({
-  "line": 29,
-  "name": "should return \u003caccess\u003e",
+  "line": 24,
+  "name": "should let me access",
   "keyword": "Then "
 });
 formatter.match({
@@ -560,26 +463,25 @@ formatter.match({
   "location": "login.a_user_and_password(String,String)"
 });
 formatter.result({
-  "duration": 55234,
+  "duration": 182844,
   "status": "passed"
 });
 formatter.match({
   "location": "login.the_password_is_valid_and_the_user_is_valid()"
 });
 formatter.result({
-  "duration": 101137447,
+  "duration": 18578,
   "status": "passed"
 });
 formatter.match({
-  "location": "login.should_return_access()"
+  "location": "login.should_let_me_access()"
 });
 formatter.result({
-  "duration": 156082,
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat gradle.cucumber.login.should_return_access(login.java:34)\r\n\tat ✽.Then should return \u003caccess\u003e(login.feature:29)\r\n",
-  "status": "failed"
+  "duration": 76267,
+  "status": "passed"
 });
 formatter.scenario({
-  "line": 31,
+  "line": 26,
   "name": "user correct and password incorrect",
   "description": "",
   "id": "login;user-correct-and-password-incorrect",
@@ -587,18 +489,18 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 32,
+  "line": 27,
   "name": "a user \"user\" and password \"password\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 33,
+  "line": 28,
   "name": "the \u003cpassword\u003e is invalid and the \u003cuser\u003e is valid",
   "keyword": "When "
 });
 formatter.step({
-  "line": 34,
-  "name": "should return \u003caccess\u003e",
+  "line": 29,
+  "name": "should let me not access",
   "keyword": "Then "
 });
 formatter.match({
@@ -615,206 +517,22 @@ formatter.match({
   "location": "login.a_user_and_password(String,String)"
 });
 formatter.result({
-  "duration": 62991,
+  "duration": 77733,
   "status": "passed"
 });
 formatter.match({
   "location": "login.the_password_is_invalid_and_the_user_is_valid()"
 });
 formatter.result({
-  "duration": 81193327,
+  "duration": 24445,
   "status": "passed"
 });
 formatter.match({
-  "location": "login.should_return_access()"
+  "location": "login.should_let_me_not_access()"
 });
 formatter.result({
-  "duration": 157634,
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat gradle.cucumber.login.should_return_access(login.java:34)\r\n\tat ✽.Then should return \u003caccess\u003e(login.feature:34)\r\n",
-  "status": "failed"
-});
-formatter.uri("menu.feature");
-formatter.feature({
-  "line": 1,
-  "name": "menu",
-  "description": "  As player\r\n  I want to see the app menu\r\n  To navigate",
-  "id": "menu",
-  "keyword": "Feature"
-});
-formatter.scenario({
-  "line": 6,
-  "name": "See the team",
-  "description": "",
-  "id": "menu;see-the-team",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 7,
-  "name": "the app menu",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 8,
-  "name": "I press the \"Equipo\" button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 9,
-  "name": "I can see the \"Equipo\" screen",
-  "keyword": "Then "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.scenario({
-  "line": 11,
-  "name": "See calendario",
-  "description": "",
-  "id": "menu;see-calendario",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 12,
-  "name": "the app menu",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 13,
-  "name": "I press the \"Calendario\" button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 14,
-  "name": "I can see the \"Calendario\" screen",
-  "keyword": "Then "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.scenario({
-  "line": 16,
-  "name": "See clasificacion",
-  "description": "",
-  "id": "menu;see-clasificacion",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 17,
-  "name": "the app menu",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 18,
-  "name": "I press the \"Clasificacion\" button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 19,
-  "name": "I can see the \"Clasificacion\" screen",
-  "keyword": "Then "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.scenario({
-  "line": 21,
-  "name": "See fichajes",
-  "description": "",
-  "id": "menu;see-fichajes",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 22,
-  "name": "the app menu",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 23,
-  "name": "I press the \"Fichajes\" button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 24,
-  "name": "I can see the Fichajes screen",
-  "keyword": "Then "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.scenario({
-  "line": 26,
-  "name": "Share",
-  "description": "",
-  "id": "menu;share",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 27,
-  "name": "the app menu",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 28,
-  "name": "I press the \"Comparte en Twitter\" button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 29,
-  "name": "I can share my score",
-  "keyword": "Then "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+  "duration": 91911,
+  "status": "passed"
 });
 formatter.uri("team_summary.feature");
 formatter.feature({
@@ -834,30 +552,40 @@ formatter.scenario({
 });
 formatter.step({
   "line": 7,
-  "name": "my user team",
+  "name": "my team",
   "keyword": "Given "
 });
 formatter.step({
   "line": 8,
-  "name": "I press the \"Alineacion\" button",
+  "name": "My main team has players",
   "keyword": "When "
 });
 formatter.step({
   "line": 9,
-  "name": "I could see my principal team on screen",
+  "name": "my main football team return",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "team_summary.my_team()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 117823,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "team_summary.my_main_team_has_players()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 50844,
+  "status": "passed"
+});
+formatter.match({
+  "location": "team_summary.my_main_football_team_return()"
+});
+formatter.result({
+  "duration": 1106356,
+  "error_message": "java.lang.AssertionError: expected same:\u003c[com.ps.grupo2.comunio.Futbolista@2c7bc1cd]\u003e was not:\u003c[com.ps.grupo2.comunio.Futbolista@d6a1fe]\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotSame(Assert.java:737)\r\n\tat org.junit.Assert.assertSame(Assert.java:680)\r\n\tat org.junit.Assert.assertSame(Assert.java:691)\r\n\tat gradle.cucumber.team_summary.my_main_football_team_return(team_summary.java:59)\r\n\tat ✽.Then my main football team return(team_summary.feature:9)\r\n",
+  "status": "failed"
 });
 formatter.scenario({
   "line": 11,
@@ -869,30 +597,40 @@ formatter.scenario({
 });
 formatter.step({
   "line": 12,
-  "name": "my empty user team",
+  "name": "my team",
   "keyword": "Given "
 });
 formatter.step({
   "line": 13,
-  "name": "I presss the \"Alineacion\" button",
+  "name": "My main team does not have players",
   "keyword": "When "
 });
 formatter.step({
   "line": 14,
-  "name": "I could see nothing",
+  "name": "an empty element is returned",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "team_summary.my_team()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 62578,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "team_summary.my_main_team_does_not_have_players()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 31778,
+  "status": "passed"
+});
+formatter.match({
+  "location": "team_summary.an_empty_element_is_returned()"
+});
+formatter.result({
+  "duration": 263511,
+  "error_message": "java.lang.AssertionError: expected same:\u003c[com.ps.grupo2.comunio.Futbolista@559e9684]\u003e was not:\u003c[]\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotSame(Assert.java:737)\r\n\tat org.junit.Assert.assertSame(Assert.java:680)\r\n\tat org.junit.Assert.assertSame(Assert.java:691)\r\n\tat gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:65)\r\n\tat ✽.Then an empty element is returned(team_summary.feature:14)\r\n",
+  "status": "failed"
 });
 formatter.scenario({
   "line": 16,
@@ -904,30 +642,40 @@ formatter.scenario({
 });
 formatter.step({
   "line": 17,
-  "name": "my user team",
+  "name": "my team",
   "keyword": "Given "
 });
 formatter.step({
   "line": 18,
-  "name": "I press the \"Reservas\" button",
+  "name": "My secondary team has players",
   "keyword": "When "
 });
 formatter.step({
   "line": 19,
-  "name": "I could see my reserve team on screen",
+  "name": "my backup equipment will return",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "team_summary.my_team()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 54267,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "team_summary.my_secondary_team_has_players()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 25911,
+  "status": "passed"
+});
+formatter.match({
+  "location": "team_summary.my_backup_equipment_will_return()"
+});
+formatter.result({
+  "duration": 212178,
+  "error_message": "java.lang.AssertionError: expected same:\u003c[com.ps.grupo2.comunio.Futbolista@2ed6ecf5]\u003e was not:\u003c[]\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotSame(Assert.java:737)\r\n\tat org.junit.Assert.assertSame(Assert.java:680)\r\n\tat org.junit.Assert.assertSame(Assert.java:691)\r\n\tat gradle.cucumber.team_summary.my_backup_equipment_will_return(team_summary.java:70)\r\n\tat ✽.Then my backup equipment will return(team_summary.feature:19)\r\n",
+  "status": "failed"
 });
 formatter.scenario({
   "line": 21,
@@ -939,30 +687,40 @@ formatter.scenario({
 });
 formatter.step({
   "line": 22,
-  "name": "my empty user team",
+  "name": "my team",
   "keyword": "Given "
 });
 formatter.step({
   "line": 23,
-  "name": "I presss the \"Reservas\" button",
+  "name": "My secondary team does not have players",
   "keyword": "When "
 });
 formatter.step({
   "line": 24,
-  "name": "I could see nothing",
+  "name": "an empty element is returned",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "team_summary.my_team()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 63555,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "team_summary.my_secondary_team_does_not_have_players()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 16622,
+  "status": "passed"
+});
+formatter.match({
+  "location": "team_summary.an_empty_element_is_returned()"
+});
+formatter.result({
+  "duration": 310933,
+  "error_message": "java.lang.AssertionError: expected same:\u003c[com.ps.grupo2.comunio.Futbolista@4f7b2c6c]\u003e was not:\u003c[]\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotSame(Assert.java:737)\r\n\tat org.junit.Assert.assertSame(Assert.java:680)\r\n\tat org.junit.Assert.assertSame(Assert.java:691)\r\n\tat gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:65)\r\n\tat ✽.Then an empty element is returned(team_summary.feature:24)\r\n",
+  "status": "failed"
 });
 formatter.scenario({
   "line": 26,
@@ -974,7 +732,7 @@ formatter.scenario({
 });
 formatter.step({
   "line": 27,
-  "name": "my user team",
+  "name": "my team",
   "keyword": "Given "
 });
 formatter.step({
@@ -984,20 +742,35 @@ formatter.step({
 });
 formatter.step({
   "line": 29,
-  "name": "I could see my score and money",
+  "name": "my team money will be returned",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "team_summary.my_team()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 60133,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Datos",
+      "offset": 13
+    }
+  ],
+  "location": "team_summary.i_press_the_something_button(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 66978,
+  "status": "passed"
+});
+formatter.match({
+  "location": "team_summary.my_team_money_will_be_returned()"
+});
+formatter.result({
+  "duration": 1112712,
+  "status": "passed"
 });
 formatter.uri("vender.feature");
 formatter.feature({
@@ -1017,30 +790,39 @@ formatter.scenario({
 });
 formatter.step({
   "line": 7,
-  "name": "a \u003cteam\u003e and \u003cidPlayer\u003e",
+  "name": "a team and Player",
   "keyword": "Given "
 });
 formatter.step({
   "line": 8,
-  "name": "I press the \"Vender jugador\" button",
+  "name": "I want to sell a player but does not belong to the team",
   "keyword": "When "
 });
 formatter.step({
   "line": 9,
-  "name": "it will not appear on \u003cmercado\u003e",
+  "name": "I can not put it on sale",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "vender.a_team_and_player()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 108533,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "vender.i_want_to_sell_a_player_but_does_not_belong_to_the_team()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 27867,
+  "status": "passed"
+});
+formatter.match({
+  "location": "vender.i_can_not_put_it_on_sale()"
+});
+formatter.result({
+  "duration": 56223,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 11,
@@ -1052,30 +834,39 @@ formatter.scenario({
 });
 formatter.step({
   "line": 12,
-  "name": "a \u003cteam\u003e and \u003cidPlayer\u003e",
+  "name": "a team and Player",
   "keyword": "Given "
 });
 formatter.step({
   "line": 13,
-  "name": "I press the \"Vender jugador\" button",
+  "name": "I want to sell a player, but that player does not exist",
   "keyword": "When "
 });
 formatter.step({
   "line": 14,
-  "name": "it will not appear on \u003cmercado\u003e",
+  "name": "I can not put it on sale",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "vender.a_team_and_player()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 56223,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "vender.i_want_to_sell_a_player_but_that_player_does_not_exist()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 22489,
+  "status": "passed"
+});
+formatter.match({
+  "location": "vender.i_can_not_put_it_on_sale()"
+});
+formatter.result({
+  "duration": 13689,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 16,
@@ -1087,30 +878,39 @@ formatter.scenario({
 });
 formatter.step({
   "line": 17,
-  "name": "a \u003cteam\u003e and \u003cidPlayer\u003e",
+  "name": "a team and Player",
   "keyword": "Given "
 });
 formatter.step({
   "line": 18,
-  "name": "I press the \"Vender jugador\" button",
+  "name": "I want to sell a player and exists and belongs to the team",
   "keyword": "When "
 });
 formatter.step({
   "line": 19,
-  "name": "it will appear on \u003cmercado\u003e",
+  "name": "I can put it on sale",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "vender.a_team_and_player()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 52311,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "vender.i_want_to_sell_a_player_and_exists_and_belongs_to_the_team()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 20045,
+  "status": "passed"
+});
+formatter.match({
+  "location": "vender.i_can_put_it_on_sale()"
+});
+formatter.result({
+  "duration": 32755,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 21,
@@ -1122,64 +922,82 @@ formatter.scenario({
 });
 formatter.step({
   "line": 22,
-  "name": "a \u003cteam\u003e and \u003cidPlayer\u003e",
+  "name": "a team and Player",
   "keyword": "Given "
 });
 formatter.step({
   "line": 23,
-  "name": "I press the \"Vender jugador\" button",
+  "name": "I want to sell a player and is already sold",
   "keyword": "When "
 });
 formatter.step({
   "line": 24,
-  "name": "it will not appear on \u003cmercado\u003e",
+  "name": "I can not put it on sale",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "vender.a_team_and_player()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 81155,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "vender.i_want_to_sell_a_player_and_is_already_sold()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 16622,
+  "status": "passed"
+});
+formatter.match({
+  "location": "vender.i_can_not_put_it_on_sale()"
+});
+formatter.result({
+  "duration": 18578,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 26,
-  "name": "See players to sell",
+  "name": "Sell a player and the team to which it belongs does not exist",
   "description": "",
-  "id": "vender;see-players-to-sell",
+  "id": "vender;sell-a-player-and-the-team-to-which-it-belongs-does-not-exist",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
   "line": 27,
-  "name": "the menu",
+  "name": "a team and Player",
   "keyword": "Given "
 });
 formatter.step({
   "line": 28,
-  "name": "I press the \"Resumen de equipo\" button",
+  "name": "I want to sell a player and the team to which it belongs does not exist",
   "keyword": "When "
 });
 formatter.step({
   "line": 29,
-  "name": "I can see the \u003cmercado\u003e",
+  "name": "I can not put it on sale",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "vender.a_team_and_player()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 51333,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "vender.i_want_to_sell_a_player_and_the_team_to_which_it_belongs_does_not_exist()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 33245,
+  "status": "passed"
+});
+formatter.match({
+  "location": "vender.i_can_not_put_it_on_sale()"
+});
+formatter.result({
+  "duration": 20044,
+  "status": "passed"
 });
 });

@@ -27,6 +27,8 @@ public class Team implements Serializable {
         presupuesto = new Random().nextInt(200000)+90000;
         puntos = new Random().nextInt(90)+9;
         this.id = id;
+        futbolistas = new ArrayList<>();
+        suplentes = new ArrayList<>();
     }
 
     public void setAlineacion(int a){
@@ -89,5 +91,22 @@ public class Team implements Serializable {
 
     public ArrayList<Futbolista> getSuplentes(){
         return suplentes;
+    }
+
+    public void setIngresos(int valor){
+        this.ingresos = valor;
+    }
+
+    public void setGastos(int valor){
+        this.gastos = valor;
+    }
+
+    public void setID(int value){
+        this.id = value;
+    }
+
+    public boolean perteneceFutbolista(Futbolista f){
+        boolean existe = this.futbolistas.contains(f);
+        return existe||this.suplentes.contains(f);
     }
 }

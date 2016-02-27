@@ -311,7 +311,7 @@ public class GestionEquipo extends AppCompatActivity  implements NavigationView.
 
 
 
-    private void mostrarEquipoTitular(int i){  //PRUEBA
+    public void mostrarEquipoTitular(int i){  //PRUEBA
         elegirAlineacion.setVisibility(View.VISIBLE);
         adaptadorTitulares = new ItemListAdapter(this, equipo.getFutbolistas(),1,i);
         listaJugadores.setAdapter(adaptadorTitulares);
@@ -323,7 +323,7 @@ public class GestionEquipo extends AppCompatActivity  implements NavigationView.
         adaptadorTitulares.notifyDataSetChanged();
     }
 
-    private void mostrarEstadisticas(){
+    public void mostrarEstadisticas(){
         elegirAlineacion.setVisibility(View.GONE);
         adaptadorEstadisticas = new ItemListAdapter(this, plantillaTotal,3);
         listaJugadores.setAdapter(adaptadorEstadisticas);
@@ -449,6 +449,7 @@ public class GestionEquipo extends AppCompatActivity  implements NavigationView.
             }
         }else{
             try{
+
                 url = new URL("http://comuniops.esy.es/vendeJugador.php?idJugador=" + id);
                 cliente = (HttpURLConnection) url.openConnection();
                 InputStream in = new BufferedInputStream(cliente.getInputStream());
@@ -472,6 +473,19 @@ public class GestionEquipo extends AppCompatActivity  implements NavigationView.
             }
         }
         return correcto;
+    }
+
+    public static boolean venderJugador(Team equipo, Futbolista f){
+        boolean perteneceAequipo = equipo.perteneceFutbolista(f);
+        boolean existeEquipo = bbdd.equipo.existeEquipo(equipo.getId());
+        boolean existeJugador = bbdd.jugadores.existeJugador(f.getId());
+        boolean enVenta = f.getEstaEnMercado();
+        boolean retorno = false;
+        if(!enVenta && existeEquipo && existeJugador && perteneceAequipo){
+            f.setEstaEnMercado(true);
+            retorno = true;
+        }
+        return retorno;
     }
 
     private class MyCallable implements Callable<Boolean> {

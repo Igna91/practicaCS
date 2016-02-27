@@ -4,26 +4,26 @@ Feature: Team summary
     To keep me updated
 
     Scenario: not empty principal team
-        Given my user team
-        When I press the "Alineacion" button
-        Then I could see my principal team on screen
+        Given my team
+        When My main team has players
+        Then my main football team return
 
     Scenario: empty team principal team
-        Given my empty user team
-        When I presss the "Alineacion" button
-        Then I could see nothing
-		
-	Scenario: not empty reserve team
-        Given my user team
-        When I press the "Reservas" button
-        Then I could see my reserve team on screen
+        Given my team
+        When My main team does not have players
+        Then an empty element is returned
+
+    Scenario: not empty reserve team
+        Given my team
+        When My secondary team has players
+        Then my backup equipment will return
 
     Scenario: empty team reserve team
-        Given my empty user team
-        When I presss the "Reservas" button
-        Then I could see nothing
- 
+        Given my team
+        When My secondary team does not have players
+        Then an empty element is returned
+
     Scenario: team score
-        Given my user team
+        Given my team
         When I press the "Datos" button
-        Then I could see my score and money
+        Then my team money will be returned

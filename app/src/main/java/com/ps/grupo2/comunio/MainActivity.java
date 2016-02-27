@@ -1,6 +1,6 @@
 package com.ps.grupo2.comunio;
-
-
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
@@ -168,7 +168,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public static boolean loginAccess(String user, String pass){
-        return ((user != null)&&(!user.equals(""))&&
+
+        String REG_EXP = "\\¿+|\\?+|\\°+|\\¬+|\\|+|\\!+|\\#+|\\$+|" +
+        "\\%+|\\&+|\\+|\\=+|\\’+|\\¡+|\\++|\\*+|\\~+|\\[+|\\]" +
+        "+|\\{+|\\}+|\\^+|\\<+|\\>+|\\+";
+        Pattern pattern = Pattern.compile(REG_EXP);
+        Matcher matcherUser = pattern.matcher(user);
+        Matcher matcherPass = pattern.matcher(pass);
+        return ((!matcherUser.find())&&(!matcherPass.find())&&(user != null)&&(!user.equals(""))&&
                 (pass != null)&&(!pass.equals(""))) ? true : false;
     }
 

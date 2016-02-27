@@ -88,4 +88,20 @@ public class Futbolista implements Serializable {
         return nombre;
     }
     public String getPosicion(){return posicion;}
+
+    public void setPrecio(int valor){
+        this.precio = valor;
+    }
+
+    public void setEstaEnMercado(boolean valor){
+        this.estaEnMercado = valor;
+    }
+
+    public boolean getEstaEnMercado(){
+        return this.estaEnMercado;
+    }
+
+    public void setId(int id){
+        this.id = id;
+    }
 }

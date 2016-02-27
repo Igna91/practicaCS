@@ -3,188 +3,146 @@ Feature: comprar
     I want to buy players
     To improve my team
 
-  Scenario: buy a player but the player has been bought by another          # comprar.feature:6
-    Given a <idPlayer>, <costPlayer> and <money> team
-    When I press the "Comprar jugador" button AND I don't have enough money
-    Then should return <status> and money should be <remainingMoney>
+  Scenario: The player is not for sale                                       # comprar.feature:6
+    Given a <futboll player> and a <team id>                                 # comprar.a_futboll_player_and_a_team_id()
+    When I press the "Comprar jugador" button AND the player is not for sale # comprar.i_press_the_something_button_and_the_player_is_not_for_sale(String)
+    Then I should be able to not buy                                         # comprar.i_should_be_able_to_not_buy()
 
-  Scenario: Buy a player not enough money and the player not exist          # comprar.feature:11
-    Given a <idPlayer>, <costPlayer> and <money> team
-    When I press the "Comprar jugador" button AND I don't have enough money
-    Then should return <status> and money should be <remainingMoney>
+  Scenario: The player does not exist                                  # comprar.feature:11
+    Given a <futboll player> and a <team id>                           # comprar.a_futboll_player_and_a_team_id()
+    When I press the "Comprar jugador" button AND the player not exist # comprar.i_press_the_something_button_and_the_player_not_exist(String)
+    Then I should be able to not buy                                   # comprar.i_should_be_able_to_not_buy()
 
-  Scenario: Buy a player not enough money and the player exist              # comprar.feature:16
-    Given a <idPlayer>, <costPlayer> and <money> team
-    When I press the "Comprar jugador" button AND I don't have enough money
-    Then should return <status> and money should be <remainingMoney>
+  Scenario: Not having enough money                                         # comprar.feature:16
+    Given a <futboll player> and a <team id>                                # comprar.a_futboll_player_and_a_team_id()
+    When I press the "Comprar jugador" button AND I don't have enough money # comprar.i_press_the_something_button_and_i_dont_have_enough_money(String)
+    Then I should be able to not buy                                        # comprar.i_should_be_able_to_not_buy()
 
-  Scenario: Buy a player enough money and the player exist            # comprar.feature:21
-    Given a <idPlayer>, <costPlayer> and <money> team
-    When I press the "Comprar jugador" button AND I have enough money
-    Then should return <status> and money should be <remainingMoney>
+  Scenario: Having enough money to buy a football player and the team there # comprar.feature:21
+    Given a <futboll player> and a <team id>                                # comprar.a_futboll_player_and_a_team_id()
+    When I press the "Comprar jugador" button AND I have enough money       # comprar.i_press_the_something_button_and_i_have_enough_money(String)
+    Then I should be able to buy my money should be increased               # comprar.i_should_be_able_to_buy_my_money_should_be_increased()
 
-  Scenario: Buy a player enough money but player not exist            # comprar.feature:26
-    Given a <idPlayer>, <costPlayer> and <money> team
-    When I press the "Comprar jugador" button AND I have enough money
-    Then should return <status> and money should be <remainingMoney>
+  Scenario: Having enough money to buy a football player but the team not exist          # comprar.feature:26
+    Given a <futboll player> and a <team id>                                             # comprar.a_futboll_player_and_a_team_id()
+    When I press the "Comprar jugador" button AND I have enough money but team not exist # comprar.i_press_the_button_AND_I_have_enough_money_but_team_not_exist(String)
+    Then I should be able to not buy                                                     # comprar.i_should_be_able_to_not_buy()
 Feature: login
     As user
     I want to log in in the application
     To anybody can´t play with my team
 
-  Scenario Outline: main screen user                 # login.feature:6
-    Given a user "user" and password "password"
-    When <password> is empty and <user> is not empty
-    Then should return "access"
+  Scenario: main screen user                         # login.feature:6
+    Given a user "user" and password "password"      # login.a_user_and_password(String,String)
+    When <password> is empty and <user> is not empty # login.password_is_empty_and_user_is_not_empty()
+    Then should let me not access                    # login.should_let_me_not_access()
 
-    Examples: 
-
-  Scenario Outline: main screen user            # login.feature:12
-    Given a user "user" and password "password" # login.a_user_and_password(String,String)
-    When  is empty and m is not empty
-    Then should return "access"
-
-  Scenario Outline: main screen user            # login.feature:13
-    Given a user "user" and password "password" # login.a_user_and_password(String,String)
-    When m is empty and  is not empty
-    Then should return "access"
-
-  Scenario Outline: main screen user            # login.feature:14
-    Given a user "user" and password "password" # login.a_user_and_password(String,String)
-    When m is empty and m is not empty
-    Then should return "access"
-
-  Scenario: main screen password                          # login.feature:16
+  Scenario: main screen password                          # login.feature:11
     Given a user "user" and password "password"           # login.a_user_and_password(String,String)
     When <password> is not empty and user <user> is empty # login.password_is_not_empty_and_user_user_is_empty()
-    Then should return <access>                           # login.should_return_access()
-      java.lang.AssertionError
-      	at org.junit.Assert.fail(Assert.java:86)
-      	at org.junit.Assert.assertTrue(Assert.java:41)
-      	at org.junit.Assert.assertTrue(Assert.java:52)
-      	at gradle.cucumber.login.should_return_access(login.java:34)
-      	at ✽.Then should return <access>(login.feature:19)
+    Then should let me not access                         # login.should_let_me_not_access()
 
-
-  Scenario: user incorrect and password correct            # login.feature:21
+  Scenario: user incorrect and password correct            # login.feature:16
     Given a user "user" and password "password"            # login.a_user_and_password(String,String)
     When the <password> is valid and the <user> is invalid # login.the_password_is_valid_and_the_user_is_invalid()
-    Then should return <access>                            # login.should_return_access()
-      java.lang.AssertionError
-      	at org.junit.Assert.fail(Assert.java:86)
-      	at org.junit.Assert.assertTrue(Assert.java:41)
-      	at org.junit.Assert.assertTrue(Assert.java:52)
-      	at gradle.cucumber.login.should_return_access(login.java:34)
-      	at ✽.Then should return <access>(login.feature:24)
+    Then should let me not access                          # login.should_let_me_not_access()
 
-
-  Scenario: user and password are correct                # login.feature:26
+  Scenario: user and password are correct                # login.feature:21
     Given a user "user" and password "password"          # login.a_user_and_password(String,String)
     When the <password> is valid and the <user> is valid # login.the_password_is_valid_and_the_user_is_valid()
-    Then should return <access>                          # login.should_return_access()
-      java.lang.AssertionError
-      	at org.junit.Assert.fail(Assert.java:86)
-      	at org.junit.Assert.assertTrue(Assert.java:41)
-      	at org.junit.Assert.assertTrue(Assert.java:52)
-      	at gradle.cucumber.login.should_return_access(login.java:34)
-      	at ✽.Then should return <access>(login.feature:29)
+    Then should let me access                            # login.should_let_me_access()
 
-
-  Scenario: user correct and password incorrect            # login.feature:31
+  Scenario: user correct and password incorrect            # login.feature:26
     Given a user "user" and password "password"            # login.a_user_and_password(String,String)
     When the <password> is invalid and the <user> is valid # login.the_password_is_invalid_and_the_user_is_valid()
-    Then should return <access>                            # login.should_return_access()
-      java.lang.AssertionError
-      	at org.junit.Assert.fail(Assert.java:86)
-      	at org.junit.Assert.assertTrue(Assert.java:41)
-      	at org.junit.Assert.assertTrue(Assert.java:52)
-      	at gradle.cucumber.login.should_return_access(login.java:34)
-      	at ✽.Then should return <access>(login.feature:34)
-
-Feature: menu
-    As player
-    I want to see the app menu
-    To navigate
-
-  Scenario: See the team               # menu.feature:6
-    Given the app menu
-    When I press the "Equipo" button
-    Then I can see the "Equipo" screen
-
-  Scenario: See calendario                 # menu.feature:11
-    Given the app menu
-    When I press the "Calendario" button
-    Then I can see the "Calendario" screen
-
-  Scenario: See clasificacion                 # menu.feature:16
-    Given the app menu
-    When I press the "Clasificacion" button
-    Then I can see the "Clasificacion" screen
-
-  Scenario: See fichajes               # menu.feature:21
-    Given the app menu
-    When I press the "Fichajes" button
-    Then I can see the Fichajes screen
-
-  Scenario: Share                                 # menu.feature:26
-    Given the app menu
-    When I press the "Comparte en Twitter" button
-    Then I can share my score
+    Then should let me not access                          # login.should_let_me_not_access()
 Feature: Team summary
     As player
     I want to see my team players and score
     To keep me updated
 
-  Scenario: not empty principal team             # team_summary.feature:6
-    Given my user team
-    When I press the "Alineacion" button
-    Then I could see my principal team on screen
+  Scenario: not empty principal team  # team_summary.feature:6
+    Given my team                     # team_summary.my_team()
+    When My main team has players     # team_summary.my_main_team_has_players()
+    Then my main football team return # team_summary.my_main_football_team_return()
+      java.lang.AssertionError: expected same:<[com.ps.grupo2.comunio.Futbolista@2c7bc1cd]> was not:<[com.ps.grupo2.comunio.Futbolista@d6a1fe]>
+      	at org.junit.Assert.fail(Assert.java:88)
+      	at org.junit.Assert.failNotSame(Assert.java:737)
+      	at org.junit.Assert.assertSame(Assert.java:680)
+      	at org.junit.Assert.assertSame(Assert.java:691)
+      	at gradle.cucumber.team_summary.my_main_football_team_return(team_summary.java:59)
+      	at ✽.Then my main football team return(team_summary.feature:9)
 
-  Scenario: empty team principal team     # team_summary.feature:11
-    Given my empty user team
-    When I presss the "Alineacion" button
-    Then I could see nothing
 
-  Scenario: not empty reserve team             # team_summary.feature:16
-    Given my user team
-    When I press the "Reservas" button
-    Then I could see my reserve team on screen
+  Scenario: empty team principal team       # team_summary.feature:11
+    Given my team                           # team_summary.my_team()
+    When My main team does not have players # team_summary.my_main_team_does_not_have_players()
+    Then an empty element is returned       # team_summary.an_empty_element_is_returned()
+      java.lang.AssertionError: expected same:<[com.ps.grupo2.comunio.Futbolista@559e9684]> was not:<[]>
+      	at org.junit.Assert.fail(Assert.java:88)
+      	at org.junit.Assert.failNotSame(Assert.java:737)
+      	at org.junit.Assert.assertSame(Assert.java:680)
+      	at org.junit.Assert.assertSame(Assert.java:691)
+      	at gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:65)
+      	at ✽.Then an empty element is returned(team_summary.feature:14)
 
-  Scenario: empty team reserve team     # team_summary.feature:21
-    Given my empty user team
-    When I presss the "Reservas" button
-    Then I could see nothing
+
+  Scenario: not empty reserve team       # team_summary.feature:16
+    Given my team                        # team_summary.my_team()
+    When My secondary team has players   # team_summary.my_secondary_team_has_players()
+    Then my backup equipment will return # team_summary.my_backup_equipment_will_return()
+      java.lang.AssertionError: expected same:<[com.ps.grupo2.comunio.Futbolista@2ed6ecf5]> was not:<[]>
+      	at org.junit.Assert.fail(Assert.java:88)
+      	at org.junit.Assert.failNotSame(Assert.java:737)
+      	at org.junit.Assert.assertSame(Assert.java:680)
+      	at org.junit.Assert.assertSame(Assert.java:691)
+      	at gradle.cucumber.team_summary.my_backup_equipment_will_return(team_summary.java:70)
+      	at ✽.Then my backup equipment will return(team_summary.feature:19)
+
+
+  Scenario: empty team reserve team              # team_summary.feature:21
+    Given my team                                # team_summary.my_team()
+    When My secondary team does not have players # team_summary.my_secondary_team_does_not_have_players()
+    Then an empty element is returned            # team_summary.an_empty_element_is_returned()
+      java.lang.AssertionError: expected same:<[com.ps.grupo2.comunio.Futbolista@4f7b2c6c]> was not:<[]>
+      	at org.junit.Assert.fail(Assert.java:88)
+      	at org.junit.Assert.failNotSame(Assert.java:737)
+      	at org.junit.Assert.assertSame(Assert.java:680)
+      	at org.junit.Assert.assertSame(Assert.java:691)
+      	at gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:65)
+      	at ✽.Then an empty element is returned(team_summary.feature:24)
+
 
   Scenario: team score                  # team_summary.feature:26
-    Given my user team
-    When I press the "Datos" button
-    Then I could see my score and money
+    Given my team                       # team_summary.my_team()
+    When I press the "Datos" button     # team_summary.i_press_the_something_button(String)
+    Then my team money will be returned # team_summary.my_team_money_will_be_returned()
 Feature: vender
     As user
     I want to sell players
     To earn money
 
   Scenario: Sell a player and that player does not belong to the team # vender.feature:6
-    Given a <team> and <idPlayer>
-    When I press the "Vender jugador" button
-    Then it will not appear on <mercado>
+    Given a team and Player                                           # vender.a_team_and_player()
+    When I want to sell a player but does not belong to the team      # vender.i_want_to_sell_a_player_but_does_not_belong_to_the_team()
+    Then I can not put it on sale                                     # vender.i_can_not_put_it_on_sale()
 
-  Scenario: Sell a player and that player not exist # vender.feature:11
-    Given a <team> and <idPlayer>
-    When I press the "Vender jugador" button
-    Then it will not appear on <mercado>
+  Scenario: Sell a player and that player not exist              # vender.feature:11
+    Given a team and Player                                      # vender.a_team_and_player()
+    When I want to sell a player, but that player does not exist # vender.i_want_to_sell_a_player_but_that_player_does_not_exist()
+    Then I can not put it on sale                                # vender.i_can_not_put_it_on_sale()
 
-  Scenario: Sell a player and that player does belong to the team # vender.feature:16
-    Given a <team> and <idPlayer>
-    When I press the "Vender jugador" button
-    Then it will appear on <mercado>
+  Scenario: Sell a player and that player does belong to the team   # vender.feature:16
+    Given a team and Player                                         # vender.a_team_and_player()
+    When I want to sell a player and exists and belongs to the team # vender.i_want_to_sell_a_player_and_exists_and_belongs_to_the_team()
+    Then I can put it on sale                                       # vender.i_can_put_it_on_sale()
 
   Scenario: Sell a player and the player is already on sale # vender.feature:21
-    Given a <team> and <idPlayer>
-    When I press the "Vender jugador" button
-    Then it will not appear on <mercado>
+    Given a team and Player                                 # vender.a_team_and_player()
+    When I want to sell a player and is already sold        # vender.i_want_to_sell_a_player_and_is_already_sold()
+    Then I can not put it on sale                           # vender.i_can_not_put_it_on_sale()
 
-  Scenario: See players to sell                 # vender.feature:26
-    Given the menu
-    When I press the "Resumen de equipo" button
-    Then I can see the <mercado>
+  Scenario: Sell a player and the team to which it belongs does not exist        # vender.feature:26
+    Given a team and Player                                                      # vender.a_team_and_player()
+    When I want to sell a player and the team to which it belongs does not exist # vender.i_want_to_sell_a_player_and_the_team_to_which_it_belongs_does_not_exist()
+    Then I can not put it on sale                                                # vender.i_can_not_put_it_on_sale()

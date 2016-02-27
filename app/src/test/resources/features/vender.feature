@@ -4,28 +4,26 @@ Feature: vender
     To earn money
 
     Scenario: Sell a player and that player does not belong to the team
-	Given a <team> and <idPlayer>
-	When I press the "Vender jugador" button
-	Then it will not appear on <mercado>
-	
-	Scenario: Sell a player and that player not exist
-	Given a <team> and <idPlayer>
-	When I press the "Vender jugador" button
-	Then it will not appear on <mercado>
-	
-	Scenario: Sell a player and that player does belong to the team
-	Given a <team> and <idPlayer>
-	When I press the "Vender jugador" button
-	Then it will appear on <mercado>
+        Given a team and Player
+        When I want to sell a player but does not belong to the team
+        Then I can not put it on sale
+
+    Scenario: Sell a player and that player not exist
+        Given a team and Player
+        When I want to sell a player, but that player does not exist
+        Then I can not put it on sale
+
+    Scenario: Sell a player and that player does belong to the team
+        Given a team and Player
+        When I want to sell a player and exists and belongs to the team
+        Then I can put it on sale
 
     Scenario: Sell a player and the player is already on sale
-	Given a <team> and <idPlayer>
-	When I press the "Vender jugador" button
-	Then it will not appear on <mercado>
+        Given a team and Player
+        When I want to sell a player and is already sold
+        Then I can not put it on sale
 
-    Scenario: See players to sell
-	Given the menu
-	When I press the "Resumen de equipo" button
-	Then I can see the <mercado>
-
-    
+    Scenario: Sell a player and the team to which it belongs does not exist
+        Given a team and Player
+        When I want to sell a player and the team to which it belongs does not exist
+        Then I can not put it on sale

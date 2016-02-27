@@ -4,185 +4,260 @@
     "elements": [
       {
         "line": 6,
-        "name": "buy a player but the player has been bought by another",
+        "name": "The player is not for sale",
         "description": "",
-        "id": "comprar;buy-a-player-but-the-player-has-been-bought-by-another",
+        "id": "comprar;the-player-is-not-for-sale",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 72708054,
+              "status": "passed"
             },
             "line": 7,
-            "name": "a \u003cidPlayer\u003e, \u003ccostPlayer\u003e and \u003cmoney\u003e team",
-            "match": {},
+            "name": "a \u003cfutboll player\u003e and a \u003cteam id\u003e",
+            "match": {
+              "location": "comprar.a_futboll_player_and_a_team_id()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 2109555,
+              "status": "passed"
             },
             "line": 8,
-            "name": "I press the \"Comprar jugador\" button AND I don\u0027t have enough money",
-            "match": {},
+            "name": "I press the \"Comprar jugador\" button AND the player is not for sale",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Comprar jugador",
+                  "offset": 13
+                }
+              ],
+              "location": "comprar.i_press_the_something_button_and_the_player_is_not_for_sale(String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1369867,
+              "status": "passed"
             },
             "line": 9,
-            "name": "should return \u003cstatus\u003e and money should be \u003cremainingMoney\u003e",
-            "match": {},
+            "name": "I should be able to not buy",
+            "match": {
+              "location": "comprar.i_should_be_able_to_not_buy()"
+            },
             "keyword": "Then "
           }
         ]
       },
       {
         "line": 11,
-        "name": "Buy a player not enough money and the player not exist",
+        "name": "The player does not exist",
         "description": "",
-        "id": "comprar;buy-a-player-not-enough-money-and-the-player-not-exist",
+        "id": "comprar;the-player-does-not-exist",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 42533,
+              "status": "passed"
             },
             "line": 12,
-            "name": "a \u003cidPlayer\u003e, \u003ccostPlayer\u003e and \u003cmoney\u003e team",
-            "match": {},
+            "name": "a \u003cfutboll player\u003e and a \u003cteam id\u003e",
+            "match": {
+              "location": "comprar.a_futboll_player_and_a_team_id()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 67955,
+              "status": "passed"
             },
             "line": 13,
-            "name": "I press the \"Comprar jugador\" button AND I don\u0027t have enough money",
-            "match": {},
+            "name": "I press the \"Comprar jugador\" button AND the player not exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Comprar jugador",
+                  "offset": 13
+                }
+              ],
+              "location": "comprar.i_press_the_something_button_and_the_player_not_exist(String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 17600,
+              "status": "passed"
             },
             "line": 14,
-            "name": "should return \u003cstatus\u003e and money should be \u003cremainingMoney\u003e",
-            "match": {},
+            "name": "I should be able to not buy",
+            "match": {
+              "location": "comprar.i_should_be_able_to_not_buy()"
+            },
             "keyword": "Then "
           }
         ]
       },
       {
         "line": 16,
-        "name": "Buy a player not enough money and the player exist",
+        "name": "Not having enough money",
         "description": "",
-        "id": "comprar;buy-a-player-not-enough-money-and-the-player-exist",
+        "id": "comprar;not-having-enough-money",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 47911,
+              "status": "passed"
             },
             "line": 17,
-            "name": "a \u003cidPlayer\u003e, \u003ccostPlayer\u003e and \u003cmoney\u003e team",
-            "match": {},
+            "name": "a \u003cfutboll player\u003e and a \u003cteam id\u003e",
+            "match": {
+              "location": "comprar.a_futboll_player_and_a_team_id()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 69422,
+              "status": "passed"
             },
             "line": 18,
             "name": "I press the \"Comprar jugador\" button AND I don\u0027t have enough money",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "Comprar jugador",
+                  "offset": 13
+                }
+              ],
+              "location": "comprar.i_press_the_something_button_and_i_dont_have_enough_money(String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 17111,
+              "status": "passed"
             },
             "line": 19,
-            "name": "should return \u003cstatus\u003e and money should be \u003cremainingMoney\u003e",
-            "match": {},
+            "name": "I should be able to not buy",
+            "match": {
+              "location": "comprar.i_should_be_able_to_not_buy()"
+            },
             "keyword": "Then "
           }
         ]
       },
       {
         "line": 21,
-        "name": "Buy a player enough money and the player exist",
+        "name": "Having enough money to buy a football player and the team there",
         "description": "",
-        "id": "comprar;buy-a-player-enough-money-and-the-player-exist",
+        "id": "comprar;having-enough-money-to-buy-a-football-player-and-the-team-there",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 81155,
+              "status": "passed"
             },
             "line": 22,
-            "name": "a \u003cidPlayer\u003e, \u003ccostPlayer\u003e and \u003cmoney\u003e team",
-            "match": {},
+            "name": "a \u003cfutboll player\u003e and a \u003cteam id\u003e",
+            "match": {
+              "location": "comprar.a_futboll_player_and_a_team_id()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 117822,
+              "status": "passed"
             },
             "line": 23,
             "name": "I press the \"Comprar jugador\" button AND I have enough money",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "Comprar jugador",
+                  "offset": 13
+                }
+              ],
+              "location": "comprar.i_press_the_something_button_and_i_have_enough_money(String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1543423,
+              "status": "passed"
             },
             "line": 24,
-            "name": "should return \u003cstatus\u003e and money should be \u003cremainingMoney\u003e",
-            "match": {},
+            "name": "I should be able to buy my money should be increased",
+            "match": {
+              "location": "comprar.i_should_be_able_to_buy_my_money_should_be_increased()"
+            },
             "keyword": "Then "
           }
         ]
       },
       {
         "line": 26,
-        "name": "Buy a player enough money but player not exist",
+        "name": "Having enough money to buy a football player but the team not exist",
         "description": "",
-        "id": "comprar;buy-a-player-enough-money-but-player-not-exist",
+        "id": "comprar;having-enough-money-to-buy-a-football-player-but-the-team-not-exist",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 47911,
+              "status": "passed"
             },
             "line": 27,
-            "name": "a \u003cidPlayer\u003e, \u003ccostPlayer\u003e and \u003cmoney\u003e team",
-            "match": {},
+            "name": "a \u003cfutboll player\u003e and a \u003cteam id\u003e",
+            "match": {
+              "location": "comprar.a_futboll_player_and_a_team_id()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 246400,
+              "status": "passed"
             },
             "line": 28,
-            "name": "I press the \"Comprar jugador\" button AND I have enough money",
-            "match": {},
+            "name": "I press the \"Comprar jugador\" button AND I have enough money but team not exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Comprar jugador",
+                  "offset": 13
+                }
+              ],
+              "location": "comprar.i_press_the_button_AND_I_have_enough_money_but_team_not_exist(String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 20533,
+              "status": "passed"
             },
             "line": 29,
-            "name": "should return \u003cstatus\u003e and money should be \u003cremainingMoney\u003e",
-            "match": {},
+            "name": "I should be able to not buy",
+            "match": {
+              "location": "comprar.i_should_be_able_to_not_buy()"
+            },
             "keyword": "Then "
           }
         ]
@@ -198,16 +273,16 @@
     "line": 1,
     "elements": [
       {
-        "line": 12,
+        "line": 6,
         "name": "main screen user",
         "description": "",
-        "id": "login;main-screen-user;;2",
+        "id": "login;main-screen-user",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 52754655,
+              "duration": 129555,
               "status": "passed"
             },
             "line": 7,
@@ -229,138 +304,32 @@
           },
           {
             "result": {
-              "status": "undefined"
-            },
-            "line": 8,
-            "name": " is empty and m is not empty",
-            "match": {},
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 9,
-            "name": "should return \"access\"",
-            "match": {},
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 13,
-        "name": "main screen user",
-        "description": "",
-        "id": "login;main-screen-user;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 58337,
+              "duration": 45467,
               "status": "passed"
             },
-            "line": 7,
-            "name": "a user \"user\" and password \"password\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "user",
-                  "offset": 8
-                },
-                {
-                  "val": "password",
-                  "offset": 28
-                }
-              ],
-              "location": "login.a_user_and_password(String,String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
             "line": 8,
-            "name": "m is empty and  is not empty",
-            "match": {},
-            "matchedColumns": [
-              0,
-              1
-            ],
+            "name": "\u003cpassword\u003e is empty and \u003cuser\u003e is not empty",
+            "match": {
+              "location": "login.password_is_empty_and_user_is_not_empty()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
-            },
-            "line": 9,
-            "name": "should return \"access\"",
-            "match": {},
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 14,
-        "name": "main screen user",
-        "description": "",
-        "id": "login;main-screen-user;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 41270,
+              "duration": 298711,
               "status": "passed"
             },
-            "line": 7,
-            "name": "a user \"user\" and password \"password\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "user",
-                  "offset": 8
-                },
-                {
-                  "val": "password",
-                  "offset": 28
-                }
-              ],
-              "location": "login.a_user_and_password(String,String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 8,
-            "name": "m is empty and m is not empty",
-            "match": {},
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
             "line": 9,
-            "name": "should return \"access\"",
-            "match": {},
+            "name": "should let me not access",
+            "match": {
+              "location": "login.should_let_me_not_access()"
+            },
             "keyword": "Then "
           }
         ]
       },
       {
-        "line": 16,
+        "line": 11,
         "name": "main screen password",
         "description": "",
         "id": "login;main-screen-password",
@@ -369,7 +338,63 @@
         "steps": [
           {
             "result": {
-              "duration": 41581,
+              "duration": 96800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "a user \"user\" and password \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user",
+                  "offset": 8
+                },
+                {
+                  "val": "password",
+                  "offset": 28
+                }
+              ],
+              "location": "login.a_user_and_password(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19067,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "\u003cpassword\u003e is not empty and user \u003cuser\u003e is empty",
+            "match": {
+              "location": "login.password_is_not_empty_and_user_user_is_empty()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104622,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "should let me not access",
+            "match": {
+              "location": "login.should_let_me_not_access()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "user incorrect and password correct",
+        "description": "",
+        "id": "login;user-incorrect-and-password-correct",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 87022,
               "status": "passed"
             },
             "line": 17,
@@ -391,26 +416,25 @@
           },
           {
             "result": {
-              "duration": 36616,
+              "duration": 57200,
               "status": "passed"
             },
             "line": 18,
-            "name": "\u003cpassword\u003e is not empty and user \u003cuser\u003e is empty",
+            "name": "the \u003cpassword\u003e is valid and the \u003cuser\u003e is invalid",
             "match": {
-              "location": "login.password_is_not_empty_and_user_user_is_empty()"
+              "location": "login.the_password_is_valid_and_the_user_is_invalid()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1260142,
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat gradle.cucumber.login.should_return_access(login.java:34)\r\n\tat ✽.Then should return \u003caccess\u003e(login.feature:19)\r\n",
-              "status": "failed"
+              "duration": 252267,
+              "status": "passed"
             },
             "line": 19,
-            "name": "should return \u003caccess\u003e",
+            "name": "should let me not access",
             "match": {
-              "location": "login.should_return_access()"
+              "location": "login.should_let_me_not_access()"
             },
             "keyword": "Then "
           }
@@ -418,15 +442,15 @@
       },
       {
         "line": 21,
-        "name": "user incorrect and password correct",
+        "name": "user and password are correct",
         "description": "",
-        "id": "login;user-incorrect-and-password-correct",
+        "id": "login;user-and-password-are-correct",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 44374,
+              "duration": 182844,
               "status": "passed"
             },
             "line": 22,
@@ -448,26 +472,25 @@
           },
           {
             "result": {
-              "duration": 135042422,
+              "duration": 18578,
               "status": "passed"
             },
             "line": 23,
-            "name": "the \u003cpassword\u003e is valid and the \u003cuser\u003e is invalid",
+            "name": "the \u003cpassword\u003e is valid and the \u003cuser\u003e is valid",
             "match": {
-              "location": "login.the_password_is_valid_and_the_user_is_invalid()"
+              "location": "login.the_password_is_valid_and_the_user_is_valid()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 163529,
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat gradle.cucumber.login.should_return_access(login.java:34)\r\n\tat ✽.Then should return \u003caccess\u003e(login.feature:24)\r\n",
-              "status": "failed"
+              "duration": 76267,
+              "status": "passed"
             },
             "line": 24,
-            "name": "should return \u003caccess\u003e",
+            "name": "should let me access",
             "match": {
-              "location": "login.should_return_access()"
+              "location": "login.should_let_me_access()"
             },
             "keyword": "Then "
           }
@@ -475,15 +498,15 @@
       },
       {
         "line": 26,
-        "name": "user and password are correct",
+        "name": "user correct and password incorrect",
         "description": "",
-        "id": "login;user-and-password-are-correct",
+        "id": "login;user-correct-and-password-incorrect",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 55234,
+              "duration": 77733,
               "status": "passed"
             },
             "line": 27,
@@ -505,67 +528,10 @@
           },
           {
             "result": {
-              "duration": 101137447,
+              "duration": 24445,
               "status": "passed"
             },
             "line": 28,
-            "name": "the \u003cpassword\u003e is valid and the \u003cuser\u003e is valid",
-            "match": {
-              "location": "login.the_password_is_valid_and_the_user_is_valid()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 156082,
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat gradle.cucumber.login.should_return_access(login.java:34)\r\n\tat ✽.Then should return \u003caccess\u003e(login.feature:29)\r\n",
-              "status": "failed"
-            },
-            "line": 29,
-            "name": "should return \u003caccess\u003e",
-            "match": {
-              "location": "login.should_return_access()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 31,
-        "name": "user correct and password incorrect",
-        "description": "",
-        "id": "login;user-correct-and-password-incorrect",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 62991,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "a user \"user\" and password \"password\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "user",
-                  "offset": 8
-                },
-                {
-                  "val": "password",
-                  "offset": 28
-                }
-              ],
-              "location": "login.a_user_and_password(String,String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 81193327,
-              "status": "passed"
-            },
-            "line": 33,
             "name": "the \u003cpassword\u003e is invalid and the \u003cuser\u003e is valid",
             "match": {
               "location": "login.the_password_is_invalid_and_the_user_is_valid()"
@@ -574,14 +540,13 @@
           },
           {
             "result": {
-              "duration": 157634,
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat gradle.cucumber.login.should_return_access(login.java:34)\r\n\tat ✽.Then should return \u003caccess\u003e(login.feature:34)\r\n",
-              "status": "failed"
+              "duration": 91911,
+              "status": "passed"
             },
-            "line": 34,
-            "name": "should return \u003caccess\u003e",
+            "line": 29,
+            "name": "should let me not access",
             "match": {
-              "location": "login.should_return_access()"
+              "location": "login.should_let_me_not_access()"
             },
             "keyword": "Then "
           }
@@ -599,201 +564,6 @@
     "elements": [
       {
         "line": 6,
-        "name": "See the team",
-        "description": "",
-        "id": "menu;see-the-team",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 7,
-            "name": "the app menu",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 8,
-            "name": "I press the \"Equipo\" button",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 9,
-            "name": "I can see the \"Equipo\" screen",
-            "match": {},
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 11,
-        "name": "See calendario",
-        "description": "",
-        "id": "menu;see-calendario",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 12,
-            "name": "the app menu",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 13,
-            "name": "I press the \"Calendario\" button",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 14,
-            "name": "I can see the \"Calendario\" screen",
-            "match": {},
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 16,
-        "name": "See clasificacion",
-        "description": "",
-        "id": "menu;see-clasificacion",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 17,
-            "name": "the app menu",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 18,
-            "name": "I press the \"Clasificacion\" button",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 19,
-            "name": "I can see the \"Clasificacion\" screen",
-            "match": {},
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 21,
-        "name": "See fichajes",
-        "description": "",
-        "id": "menu;see-fichajes",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 22,
-            "name": "the app menu",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 23,
-            "name": "I press the \"Fichajes\" button",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 24,
-            "name": "I can see the Fichajes screen",
-            "match": {},
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 26,
-        "name": "Share",
-        "description": "",
-        "id": "menu;share",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 27,
-            "name": "the app menu",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 28,
-            "name": "I press the \"Comparte en Twitter\" button",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 29,
-            "name": "I can share my score",
-            "match": {},
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "menu",
-    "description": "  As player\r\n  I want to see the app menu\r\n  To navigate",
-    "id": "menu",
-    "keyword": "Feature",
-    "uri": "menu.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 6,
         "name": "not empty principal team",
         "description": "",
         "id": "team-summary;not-empty-principal-team",
@@ -802,29 +572,39 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 117823,
+              "status": "passed"
             },
             "line": 7,
-            "name": "my user team",
-            "match": {},
+            "name": "my team",
+            "match": {
+              "location": "team_summary.my_team()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 50844,
+              "status": "passed"
             },
             "line": 8,
-            "name": "I press the \"Alineacion\" button",
-            "match": {},
+            "name": "My main team has players",
+            "match": {
+              "location": "team_summary.my_main_team_has_players()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1106356,
+              "error_message": "java.lang.AssertionError: expected same:\u003c[com.ps.grupo2.comunio.Futbolista@2c7bc1cd]\u003e was not:\u003c[com.ps.grupo2.comunio.Futbolista@d6a1fe]\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotSame(Assert.java:737)\r\n\tat org.junit.Assert.assertSame(Assert.java:680)\r\n\tat org.junit.Assert.assertSame(Assert.java:691)\r\n\tat gradle.cucumber.team_summary.my_main_football_team_return(team_summary.java:59)\r\n\tat ✽.Then my main football team return(team_summary.feature:9)\r\n",
+              "status": "failed"
             },
             "line": 9,
-            "name": "I could see my principal team on screen",
-            "match": {},
+            "name": "my main football team return",
+            "match": {
+              "location": "team_summary.my_main_football_team_return()"
+            },
             "keyword": "Then "
           }
         ]
@@ -839,29 +619,39 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 62578,
+              "status": "passed"
             },
             "line": 12,
-            "name": "my empty user team",
-            "match": {},
+            "name": "my team",
+            "match": {
+              "location": "team_summary.my_team()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 31778,
+              "status": "passed"
             },
             "line": 13,
-            "name": "I presss the \"Alineacion\" button",
-            "match": {},
+            "name": "My main team does not have players",
+            "match": {
+              "location": "team_summary.my_main_team_does_not_have_players()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 263511,
+              "error_message": "java.lang.AssertionError: expected same:\u003c[com.ps.grupo2.comunio.Futbolista@559e9684]\u003e was not:\u003c[]\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotSame(Assert.java:737)\r\n\tat org.junit.Assert.assertSame(Assert.java:680)\r\n\tat org.junit.Assert.assertSame(Assert.java:691)\r\n\tat gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:65)\r\n\tat ✽.Then an empty element is returned(team_summary.feature:14)\r\n",
+              "status": "failed"
             },
             "line": 14,
-            "name": "I could see nothing",
-            "match": {},
+            "name": "an empty element is returned",
+            "match": {
+              "location": "team_summary.an_empty_element_is_returned()"
+            },
             "keyword": "Then "
           }
         ]
@@ -876,29 +666,39 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 54267,
+              "status": "passed"
             },
             "line": 17,
-            "name": "my user team",
-            "match": {},
+            "name": "my team",
+            "match": {
+              "location": "team_summary.my_team()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 25911,
+              "status": "passed"
             },
             "line": 18,
-            "name": "I press the \"Reservas\" button",
-            "match": {},
+            "name": "My secondary team has players",
+            "match": {
+              "location": "team_summary.my_secondary_team_has_players()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 212178,
+              "error_message": "java.lang.AssertionError: expected same:\u003c[com.ps.grupo2.comunio.Futbolista@2ed6ecf5]\u003e was not:\u003c[]\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotSame(Assert.java:737)\r\n\tat org.junit.Assert.assertSame(Assert.java:680)\r\n\tat org.junit.Assert.assertSame(Assert.java:691)\r\n\tat gradle.cucumber.team_summary.my_backup_equipment_will_return(team_summary.java:70)\r\n\tat ✽.Then my backup equipment will return(team_summary.feature:19)\r\n",
+              "status": "failed"
             },
             "line": 19,
-            "name": "I could see my reserve team on screen",
-            "match": {},
+            "name": "my backup equipment will return",
+            "match": {
+              "location": "team_summary.my_backup_equipment_will_return()"
+            },
             "keyword": "Then "
           }
         ]
@@ -913,29 +713,39 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 63555,
+              "status": "passed"
             },
             "line": 22,
-            "name": "my empty user team",
-            "match": {},
+            "name": "my team",
+            "match": {
+              "location": "team_summary.my_team()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 16622,
+              "status": "passed"
             },
             "line": 23,
-            "name": "I presss the \"Reservas\" button",
-            "match": {},
+            "name": "My secondary team does not have players",
+            "match": {
+              "location": "team_summary.my_secondary_team_does_not_have_players()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 310933,
+              "error_message": "java.lang.AssertionError: expected same:\u003c[com.ps.grupo2.comunio.Futbolista@4f7b2c6c]\u003e was not:\u003c[]\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotSame(Assert.java:737)\r\n\tat org.junit.Assert.assertSame(Assert.java:680)\r\n\tat org.junit.Assert.assertSame(Assert.java:691)\r\n\tat gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:65)\r\n\tat ✽.Then an empty element is returned(team_summary.feature:24)\r\n",
+              "status": "failed"
             },
             "line": 24,
-            "name": "I could see nothing",
-            "match": {},
+            "name": "an empty element is returned",
+            "match": {
+              "location": "team_summary.an_empty_element_is_returned()"
+            },
             "keyword": "Then "
           }
         ]
@@ -950,29 +760,44 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 60133,
+              "status": "passed"
             },
             "line": 27,
-            "name": "my user team",
-            "match": {},
+            "name": "my team",
+            "match": {
+              "location": "team_summary.my_team()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 66978,
+              "status": "passed"
             },
             "line": 28,
             "name": "I press the \"Datos\" button",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "Datos",
+                  "offset": 13
+                }
+              ],
+              "location": "team_summary.i_press_the_something_button(String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1112712,
+              "status": "passed"
             },
             "line": 29,
-            "name": "I could see my score and money",
-            "match": {},
+            "name": "my team money will be returned",
+            "match": {
+              "location": "team_summary.my_team_money_will_be_returned()"
+            },
             "keyword": "Then "
           }
         ]
@@ -997,29 +822,38 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 108533,
+              "status": "passed"
             },
             "line": 7,
-            "name": "a \u003cteam\u003e and \u003cidPlayer\u003e",
-            "match": {},
+            "name": "a team and Player",
+            "match": {
+              "location": "vender.a_team_and_player()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 27867,
+              "status": "passed"
             },
             "line": 8,
-            "name": "I press the \"Vender jugador\" button",
-            "match": {},
+            "name": "I want to sell a player but does not belong to the team",
+            "match": {
+              "location": "vender.i_want_to_sell_a_player_but_does_not_belong_to_the_team()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 56223,
+              "status": "passed"
             },
             "line": 9,
-            "name": "it will not appear on \u003cmercado\u003e",
-            "match": {},
+            "name": "I can not put it on sale",
+            "match": {
+              "location": "vender.i_can_not_put_it_on_sale()"
+            },
             "keyword": "Then "
           }
         ]
@@ -1034,29 +868,38 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 56223,
+              "status": "passed"
             },
             "line": 12,
-            "name": "a \u003cteam\u003e and \u003cidPlayer\u003e",
-            "match": {},
+            "name": "a team and Player",
+            "match": {
+              "location": "vender.a_team_and_player()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 22489,
+              "status": "passed"
             },
             "line": 13,
-            "name": "I press the \"Vender jugador\" button",
-            "match": {},
+            "name": "I want to sell a player, but that player does not exist",
+            "match": {
+              "location": "vender.i_want_to_sell_a_player_but_that_player_does_not_exist()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 13689,
+              "status": "passed"
             },
             "line": 14,
-            "name": "it will not appear on \u003cmercado\u003e",
-            "match": {},
+            "name": "I can not put it on sale",
+            "match": {
+              "location": "vender.i_can_not_put_it_on_sale()"
+            },
             "keyword": "Then "
           }
         ]
@@ -1071,29 +914,38 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 52311,
+              "status": "passed"
             },
             "line": 17,
-            "name": "a \u003cteam\u003e and \u003cidPlayer\u003e",
-            "match": {},
+            "name": "a team and Player",
+            "match": {
+              "location": "vender.a_team_and_player()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 20045,
+              "status": "passed"
             },
             "line": 18,
-            "name": "I press the \"Vender jugador\" button",
-            "match": {},
+            "name": "I want to sell a player and exists and belongs to the team",
+            "match": {
+              "location": "vender.i_want_to_sell_a_player_and_exists_and_belongs_to_the_team()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 32755,
+              "status": "passed"
             },
             "line": 19,
-            "name": "it will appear on \u003cmercado\u003e",
-            "match": {},
+            "name": "I can put it on sale",
+            "match": {
+              "location": "vender.i_can_put_it_on_sale()"
+            },
             "keyword": "Then "
           }
         ]
@@ -1108,66 +960,84 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 81155,
+              "status": "passed"
             },
             "line": 22,
-            "name": "a \u003cteam\u003e and \u003cidPlayer\u003e",
-            "match": {},
+            "name": "a team and Player",
+            "match": {
+              "location": "vender.a_team_and_player()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 16622,
+              "status": "passed"
             },
             "line": 23,
-            "name": "I press the \"Vender jugador\" button",
-            "match": {},
+            "name": "I want to sell a player and is already sold",
+            "match": {
+              "location": "vender.i_want_to_sell_a_player_and_is_already_sold()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 18578,
+              "status": "passed"
             },
             "line": 24,
-            "name": "it will not appear on \u003cmercado\u003e",
-            "match": {},
+            "name": "I can not put it on sale",
+            "match": {
+              "location": "vender.i_can_not_put_it_on_sale()"
+            },
             "keyword": "Then "
           }
         ]
       },
       {
         "line": 26,
-        "name": "See players to sell",
+        "name": "Sell a player and the team to which it belongs does not exist",
         "description": "",
-        "id": "vender;see-players-to-sell",
+        "id": "vender;sell-a-player-and-the-team-to-which-it-belongs-does-not-exist",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 51333,
+              "status": "passed"
             },
             "line": 27,
-            "name": "the menu",
-            "match": {},
+            "name": "a team and Player",
+            "match": {
+              "location": "vender.a_team_and_player()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 33245,
+              "status": "passed"
             },
             "line": 28,
-            "name": "I press the \"Resumen de equipo\" button",
-            "match": {},
+            "name": "I want to sell a player and the team to which it belongs does not exist",
+            "match": {
+              "location": "vender.i_want_to_sell_a_player_and_the_team_to_which_it_belongs_does_not_exist()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 20044,
+              "status": "passed"
             },
             "line": 29,
-            "name": "I can see the \u003cmercado\u003e",
-            "match": {},
+            "name": "I can not put it on sale",
+            "match": {
+              "location": "vender.i_can_not_put_it_on_sale()"
+            },
             "keyword": "Then "
           }
         ]

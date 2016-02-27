@@ -20,7 +20,7 @@ allprojects {
 import org.eclipse.jgit.api.*
 import org.eclipse.jgit.internal.storage.file.FileRepository
 import org.eclipse.jgit.transport.*
-
+/*
 def localPath = "$localPath"
 def remotePath = "$remotePath"
 def localRepo = new FileRepository(localPath + "/.git")
@@ -41,17 +41,14 @@ task Cpush << {
 task clone << {
     Git.cloneRepository().setURI(remotePath).setDirectory(new File(localPath)).call()
 }
-
+*/
 apply plugin: 'java'
 sourceCompatibility = 1.7
 targetCompatibility = 1.7
 
-
-
 apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'maven'
-
 
 dependencies {
     compile 'org.springframework:spring-core:4.0.5.RELEASE'
