@@ -41,7 +41,7 @@ public class menu {
 
     @Then("^I can share my score$")
     public void i_can_share_my_score() throws Throwable {
-        assertTrue(false);
+        assertFalse(true);
     }
 
 

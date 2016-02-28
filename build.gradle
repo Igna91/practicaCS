@@ -16,7 +16,7 @@ allprojects {
 }
 
 
-/*
+
 import org.eclipse.jgit.api.*
 import org.eclipse.jgit.internal.storage.file.FileRepository
 import org.eclipse.jgit.transport.*
@@ -28,7 +28,7 @@ def git = new Git(localRepo)
 
 task commit << {
     git.add().addFilepattern(".").call();
-    git.commit().setMessage("prueba").call();
+    git.commit().setMessage("commit de prueba").call();
 }
 
 task Cpush << {
@@ -41,7 +41,7 @@ task Cpush << {
 task clone << {
     Git.cloneRepository().setURI(remotePath).setDirectory(new File(localPath)).call()
 }
-*/
+
 apply plugin: 'java'
 sourceCompatibility = 1.7
 targetCompatibility = 1.7
