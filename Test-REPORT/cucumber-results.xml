@@ -1,120 +1,172 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="20" time="0.057876">
-<testcase classname="comprar" name="The player is not for sale" time="0.054186">
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="5" tests="25" time="0.105167">
+<testcase classname="comprar" name="The player is not for sale" time="0.096945">
 <system-out><![CDATA[Given a <futboll player> and a <team id>....................................passed
 When I press the "Comprar jugador" button AND the player is not for sale....passed
 Then I should be able to not buy............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="comprar" name="The player does not exist" time="0.000064">
+<testcase classname="comprar" name="The player does not exist" time="0.000136">
 <system-out><![CDATA[Given a <futboll player> and a <team id>....................................passed
 When I press the "Comprar jugador" button AND the player not exist..........passed
 Then I should be able to not buy............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="comprar" name="Not having enough money" time="0.000062">
+<testcase classname="comprar" name="Not having enough money" time="0.00012">
 <system-out><![CDATA[Given a <futboll player> and a <team id>....................................passed
 When I press the "Comprar jugador" button AND I don't have enough money.....passed
 Then I should be able to not buy............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="comprar" name="Having enough money to buy a football player and the team there" time="0.000698">
+<testcase classname="comprar" name="Having enough money to buy a football player and the team there" time="0.001788">
 <system-out><![CDATA[Given a <futboll player> and a <team id>....................................passed
 When I press the "Comprar jugador" button AND I have enough money...........passed
 Then I should be able to buy my money should be increased...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="comprar" name="Having enough money to buy a football player but the team not exist" time="0.00006">
+<testcase classname="comprar" name="Having enough money to buy a football player but the team not exist" time="0.0001">
 <system-out><![CDATA[Given a <futboll player> and a <team id>....................................passed
 When I press the "Comprar jugador" button AND I have enough money but team not exist.passed
 Then I should be able to not buy............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login" name="main screen user" time="0.000169">
+<testcase classname="login" name="main screen user" time="0.000399">
 <system-out><![CDATA[Given a user "user" and password "password".................................passed
 When <password> is empty and <user> is not empty............................passed
 Then should let me not access...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login" name="main screen password" time="0.000091">
+<testcase classname="login" name="main screen password" time="0.000297">
 <system-out><![CDATA[Given a user "user" and password "password".................................passed
 When <password> is not empty and user <user> is empty.......................passed
 Then should let me not access...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login" name="user incorrect and password correct" time="0.000102">
+<testcase classname="login" name="user incorrect and password correct" time="0.000311">
 <system-out><![CDATA[Given a user "user" and password "password".................................passed
 When the <password> is valid and the <user> is invalid......................passed
 Then should let me not access...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login" name="user and password are correct" time="0.000114">
+<testcase classname="login" name="user and password are correct" time="0.000355">
 <system-out><![CDATA[Given a user "user" and password "password".................................passed
 When the <password> is valid and the <user> is valid........................passed
 Then should let me access...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login" name="user correct and password incorrect" time="0.000095">
+<testcase classname="login" name="user correct and password incorrect" time="0.00035">
 <system-out><![CDATA[Given a user "user" and password "password".................................passed
 When the <password> is invalid and the <user> is valid......................passed
 Then should let me not access...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Team summary" name="not empty principal team" time="0.001025">
+<testcase classname="menu" name="See the team" time="0">
+<skipped><![CDATA[Given the app menu..........................................................undefined
+When I press the "Equipo" button............................................skipped
+Then I can see the "Equipo" screen..........................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="menu" name="See calendario" time="0">
+<skipped><![CDATA[Given the app menu..........................................................undefined
+When I press the "Calendario" button........................................skipped
+Then I can see the "Calendario" screen......................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="menu" name="See clasificacion" time="0">
+<skipped><![CDATA[Given the app menu..........................................................undefined
+When I press the "Clasificacion" button.....................................skipped
+Then I can see the "Clasificacion" screen...................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="menu" name="See fichajes" time="0">
+<skipped><![CDATA[Given the app menu..........................................................undefined
+When I press the "Fichajes" button..........................................skipped
+Then I can see the Fichajes screen..........................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="menu" name="Share" time="0">
+<skipped><![CDATA[Given the app menu..........................................................undefined
+When I press the "Comparte en Twitter" button...............................skipped
+Then I can share my score...................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Team summary" name="not empty principal team" time="0.001515">
 <system-out><![CDATA[Given my team...............................................................passed
 When My main team has players...............................................passed
 Then my main football team return...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Team summary" name="empty team principal team" time="0.000057">
-<system-out><![CDATA[Given my team...............................................................passed
+<testcase classname="Team summary" name="empty team principal team" time="0.001834">
+<failure message="java.lang.ArrayIndexOutOfBoundsException: -1&#13;&#10;&#9;at java.util.ArrayList.elementData(ArrayList.java:400)&#13;&#10;&#9;at java.util.ArrayList.get(ArrayList.java:413)&#13;&#10;&#9;at junitx.framework.ListAssert.failNotContains(ListAssert.java:131)&#13;&#10;&#9;at junitx.framework.ListAssert.assertContains(ListAssert.java:118)&#13;&#10;&#9;at junitx.framework.ListAssert.assertEquals(ListAssert.java:91)&#13;&#10;&#9;at junitx.framework.ListAssert.assertEquals(ListAssert.java:78)&#13;&#10;&#9;at gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:67)&#13;&#10;&#9;at ✽.Then an empty element is returned(team_summary.feature:14)&#13;&#10;"><![CDATA[Given my team...............................................................passed
 When My main team does not have players.....................................passed
-Then an empty element is returned...........................................passed
-]]></system-out>
+Then an empty element is returned...........................................failed
+
+StackTrace:
+java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(ArrayList.java:400)
+	at java.util.ArrayList.get(ArrayList.java:413)
+	at junitx.framework.ListAssert.failNotContains(ListAssert.java:131)
+	at junitx.framework.ListAssert.assertContains(ListAssert.java:118)
+	at junitx.framework.ListAssert.assertEquals(ListAssert.java:91)
+	at junitx.framework.ListAssert.assertEquals(ListAssert.java:78)
+	at gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:67)
+	at ✽.Then an empty element is returned(team_summary.feature:14)
+]]></failure>
 </testcase>
-<testcase classname="Team summary" name="not empty reserve team" time="0.000452">
+<testcase classname="Team summary" name="not empty reserve team" time="0.000105">
 <system-out><![CDATA[Given my team...............................................................passed
 When My secondary team has players..........................................passed
 Then my backup equipment will return........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Team summary" name="empty team reserve team" time="0.000051">
-<system-out><![CDATA[Given my team...............................................................passed
+<testcase classname="Team summary" name="empty team reserve team" time="0.000249">
+<failure message="java.lang.ArrayIndexOutOfBoundsException: -1&#13;&#10;&#9;at java.util.ArrayList.elementData(ArrayList.java:400)&#13;&#10;&#9;at java.util.ArrayList.get(ArrayList.java:413)&#13;&#10;&#9;at junitx.framework.ListAssert.failNotContains(ListAssert.java:131)&#13;&#10;&#9;at junitx.framework.ListAssert.assertContains(ListAssert.java:118)&#13;&#10;&#9;at junitx.framework.ListAssert.assertEquals(ListAssert.java:91)&#13;&#10;&#9;at junitx.framework.ListAssert.assertEquals(ListAssert.java:78)&#13;&#10;&#9;at gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:67)&#13;&#10;&#9;at ✽.Then an empty element is returned(team_summary.feature:24)&#13;&#10;"><![CDATA[Given my team...............................................................passed
 When My secondary team does not have players................................passed
-Then an empty element is returned...........................................passed
-]]></system-out>
+Then an empty element is returned...........................................failed
+
+StackTrace:
+java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(ArrayList.java:400)
+	at java.util.ArrayList.get(ArrayList.java:413)
+	at junitx.framework.ListAssert.failNotContains(ListAssert.java:131)
+	at junitx.framework.ListAssert.assertContains(ListAssert.java:118)
+	at junitx.framework.ListAssert.assertEquals(ListAssert.java:91)
+	at junitx.framework.ListAssert.assertEquals(ListAssert.java:78)
+	at gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:67)
+	at ✽.Then an empty element is returned(team_summary.feature:24)
+]]></failure>
 </testcase>
-<testcase classname="Team summary" name="team score" time="0.000335">
+<testcase classname="Team summary" name="team score" time="0.000147">
 <system-out><![CDATA[Given my team...............................................................passed
 When I press the "Datos" button.............................................passed
 Then my team money will be returned.........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="vender" name="Sell a player and that player does not belong to the team" time="0.000105">
+<testcase classname="vender" name="Sell a player and that player does not belong to the team" time="0.000179">
 <system-out><![CDATA[Given a team and Player.....................................................passed
 When I want to sell a player but does not belong to the team................passed
 Then I can not put it on sale...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="vender" name="Sell a player and that player not exist" time="0.000049">
+<testcase classname="vender" name="Sell a player and that player not exist" time="0.000084">
 <system-out><![CDATA[Given a team and Player.....................................................passed
 When I want to sell a player, but that player does not exist................passed
 Then I can not put it on sale...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="vender" name="Sell a player and that player does belong to the team" time="0.000063">
+<testcase classname="vender" name="Sell a player and that player does belong to the team" time="0.000108">
 <system-out><![CDATA[Given a team and Player.....................................................passed
 When I want to sell a player and exists and belongs to the team.............passed
 Then I can put it on sale...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="vender" name="Sell a player and the player is already on sale" time="0.00005">
+<testcase classname="vender" name="Sell a player and the player is already on sale" time="0.000077">
 <system-out><![CDATA[Given a team and Player.....................................................passed
 When I want to sell a player and is already sold............................passed
 Then I can not put it on sale...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="vender" name="Sell a player and the team to which it belongs does not exist" time="0.000048">
+<testcase classname="vender" name="Sell a player and the team to which it belongs does not exist" time="0.000068">
 <system-out><![CDATA[Given a team and Player.....................................................passed
 When I want to sell a player and the team to which it belongs does not exist.passed
 Then I can not put it on sale...............................................passed

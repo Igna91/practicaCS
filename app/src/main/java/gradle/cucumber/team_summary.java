@@ -64,7 +64,7 @@ public class team_summary {
 
     @Then("^an empty element is returned$")
     public void an_empty_element_is_returned() throws Throwable {
-        ListAssert.assertEquals(equipo.getFutbolistas(), equipo.getFutbolistas());
+        ListAssert.assertEquals(bbdd.equipo.getFutbolistasBD(), equipo.getFutbolistas());
     }
 
     @Then("^my backup equipment will return$")
@@ -74,7 +74,6 @@ public class team_summary {
 
     @Then("^my team money will be returned$")
     public void my_team_money_will_be_returned() throws Throwable {
-        System.out.println(equipo.getIngresos());
         assertEquals(equipo.getIngresos(), 999);
     }
 }

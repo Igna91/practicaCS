@@ -56,6 +56,35 @@ Feature: login
     Given a user "user" and password "password"            # login.a_user_and_password(String,String)
     When the <password> is invalid and the <user> is valid # login.the_password_is_invalid_and_the_user_is_valid()
     Then should let me not access                          # login.should_let_me_not_access()
+Feature: menu
+    As player
+    I want to see the app menu
+    To navigate
+
+  Scenario: See the team               # menu.feature:6
+    Given the app menu
+    When I press the "Equipo" button   # team_summary.i_press_the_something_button(String)
+    Then I can see the "Equipo" screen
+
+  Scenario: See calendario                 # menu.feature:11
+    Given the app menu
+    When I press the "Calendario" button   # team_summary.i_press_the_something_button(String)
+    Then I can see the "Calendario" screen
+
+  Scenario: See clasificacion                 # menu.feature:16
+    Given the app menu
+    When I press the "Clasificacion" button   # team_summary.i_press_the_something_button(String)
+    Then I can see the "Clasificacion" screen
+
+  Scenario: See fichajes               # menu.feature:21
+    Given the app menu
+    When I press the "Fichajes" button # team_summary.i_press_the_something_button(String)
+    Then I can see the Fichajes screen
+
+  Scenario: Share                                 # menu.feature:26
+    Given the app menu
+    When I press the "Comparte en Twitter" button # team_summary.i_press_the_something_button(String)
+    Then I can share my score
 Feature: Team summary
     As player
     I want to see my team players and score
@@ -70,6 +99,16 @@ Feature: Team summary
     Given my team                           # team_summary.my_team()
     When My main team does not have players # team_summary.my_main_team_does_not_have_players()
     Then an empty element is returned       # team_summary.an_empty_element_is_returned()
+      java.lang.ArrayIndexOutOfBoundsException: -1
+      	at java.util.ArrayList.elementData(ArrayList.java:400)
+      	at java.util.ArrayList.get(ArrayList.java:413)
+      	at junitx.framework.ListAssert.failNotContains(ListAssert.java:131)
+      	at junitx.framework.ListAssert.assertContains(ListAssert.java:118)
+      	at junitx.framework.ListAssert.assertEquals(ListAssert.java:91)
+      	at junitx.framework.ListAssert.assertEquals(ListAssert.java:78)
+      	at gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:67)
+      	at ✽.Then an empty element is returned(team_summary.feature:14)
+
 
   Scenario: not empty reserve team       # team_summary.feature:16
     Given my team                        # team_summary.my_team()
@@ -80,6 +119,16 @@ Feature: Team summary
     Given my team                                # team_summary.my_team()
     When My secondary team does not have players # team_summary.my_secondary_team_does_not_have_players()
     Then an empty element is returned            # team_summary.an_empty_element_is_returned()
+      java.lang.ArrayIndexOutOfBoundsException: -1
+      	at java.util.ArrayList.elementData(ArrayList.java:400)
+      	at java.util.ArrayList.get(ArrayList.java:413)
+      	at junitx.framework.ListAssert.failNotContains(ListAssert.java:131)
+      	at junitx.framework.ListAssert.assertContains(ListAssert.java:118)
+      	at junitx.framework.ListAssert.assertEquals(ListAssert.java:91)
+      	at junitx.framework.ListAssert.assertEquals(ListAssert.java:78)
+      	at gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:67)
+      	at ✽.Then an empty element is returned(team_summary.feature:24)
+
 
   Scenario: team score                  # team_summary.feature:26
     Given my team                       # team_summary.my_team()

@@ -33,5 +33,4 @@ captures/
 
 # Config gradle
 app/local.properties
-.idea/workspace.xml
 app/app.iml
