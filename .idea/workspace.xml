@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="5697d18c-e06a-4ac9-a515-ed0777be7120" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+=======
+    <list default="true" id="ed0a8515-3c1c-4b24-9bf4-b7682651c4b7" name="Default" comment="" />
+>>>>>>> 27f15c58d0b5768fb749c659f0a9bcf1ed28e60e
     <ignored path="practicaCS.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,10 +26,10 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <task path="$PROJECT_DIR$">
+        <task path="$PROJECT_DIR$/app">
           <activation />
         </task>
-        <task path="$PROJECT_DIR$/app">
+        <task path="$PROJECT_DIR$">
           <activation />
         </task>
         <projects_view>
@@ -39,6 +43,90 @@
                 <option name="myItemId" value="practicaCS" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
               </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value=":app" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
+              </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="practicaCS" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value=":app" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Tasks" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="verification" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode$1" />
+              </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="practicaCS" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value=":app" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Tasks" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
+              </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="practicaCS" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value=":app" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Tasks" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="build" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode$1" />
+              </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="practicaCS" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="practicaCS" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Tasks" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
+              </PATH_ELEMENT>
             </PATH>
           </tree_state>
         </projects_view>
@@ -50,6 +138,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="GestionEquipo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ps/grupo2/comunio/GestionEquipo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -115,11 +204,19 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+=======
+      <file leaf-file-name="team_summary.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/gradle/cucumber/team_summary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.43933055">
+              <caret line="60" column="82" selection-start-line="60" selection-start-column="82" selection-end-line="60" selection-end-column="82" />
+>>>>>>> 27f15c58d0b5768fb749c659f0a9bcf1ed28e60e
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="equipo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/bbdd/equipo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -161,17 +258,9 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> 27f15c58d0b5768fb749c659f0a9bcf1ed28e60e
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -1440,9 +1529,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4369115818275" />
-        <entry key="D:\Users\Leugim\Desktop\practicaCS" value="4369736256825" />
-        <entry key="D:\Users\kaish\Documents\GitHub\practicaCS" value="4369192682535" />
+        <entry key="D:\Users\kaish\Documents\GitHub\practicaCS" value="4369870781113" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1718,141 +1805,13 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.cukes/cucumber-html/0.2.3/624a0c986088e32910336dd77aee5191c04a8201/cucumber-html-0.2.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.cukes/gherkin/2.12.2/17138631fa20fd0e44a13e50d6b7be59cee1a94/gherkin-2.12.2.jar" />
                             <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar" />
+<<<<<<< HEAD
+=======
+                            <option value="$MODULE_DIR$/libs/junit-addons-1.4.jar" />
+>>>>>>> 27f15c58d0b5768fb749c659f0a9bcf1ed28e60e
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/app" />
-                      </ExternalModuleBuildClasspathPojo>
-                    </value>
-                  </entry>
-                  <entry key="$PROJECT_DIR$/cucumber">
-                    <value>
-                      <ExternalModuleBuildClasspathPojo>
-                        <option name="entries">
-                          <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.0.5.RELEASE/c8ccd8ae8bb85f917ef429d3cad37b1b36c92c49/spring-core-4.0.5.RELEASE-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.0.5.RELEASE/cce94116431b5a1384d58316a4090bbe7718fd5a/spring-core-4.0.5.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.0.5.RELEASE/a71e281249899ad9f4e856d142d9728d17844b63/spring-webmvc-4.0.5.RELEASE-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.0.5.RELEASE/2459455b0f2e19e7a51fc7bff4de341947d9bc57/spring-webmvc-4.0.5.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.5/654135274d4c27132ea208a4ec07f344bdb83bcb/slf4j-api-1.7.5-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.5/6b262da268f8ad9eff941b25503a9198f0a0ac93/slf4j-api-1.7.5.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/28bb0405fddaf04f15058fbfbe01fe2780d7d3b6/commons-logging-1.1.3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.0.5.RELEASE/589675b60574e292b76f8ef3bf36bec72a979e45/spring-beans-4.0.5.RELEASE-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.0.5.RELEASE/11e00022f109653ee0dbe16b59c26e19bd90fa08/spring-beans-4.0.5.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.5.RELEASE/aadd509610ea91906c177c33c22dd7e28df3b66/spring-context-4.0.5.RELEASE-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.5.RELEASE/98cd9a4b8bb0c695c0cfcc204cf804f433851cfe/spring-context-4.0.5.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.0.5.RELEASE/11f705f4d73aa2f074d32602fd6a80898fd50257/spring-expression-4.0.5.RELEASE-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.0.5.RELEASE/d7ddbc320c31c15cb3612ed64607e181c3b2d851/spring-expression-4.0.5.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.0.5.RELEASE/82389e66ef1cd0085d5a8a00c827ae5c93a8040b/spring-web-4.0.5.RELEASE-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.0.5.RELEASE/1819f6d4ab65fb33e19c492d5c5aa21396e42b3f/spring-web-4.0.5.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.0.5.RELEASE/2d8ec0d3a074b4a193c16312ab2cda105d87871f/spring-aop-4.0.5.RELEASE-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.0.5.RELEASE/d22abbbba78f7c8854fc39346cc99362272c5c90/spring-aop-4.0.5.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.5.0/gradle-1.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.5.0/gradle-1.5.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/4.2.0.201601211800-r/3224099036bc3396f9ad611bc22f72fa1d126685/org.eclipse.jgit-4.2.0.201601211800-r-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/4.2.0.201601211800-r/a042910b86546a9d8f8aee745e5f8e80104e386d/org.eclipse.jgit-4.2.0.201601211800-r.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/1.5.0/gradle-core-1.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/1.5.0/gradle-core-1.5.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch/0.1.53/791359d94d6edcace686a56d0727ee093a2f7c33/jsch-0.1.53-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch/0.1.53/658b682d5c817b27ae795637dfec047c63d29935/jsch-0.1.53.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.javaewah/JavaEWAH/0.7.9/a50d78eb630e05439461f3130b94b3bcd1ea6f03/JavaEWAH-0.7.9-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.javaewah/JavaEWAH/0.7.9/eceaf316a8faf0e794296ebe158ae110c7d72a5a/JavaEWAH-0.7.9.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.6/af4d76be0c46ee26b0d9d1d4a34d244a633cac84/httpclient-4.3.6-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.6/4c47155e3e6c9a41a28db36680b828ced53b8af4/httpclient-4.3.6.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.2/58d38f68d4a867d4552ae27960bb348d7eaa1297/slf4j-api-1.7.2-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.2/81d61b7f33ebeab314e07de0cc596f8e858d97/slf4j-api-1.7.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/1.5.0/transform-api-1.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/1.5.0/transform-api-1.5.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/1.0-rc5/compilerCommon-1.0-rc5.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/24.5.0/lint-24.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/24.5.0/lint-24.5.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.5.0/builder-1.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.5.0/builder-1.5.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.3/1b0aa62a6a91e9fa00c16f0a4a2c874804ed3b1e/httpcore-4.3.3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.3/f91b7a4aadc5cf486df6e4634748d7dd7a73f06d/httpcore-4.3.3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/61e9f9d11fe3e12ec62f633006e99d75fd7f19c8/commons-codec-1.6-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/b7f0fc8f61ecadeb3695f0b9464755eee44374d4/commons-codec-1.6.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/24.5.0/annotations-24.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/24.5.0/annotations-24.5.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4/4.5/antlr4-4.5.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/1.0-rc5/baseLibrary-1.0-rc5-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/1.0-rc5/baseLibrary-1.0-rc5.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/24.5.0/lint-checks-24.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/24.5.0/lint-checks-24.5.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/24.5.0/sdk-common-24.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/24.5.0/sdk-common-24.5.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.5.0/builder-model-1.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.5.0/builder-model-1.5.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/24.5.0/common-24.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/24.5.0/common-24.5.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/24.5.0/sdklib-24.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/24.5.0/sdklib-24.5.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/1.5.0/builder-test-api-1.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/1.5.0/builder-test-api-1.5.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.9.0/jack-api-0.9.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.9.0/jack-api-0.9.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/24.5.0/ddmlib-24.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/24.5.0/ddmlib-24.5.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/24.5.0/manifest-merger-24.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/24.5.0/manifest-merger-24.5.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.9.0/jill-api-0.9.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.9.0/jill-api-0.9.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-runtime/4.5/antlr4-runtime-4.5.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-annotations/4.5/antlr4-annotations-4.5.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/ST4/4.0.8/ST4-4.0.8.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/24.5.0/lint-api-24.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/24.5.0/lint-api-24.5.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/24.5.0/layoutlib-api-24.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/24.5.0/layoutlib-api-24.5.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/24.5.0/dvlib-24.5.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/24.5.0/dvlib-24.5.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
-                          </list>
-                        </option>
-                        <option name="path" value="$PROJECT_DIR$/cucumber" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -1988,31 +1947,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/target/cucumber-pretty.txt" />
-        <option value="$PROJECT_DIR$/app/local.properties" />
-        <option value="$PROJECT_DIR$/app/src/test/java/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/app/src/test/java/com/ps/grupo2/comunio/CucumberTestCaseTest.groovy" />
-        <option value="$PROJECT_DIR$/app/src/test/java/com/ps/grupo2/comunio/CucumberTestCase.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/gradle/cucumber/login2.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/bbdd/bbdd.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/bbdd/userLogin.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ps/grupo2/comunio/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ps/grupo2/comunio/Futbolista.java" />
-        <option value="$PROJECT_DIR$/app/src/test/resources/features/comprar.feature" />
-        <option value="$PROJECT_DIR$/app/src/main/java/gradle/cucumber/comprar.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ps/grupo2/comunio/ItemsFichajes.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ps/grupo2/comunio/Team.java" />
-        <option value="$PROJECT_DIR$/app/src/test/resources/features/login.feature" />
-        <option value="$PROJECT_DIR$/app/src/main/java/gradle/cucumber/login.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/bbdd/jugadores.java" />
-        <option value="$PROJECT_DIR$/app/src/test/resources/features/vender.feature" />
-        <option value="$PROJECT_DIR$/app/src/test/resources/features/team_summary.feature" />
-        <option value="$PROJECT_DIR$/app/src/main/java/gradle/cucumber/vender.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/bbdd/equipo.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ps/grupo2/comunio/GestionEquipo.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/gradle/cucumber/team_summary.java" />
       </list>
     </option>
@@ -2028,12 +1962,12 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1040" />
-    <option name="height" value="744" />
+    <option name="x" value="413" />
+    <option name="y" value="91" />
+    <option name="width" value="1550" />
+    <option name="height" value="912" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -2056,6 +1990,7 @@
       <sortByType />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="AndroidView">
@@ -2078,6 +2013,22 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+=======
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+>>>>>>> 27f15c58d0b5768fb749c659f0a9bcf1ed28e60e
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practicaCS" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2106,11 +2057,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gradle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wrapper" />
+              <option name="myItemId" value="Test-REPORT" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2124,273 +2071,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
+              <option name="myItemId" value="Test-REPORT" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="intermediates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dex-cache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practicaCS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practicaCS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generated" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practicaCS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practicaCS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practicaCS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practicaCS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practicaCS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practicaCS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practicaCS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practicaCS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practicaCS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practicaCS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cucumber" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practicaCS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practicaCS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="comunio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practicaCS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practicaCS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bbdd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practicaCS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practicaCS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gradle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wrapper" />
+              <option name="myItemId" value="cucumber-html-report" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
+=======
+>>>>>>> 27f15c58d0b5768fb749c659f0a9bcf1ed28e60e
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/sdk" />
     <property name="recentsLimit" value="5" />
-    <property name="android.project.structure.last.selected" value="app" />
-    <property name="android.project.structure.proportion" value="0.15" />
-    <property name="FullScreen" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Users\Leugim\Desktop\practicaCS\app\src\test\resources\features" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Users\kaish\Documents\GitHub\practicaCS\app\src\test\java\com\ps\grupo2\comunio" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="groovy.util.GroovyTestCase" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.ps.grupo2.comunio" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="gradle.cucumber" />
+      <recent name="D:\Users\kaish\Documents\GitHub\practicaCS\app\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.cucumber">
-    <configuration default="false" name="practicaCS:app [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.D:/Users/kaish/Documents/GitHub/practicaCS/app [build]">
+    <configuration default="false" name="D:/Users/kaish/Documents/GitHub/practicaCS/app [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="D:/Users/kaish/Documents/GitHub/practicaCS/app [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
@@ -2408,99 +2136,22 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="false" name="D:/Users/Leugim/Desktop/practicaCS [commit]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration default="false" name="D:/Users/kaish/Documents/GitHub/practicaCS/app [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="commit" />
+            <option value="build" />
           </list>
         </option>
-        <option name="vmOptions" value="" />
+        <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="false" name="D:/Users/Leugim/Desktop/practicaCS [Cpush]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="Cpush" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="false" name="D:/Users/Leugim/Desktop/practicaCS [clone]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clone" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="false" name="D:/Users/Leugim/Desktop/practicaCS [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidNativeRunConfigurationType" factoryName="Android Native">
-      <module name="" />
-      <option name="WORKING_DIR" value="" />
-      <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -2620,7 +2271,6 @@
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="JAR_PATH" value="$PROJECT_DIR$/app/libs/cucumber-reports-1.0.2.jar" />
       <envs />
       <method />
     </configuration>
@@ -2681,7 +2331,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
-    <configuration default="false" name="cucumber" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+    <configuration default="false" name="Cucumber" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -2694,7 +2344,7 @@
       <option name="myGeneratedName" value="All Features in: features" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -2705,22 +2355,18 @@
       <envs />
       <method />
     </configuration>
-    <list size="7">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Android Application.app" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber java.cucumber" />
-      <item index="2" class="java.lang.String" itemvalue="Gradle.practicaCS:app [test]" />
-      <item index="3" class="java.lang.String" itemvalue="Gradle.D:/Users/Leugim/Desktop/practicaCS [commit]" />
-      <item index="4" class="java.lang.String" itemvalue="Gradle.D:/Users/Leugim/Desktop/practicaCS [Cpush]" />
-      <item index="5" class="java.lang.String" itemvalue="Gradle.D:/Users/Leugim/Desktop/practicaCS [clone]" />
-      <item index="6" class="java.lang.String" itemvalue="Gradle.D:/Users/Leugim/Desktop/practicaCS [clean]" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.D:/Users/kaish/Documents/GitHub/practicaCS/app [clean]" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.D:/Users/kaish/Documents/GitHub/practicaCS/app [test]" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber java.Cucumber" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.D:/Users/kaish/Documents/GitHub/practicaCS/app [build]" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.D:/Users/Leugim/Desktop/practicaCS [clean]" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.D:/Users/Leugim/Desktop/practicaCS [clone]" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.D:/Users/Leugim/Desktop/practicaCS [Cpush]" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.D:/Users/Leugim/Desktop/practicaCS [commit]" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.practicaCS:app [test]" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Gradle.D:/Users/kaish/Documents/GitHub/practicaCS/app [build]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.D:/Users/kaish/Documents/GitHub/practicaCS/app [test]" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.D:/Users/kaish/Documents/GitHub/practicaCS/app [clean]" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
@@ -2737,19 +2383,17 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5697d18c-e06a-4ac9-a515-ed0777be7120" name="Default" comment="" />
-      <created>1456223835558</created>
+      <changelist id="ed0a8515-3c1c-4b24-9bf4-b7682651c4b7" name="Default" comment="" />
+      <created>1456623616487</created>
       <option name="number" value="Default" />
-      <updated>1456223835558</updated>
+      <updated>1456623616487</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1040" height="744" extended-state="7" />
     <editor active="false" />
     <layout>
@@ -2773,24 +2417,50 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+=======
+    <frame x="413" y="91" width="1550" height="912" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24966443" sideWeight="0.5079051" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32980132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24966443" sideWeight="0.49209487" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295302" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> 27f15c58d0b5768fb749c659f0a9bcf1ed28e60e
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19420783" sideWeight="0.8244898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56388414" sideWeight="0.37346938" order="1" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> 27f15c58d0b5768fb749c659f0a9bcf1ed28e60e
     </layout>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -2800,6 +2470,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3188,6 +2859,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/gradle/cucumber/team_summary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43933055">
+          <caret line="60" column="82" selection-start-line="60" selection-start-column="82" selection-end-line="60" selection-end-column="82" />
+          <folding />
+>>>>>>> 27f15c58d0b5768fb749c659f0a9bcf1ed28e60e
         </state>
       </provider>
     </entry>

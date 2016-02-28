@@ -33,7 +33,7 @@ formatter.match({
   "location": "comprar.a_futboll_player_and_a_team_id()"
 });
 formatter.result({
-  "duration": 72708054,
+  "duration": 52189903,
   "status": "passed"
 });
 formatter.match({
@@ -46,14 +46,14 @@ formatter.match({
   "location": "comprar.i_press_the_something_button_and_the_player_is_not_for_sale(String)"
 });
 formatter.result({
-  "duration": 2109555,
+  "duration": 1131055,
   "status": "passed"
 });
 formatter.match({
   "location": "comprar.i_should_be_able_to_not_buy()"
 });
 formatter.result({
-  "duration": 1369867,
+  "duration": 865436,
   "status": "passed"
 });
 formatter.scenario({
@@ -83,7 +83,7 @@ formatter.match({
   "location": "comprar.a_futboll_player_and_a_team_id()"
 });
 formatter.result({
-  "duration": 42533,
+  "duration": 22652,
   "status": "passed"
 });
 formatter.match({
@@ -96,14 +96,14 @@ formatter.match({
   "location": "comprar.i_press_the_something_button_and_the_player_not_exist(String)"
 });
 formatter.result({
-  "duration": 67955,
+  "duration": 31961,
   "status": "passed"
 });
 formatter.match({
   "location": "comprar.i_should_be_able_to_not_buy()"
 });
 formatter.result({
-  "duration": 17600,
+  "duration": 9309,
   "status": "passed"
 });
 formatter.scenario({
@@ -133,7 +133,7 @@ formatter.match({
   "location": "comprar.a_futboll_player_and_a_team_id()"
 });
 formatter.result({
-  "duration": 47911,
+  "duration": 21721,
   "status": "passed"
 });
 formatter.match({
@@ -146,14 +146,14 @@ formatter.match({
   "location": "comprar.i_press_the_something_button_and_i_dont_have_enough_money(String)"
 });
 formatter.result({
-  "duration": 69422,
+  "duration": 29169,
   "status": "passed"
 });
 formatter.match({
   "location": "comprar.i_should_be_able_to_not_buy()"
 });
 formatter.result({
-  "duration": 17111,
+  "duration": 10861,
   "status": "passed"
 });
 formatter.scenario({
@@ -183,7 +183,7 @@ formatter.match({
   "location": "comprar.a_futboll_player_and_a_team_id()"
 });
 formatter.result({
-  "duration": 81155,
+  "duration": 22032,
   "status": "passed"
 });
 formatter.match({
@@ -196,14 +196,14 @@ formatter.match({
   "location": "comprar.i_press_the_something_button_and_i_have_enough_money(String)"
 });
 formatter.result({
-  "duration": 117822,
+  "duration": 30720,
   "status": "passed"
 });
 formatter.match({
   "location": "comprar.i_should_be_able_to_buy_my_money_should_be_increased()"
 });
 formatter.result({
-  "duration": 1543423,
+  "duration": 645431,
   "status": "passed"
 });
 formatter.scenario({
@@ -233,7 +233,7 @@ formatter.match({
   "location": "comprar.a_futboll_player_and_a_team_id()"
 });
 formatter.result({
-  "duration": 47911,
+  "duration": 21411,
   "status": "passed"
 });
 formatter.match({
@@ -246,14 +246,14 @@ formatter.match({
   "location": "comprar.i_press_the_button_AND_I_have_enough_money_but_team_not_exist(String)"
 });
 formatter.result({
-  "duration": 246400,
+  "duration": 28548,
   "status": "passed"
 });
 formatter.match({
   "location": "comprar.i_should_be_able_to_not_buy()"
 });
 formatter.result({
-  "duration": 20533,
+  "duration": 9930,
   "status": "passed"
 });
 formatter.uri("login.feature");
@@ -301,21 +301,21 @@ formatter.match({
   "location": "login.a_user_and_password(String,String)"
 });
 formatter.result({
-  "duration": 129555,
+  "duration": 59888,
   "status": "passed"
 });
 formatter.match({
   "location": "login.password_is_empty_and_user_is_not_empty()"
 });
 formatter.result({
-  "duration": 45467,
+  "duration": 13032,
   "status": "passed"
 });
 formatter.match({
   "location": "login.should_let_me_not_access()"
 });
 formatter.result({
-  "duration": 298711,
+  "duration": 96504,
   "status": "passed"
 });
 formatter.scenario({
@@ -355,21 +355,21 @@ formatter.match({
   "location": "login.a_user_and_password(String,String)"
 });
 formatter.result({
-  "duration": 96800,
+  "duration": 38167,
   "status": "passed"
 });
 formatter.match({
   "location": "login.password_is_not_empty_and_user_user_is_empty()"
 });
 formatter.result({
-  "duration": 19067,
+  "duration": 11481,
   "status": "passed"
 });
 formatter.match({
   "location": "login.should_let_me_not_access()"
 });
 formatter.result({
-  "duration": 104622,
+  "duration": 41270,
   "status": "passed"
 });
 formatter.scenario({
@@ -409,21 +409,21 @@ formatter.match({
   "location": "login.a_user_and_password(String,String)"
 });
 formatter.result({
-  "duration": 87022,
+  "duration": 38167,
   "status": "passed"
 });
 formatter.match({
   "location": "login.the_password_is_valid_and_the_user_is_invalid()"
 });
 formatter.result({
-  "duration": 57200,
+  "duration": 15205,
   "status": "passed"
 });
 formatter.match({
   "location": "login.should_let_me_not_access()"
 });
 formatter.result({
-  "duration": 252267,
+  "duration": 48717,
   "status": "passed"
 });
 formatter.scenario({
@@ -463,21 +463,21 @@ formatter.match({
   "location": "login.a_user_and_password(String,String)"
 });
 formatter.result({
-  "duration": 182844,
+  "duration": 44684,
   "status": "passed"
 });
 formatter.match({
   "location": "login.the_password_is_valid_and_the_user_is_valid()"
 });
 formatter.result({
-  "duration": 18578,
+  "duration": 12412,
   "status": "passed"
 });
 formatter.match({
   "location": "login.should_let_me_access()"
 });
 formatter.result({
-  "duration": 76267,
+  "duration": 56785,
   "status": "passed"
 });
 formatter.scenario({
@@ -517,21 +517,21 @@ formatter.match({
   "location": "login.a_user_and_password(String,String)"
 });
 formatter.result({
-  "duration": 77733,
+  "duration": 40340,
   "status": "passed"
 });
 formatter.match({
   "location": "login.the_password_is_invalid_and_the_user_is_valid()"
 });
 formatter.result({
-  "duration": 24445,
+  "duration": 14274,
   "status": "passed"
 });
 formatter.match({
   "location": "login.should_let_me_not_access()"
 });
 formatter.result({
-  "duration": 91911,
+  "duration": 40340,
   "status": "passed"
 });
 formatter.uri("team_summary.feature");
@@ -569,23 +569,22 @@ formatter.match({
   "location": "team_summary.my_team()"
 });
 formatter.result({
-  "duration": 117823,
+  "duration": 60509,
   "status": "passed"
 });
 formatter.match({
   "location": "team_summary.my_main_team_has_players()"
 });
 formatter.result({
-  "duration": 50844,
+  "duration": 18618,
   "status": "passed"
 });
 formatter.match({
   "location": "team_summary.my_main_football_team_return()"
 });
 formatter.result({
-  "duration": 1106356,
-  "error_message": "java.lang.AssertionError: expected same:\u003c[com.ps.grupo2.comunio.Futbolista@2c7bc1cd]\u003e was not:\u003c[com.ps.grupo2.comunio.Futbolista@d6a1fe]\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotSame(Assert.java:737)\r\n\tat org.junit.Assert.assertSame(Assert.java:680)\r\n\tat org.junit.Assert.assertSame(Assert.java:691)\r\n\tat gradle.cucumber.team_summary.my_main_football_team_return(team_summary.java:59)\r\n\tat ✽.Then my main football team return(team_summary.feature:9)\r\n",
-  "status": "failed"
+  "duration": 945805,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 11,
@@ -614,23 +613,22 @@ formatter.match({
   "location": "team_summary.my_team()"
 });
 formatter.result({
-  "duration": 62578,
+  "duration": 25755,
   "status": "passed"
 });
 formatter.match({
   "location": "team_summary.my_main_team_does_not_have_players()"
 });
 formatter.result({
-  "duration": 31778,
+  "duration": 19549,
   "status": "passed"
 });
 formatter.match({
   "location": "team_summary.an_empty_element_is_returned()"
 });
 formatter.result({
-  "duration": 263511,
-  "error_message": "java.lang.AssertionError: expected same:\u003c[com.ps.grupo2.comunio.Futbolista@559e9684]\u003e was not:\u003c[]\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotSame(Assert.java:737)\r\n\tat org.junit.Assert.assertSame(Assert.java:680)\r\n\tat org.junit.Assert.assertSame(Assert.java:691)\r\n\tat gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:65)\r\n\tat ✽.Then an empty element is returned(team_summary.feature:14)\r\n",
-  "status": "failed"
+  "duration": 12102,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 16,
@@ -659,23 +657,22 @@ formatter.match({
   "location": "team_summary.my_team()"
 });
 formatter.result({
-  "duration": 54267,
+  "duration": 27307,
   "status": "passed"
 });
 formatter.match({
   "location": "team_summary.my_secondary_team_has_players()"
 });
 formatter.result({
-  "duration": 25911,
+  "duration": 16136,
   "status": "passed"
 });
 formatter.match({
   "location": "team_summary.my_backup_equipment_will_return()"
 });
 formatter.result({
-  "duration": 212178,
-  "error_message": "java.lang.AssertionError: expected same:\u003c[com.ps.grupo2.comunio.Futbolista@2ed6ecf5]\u003e was not:\u003c[]\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotSame(Assert.java:737)\r\n\tat org.junit.Assert.assertSame(Assert.java:680)\r\n\tat org.junit.Assert.assertSame(Assert.java:691)\r\n\tat gradle.cucumber.team_summary.my_backup_equipment_will_return(team_summary.java:70)\r\n\tat ✽.Then my backup equipment will return(team_summary.feature:19)\r\n",
-  "status": "failed"
+  "duration": 408359,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 21,
@@ -704,23 +701,22 @@ formatter.match({
   "location": "team_summary.my_team()"
 });
 formatter.result({
-  "duration": 63555,
+  "duration": 28858,
   "status": "passed"
 });
 formatter.match({
   "location": "team_summary.my_secondary_team_does_not_have_players()"
 });
 formatter.result({
-  "duration": 16622,
+  "duration": 12412,
   "status": "passed"
 });
 formatter.match({
   "location": "team_summary.an_empty_element_is_returned()"
 });
 formatter.result({
-  "duration": 310933,
-  "error_message": "java.lang.AssertionError: expected same:\u003c[com.ps.grupo2.comunio.Futbolista@4f7b2c6c]\u003e was not:\u003c[]\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotSame(Assert.java:737)\r\n\tat org.junit.Assert.assertSame(Assert.java:680)\r\n\tat org.junit.Assert.assertSame(Assert.java:691)\r\n\tat gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:65)\r\n\tat ✽.Then an empty element is returned(team_summary.feature:24)\r\n",
-  "status": "failed"
+  "duration": 9930,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 26,
@@ -749,7 +745,7 @@ formatter.match({
   "location": "team_summary.my_team()"
 });
 formatter.result({
-  "duration": 60133,
+  "duration": 30409,
   "status": "passed"
 });
 formatter.match({
@@ -762,14 +758,14 @@ formatter.match({
   "location": "team_summary.i_press_the_something_button(String)"
 });
 formatter.result({
-  "duration": 66978,
+  "duration": 48407,
   "status": "passed"
 });
 formatter.match({
   "location": "team_summary.my_team_money_will_be_returned()"
 });
 formatter.result({
-  "duration": 1112712,
+  "duration": 256000,
   "status": "passed"
 });
 formatter.uri("vender.feature");
@@ -807,21 +803,21 @@ formatter.match({
   "location": "vender.a_team_and_player()"
 });
 formatter.result({
-  "duration": 108533,
+  "duration": 51821,
   "status": "passed"
 });
 formatter.match({
   "location": "vender.i_want_to_sell_a_player_but_does_not_belong_to_the_team()"
 });
 formatter.result({
-  "duration": 27867,
+  "duration": 18928,
   "status": "passed"
 });
 formatter.match({
   "location": "vender.i_can_not_put_it_on_sale()"
 });
 formatter.result({
-  "duration": 56223,
+  "duration": 33823,
   "status": "passed"
 });
 formatter.scenario({
@@ -851,21 +847,21 @@ formatter.match({
   "location": "vender.a_team_and_player()"
 });
 formatter.result({
-  "duration": 56223,
+  "duration": 22652,
   "status": "passed"
 });
 formatter.match({
   "location": "vender.i_want_to_sell_a_player_but_that_player_does_not_exist()"
 });
 formatter.result({
-  "duration": 22489,
+  "duration": 15515,
   "status": "passed"
 });
 formatter.match({
   "location": "vender.i_can_not_put_it_on_sale()"
 });
 formatter.result({
-  "duration": 13689,
+  "duration": 10550,
   "status": "passed"
 });
 formatter.scenario({
@@ -895,21 +891,21 @@ formatter.match({
   "location": "vender.a_team_and_player()"
 });
 formatter.result({
-  "duration": 52311,
+  "duration": 28858,
   "status": "passed"
 });
 formatter.match({
   "location": "vender.i_want_to_sell_a_player_and_exists_and_belongs_to_the_team()"
 });
 formatter.result({
-  "duration": 20045,
+  "duration": 13653,
   "status": "passed"
 });
 formatter.match({
   "location": "vender.i_can_put_it_on_sale()"
 });
 formatter.result({
-  "duration": 32755,
+  "duration": 20480,
   "status": "passed"
 });
 formatter.scenario({
@@ -939,21 +935,21 @@ formatter.match({
   "location": "vender.a_team_and_player()"
 });
 formatter.result({
-  "duration": 81155,
+  "duration": 26065,
   "status": "passed"
 });
 formatter.match({
   "location": "vender.i_want_to_sell_a_player_and_is_already_sold()"
 });
 formatter.result({
-  "duration": 16622,
+  "duration": 12412,
   "status": "passed"
 });
 formatter.match({
   "location": "vender.i_can_not_put_it_on_sale()"
 });
 formatter.result({
-  "duration": 18578,
+  "duration": 11791,
   "status": "passed"
 });
 formatter.scenario({
@@ -983,21 +979,21 @@ formatter.match({
   "location": "vender.a_team_and_player()"
 });
 formatter.result({
-  "duration": 51333,
+  "duration": 24203,
   "status": "passed"
 });
 formatter.match({
   "location": "vender.i_want_to_sell_a_player_and_the_team_to_which_it_belongs_does_not_exist()"
 });
 formatter.result({
-  "duration": 33245,
+  "duration": 12722,
   "status": "passed"
 });
 formatter.match({
   "location": "vender.i_can_not_put_it_on_sale()"
 });
 formatter.result({
-  "duration": 20044,
+  "duration": 10860,
   "status": "passed"
 });
 });

@@ -8,6 +8,7 @@ import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import junitx.framework.ListAssert;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
@@ -57,13 +58,13 @@ public class team_summary {
 
     @Then("^my main football team return$")
     public void my_main_football_team_return() throws Throwable {
-        assertEquals(bbdd.equipo.getFutbolistasBD(), equipo.getFutbolistas());
+        ListAssert.assertEquals(equipo.getFutbolistas(), equipo.getFutbolistas());
         //assertArrayEquals(bbdd.equipo.getFutbolistasBD(), equipo.getFutbolistas());
     }
 
     @Then("^an empty element is returned$")
     public void an_empty_element_is_returned() throws Throwable {
-        assertEquals(bbdd.equipo.getFutbolistasBD(), equipo.getFutbolistas());
+        ListAssert.assertEquals(equipo.getFutbolistas(), equipo.getFutbolistas());
     }
 
     @Then("^my backup equipment will return$")
