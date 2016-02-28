@@ -33,7 +33,7 @@ formatter.match({
   "location": "comprar.a_futboll_player_and_a_team_id()"
 });
 formatter.result({
-  "duration": 93911656,
+  "duration": 91153834,
   "status": "passed"
 });
 formatter.match({
@@ -46,14 +46,14 @@ formatter.match({
   "location": "comprar.i_press_the_something_button_and_the_player_is_not_for_sale(String)"
 });
 formatter.result({
-  "duration": 1688622,
+  "duration": 1846533,
   "status": "passed"
 });
 formatter.match({
   "location": "comprar.i_should_be_able_to_not_buy()"
 });
 formatter.result({
-  "duration": 1344934,
+  "duration": 1404578,
   "status": "passed"
 });
 formatter.scenario({
@@ -83,7 +83,7 @@ formatter.match({
   "location": "comprar.a_futboll_player_and_a_team_id()"
 });
 formatter.result({
-  "duration": 38134,
+  "duration": 31777,
   "status": "passed"
 });
 formatter.match({
@@ -96,14 +96,14 @@ formatter.match({
   "location": "comprar.i_press_the_something_button_and_the_player_not_exist(String)"
 });
 formatter.result({
-  "duration": 61600,
+  "duration": 56711,
   "status": "passed"
 });
 formatter.match({
   "location": "comprar.i_should_be_able_to_not_buy()"
 });
 formatter.result({
-  "duration": 36667,
+  "duration": 17111,
   "status": "passed"
 });
 formatter.scenario({
@@ -133,7 +133,7 @@ formatter.match({
   "location": "comprar.a_futboll_player_and_a_team_id()"
 });
 formatter.result({
-  "duration": 35689,
+  "duration": 33734,
   "status": "passed"
 });
 formatter.match({
@@ -146,14 +146,14 @@ formatter.match({
   "location": "comprar.i_press_the_something_button_and_i_dont_have_enough_money(String)"
 });
 formatter.result({
-  "duration": 65511,
+  "duration": 53289,
   "status": "passed"
 });
 formatter.match({
   "location": "comprar.i_should_be_able_to_not_buy()"
 });
 formatter.result({
-  "duration": 18578,
+  "duration": 12222,
   "status": "passed"
 });
 formatter.scenario({
@@ -183,7 +183,7 @@ formatter.match({
   "location": "comprar.a_futboll_player_and_a_team_id()"
 });
 formatter.result({
-  "duration": 41555,
+  "duration": 35689,
   "status": "passed"
 });
 formatter.match({
@@ -196,14 +196,14 @@ formatter.match({
   "location": "comprar.i_press_the_something_button_and_i_have_enough_money(String)"
 });
 formatter.result({
-  "duration": 59644,
+  "duration": 56223,
   "status": "passed"
 });
 formatter.match({
   "location": "comprar.i_should_be_able_to_buy_my_money_should_be_increased()"
 });
 formatter.result({
-  "duration": 1686667,
+  "duration": 1582045,
   "status": "passed"
 });
 formatter.scenario({
@@ -233,7 +233,7 @@ formatter.match({
   "location": "comprar.a_futboll_player_and_a_team_id()"
 });
 formatter.result({
-  "duration": 31778,
+  "duration": 36667,
   "status": "passed"
 });
 formatter.match({
@@ -246,14 +246,14 @@ formatter.match({
   "location": "comprar.i_press_the_button_AND_I_have_enough_money_but_team_not_exist(String)"
 });
 formatter.result({
-  "duration": 55245,
+  "duration": 59645,
   "status": "passed"
 });
 formatter.match({
   "location": "comprar.i_should_be_able_to_not_buy()"
 });
 formatter.result({
-  "duration": 13200,
+  "duration": 16133,
   "status": "passed"
 });
 formatter.uri("login.feature");
@@ -301,21 +301,21 @@ formatter.match({
   "location": "login.a_user_and_password(String,String)"
 });
 formatter.result({
-  "duration": 110489,
+  "duration": 113422,
   "status": "passed"
 });
 formatter.match({
   "location": "login.password_is_empty_and_user_is_not_empty()"
 });
 formatter.result({
-  "duration": 21022,
+  "duration": 13688,
   "status": "passed"
 });
 formatter.match({
   "location": "login.should_let_me_not_access()"
 });
 formatter.result({
-  "duration": 267912,
+  "duration": 277200,
   "status": "passed"
 });
 formatter.scenario({
@@ -355,21 +355,21 @@ formatter.match({
   "location": "login.a_user_and_password(String,String)"
 });
 formatter.result({
-  "duration": 102178,
+  "duration": 85556,
   "status": "passed"
 });
 formatter.match({
   "location": "login.password_is_not_empty_and_user_user_is_empty()"
 });
 formatter.result({
-  "duration": 17111,
+  "duration": 16622,
   "status": "passed"
 });
 formatter.match({
   "location": "login.should_let_me_not_access()"
 });
 formatter.result({
-  "duration": 177467,
+  "duration": 176978,
   "status": "passed"
 });
 formatter.scenario({
@@ -409,21 +409,21 @@ formatter.match({
   "location": "login.a_user_and_password(String,String)"
 });
 formatter.result({
-  "duration": 94356,
+  "duration": 86534,
   "status": "passed"
 });
 formatter.match({
   "location": "login.the_password_is_valid_and_the_user_is_invalid()"
 });
 formatter.result({
-  "duration": 16134,
+  "duration": 15645,
   "status": "passed"
 });
 formatter.match({
   "location": "login.should_let_me_not_access()"
 });
 formatter.result({
-  "duration": 200444,
+  "duration": 201911,
   "status": "passed"
 });
 formatter.scenario({
@@ -463,21 +463,21 @@ formatter.match({
   "location": "login.a_user_and_password(String,String)"
 });
 formatter.result({
-  "duration": 93378,
+  "duration": 81155,
   "status": "passed"
 });
 formatter.match({
   "location": "login.the_password_is_valid_and_the_user_is_valid()"
 });
 formatter.result({
-  "duration": 18578,
+  "duration": 15156,
   "status": "passed"
 });
 formatter.match({
   "location": "login.should_let_me_access()"
 });
 formatter.result({
-  "duration": 243466,
+  "duration": 238578,
   "status": "passed"
 });
 formatter.scenario({
@@ -517,21 +517,21 @@ formatter.match({
   "location": "login.a_user_and_password(String,String)"
 });
 formatter.result({
-  "duration": 86533,
+  "duration": 90933,
   "status": "passed"
 });
 formatter.match({
   "location": "login.the_password_is_invalid_and_the_user_is_valid()"
 });
 formatter.result({
-  "duration": 19067,
+  "duration": 18577,
   "status": "passed"
 });
 formatter.match({
   "location": "login.should_let_me_not_access()"
 });
 formatter.result({
-  "duration": 243956,
+  "duration": 218044,
   "status": "passed"
 });
 formatter.uri("menu.feature");
@@ -565,9 +565,12 @@ formatter.step({
   "keyword": "Then ",
   "line": 9
 });
-formatter.match({});
+formatter.match({
+  "location": "menu.the_app_menu()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 46445,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -579,11 +582,22 @@ formatter.match({
   "location": "team_summary.i_press_the_something_button(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 105600,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Equipo",
+      "offset": 15
+    }
+  ],
+  "location": "menu.i_can_see_the_screen(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 404800,
+  "status": "failed",
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat gradle.cucumber.menu.i_can_see_the_screen(menu.java:34)\r\n\tat ✽.Then I can see the \"Equipo\" screen(menu.feature:9)\r\n"
 });
 formatter.scenario({
   "id": "menu;see-calendario",
@@ -608,9 +622,12 @@ formatter.step({
   "keyword": "Then ",
   "line": 14
 });
-formatter.match({});
+formatter.match({
+  "location": "menu.the_app_menu()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 20044,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -622,11 +639,22 @@ formatter.match({
   "location": "team_summary.i_press_the_something_button(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 68444,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Calendario",
+      "offset": 15
+    }
+  ],
+  "location": "menu.i_can_see_the_screen(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 135911,
+  "status": "failed",
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat gradle.cucumber.menu.i_can_see_the_screen(menu.java:34)\r\n\tat ✽.Then I can see the \"Calendario\" screen(menu.feature:14)\r\n"
 });
 formatter.scenario({
   "id": "menu;see-clasificacion",
@@ -651,9 +679,12 @@ formatter.step({
   "keyword": "Then ",
   "line": 19
 });
-formatter.match({});
+formatter.match({
+  "location": "menu.the_app_menu()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 22977,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -665,11 +696,22 @@ formatter.match({
   "location": "team_summary.i_press_the_something_button(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 71867,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Clasificacion",
+      "offset": 15
+    }
+  ],
+  "location": "menu.i_can_see_the_screen(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 156933,
+  "status": "failed",
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat gradle.cucumber.menu.i_can_see_the_screen(menu.java:34)\r\n\tat ✽.Then I can see the \"Clasificacion\" screen(menu.feature:19)\r\n"
 });
 formatter.scenario({
   "id": "menu;see-fichajes",
@@ -694,9 +736,12 @@ formatter.step({
   "keyword": "Then ",
   "line": 24
 });
-formatter.match({});
+formatter.match({
+  "location": "menu.the_app_menu()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 20044,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -708,11 +753,16 @@ formatter.match({
   "location": "team_summary.i_press_the_something_button(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 65022,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "menu.i_can_see_the_Fichajes_screen()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 109022,
+  "status": "failed",
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat gradle.cucumber.menu.i_can_see_the_Fichajes_screen(menu.java:39)\r\n\tat ✽.Then I can see the Fichajes screen(menu.feature:24)\r\n"
 });
 formatter.scenario({
   "id": "menu;share",
@@ -737,9 +787,12 @@ formatter.step({
   "keyword": "Then ",
   "line": 29
 });
-formatter.match({});
+formatter.match({
+  "location": "menu.the_app_menu()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 24933,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -751,11 +804,16 @@ formatter.match({
   "location": "team_summary.i_press_the_something_button(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 67467,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "menu.i_can_share_my_score()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 119289,
+  "status": "failed",
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat gradle.cucumber.menu.i_can_share_my_score(menu.java:44)\r\n\tat ✽.Then I can share my score(menu.feature:29)\r\n"
 });
 formatter.uri("team_summary.feature");
 formatter.feature({
@@ -792,21 +850,21 @@ formatter.match({
   "location": "team_summary.my_team()"
 });
 formatter.result({
-  "duration": 84578,
+  "duration": 112445,
   "status": "passed"
 });
 formatter.match({
   "location": "team_summary.my_main_team_has_players()"
 });
 formatter.result({
-  "duration": 27866,
+  "duration": 402844,
   "status": "passed"
 });
 formatter.match({
   "location": "team_summary.my_main_football_team_return()"
 });
 formatter.result({
-  "duration": 1402133,
+  "duration": 174044,
   "status": "passed"
 });
 formatter.scenario({
@@ -828,7 +886,7 @@ formatter.step({
   "line": 13
 });
 formatter.step({
-  "name": "an empty element is returned",
+  "name": "an empty principal team is returned",
   "keyword": "Then ",
   "line": 14
 });
@@ -836,23 +894,22 @@ formatter.match({
   "location": "team_summary.my_team()"
 });
 formatter.result({
-  "duration": 61111,
+  "duration": 43511,
   "status": "passed"
 });
 formatter.match({
   "location": "team_summary.my_main_team_does_not_have_players()"
 });
 formatter.result({
-  "duration": 22489,
+  "duration": 83600,
   "status": "passed"
 });
 formatter.match({
-  "location": "team_summary.an_empty_element_is_returned()"
+  "location": "team_summary.an_empty_principal_team_is_returned()"
 });
 formatter.result({
-  "duration": 1750711,
-  "status": "failed",
-  "error_message": "java.lang.ArrayIndexOutOfBoundsException: -1\r\n\tat java.util.ArrayList.elementData(ArrayList.java:400)\r\n\tat java.util.ArrayList.get(ArrayList.java:413)\r\n\tat junitx.framework.ListAssert.failNotContains(ListAssert.java:131)\r\n\tat junitx.framework.ListAssert.assertContains(ListAssert.java:118)\r\n\tat junitx.framework.ListAssert.assertEquals(ListAssert.java:91)\r\n\tat junitx.framework.ListAssert.assertEquals(ListAssert.java:78)\r\n\tat gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:67)\r\n\tat ✽.Then an empty element is returned(team_summary.feature:14)\r\n"
+  "duration": 157912,
+  "status": "passed"
 });
 formatter.scenario({
   "id": "team-summary;not-empty-reserve-team",
@@ -881,21 +938,21 @@ formatter.match({
   "location": "team_summary.my_team()"
 });
 formatter.result({
-  "duration": 44489,
+  "duration": 44978,
   "status": "passed"
 });
 formatter.match({
   "location": "team_summary.my_secondary_team_has_players()"
 });
 formatter.result({
-  "duration": 16622,
+  "duration": 104133,
   "status": "passed"
 });
 formatter.match({
   "location": "team_summary.my_backup_equipment_will_return()"
 });
 formatter.result({
-  "duration": 44000,
+  "duration": 183334,
   "status": "passed"
 });
 formatter.scenario({
@@ -917,7 +974,7 @@ formatter.step({
   "line": 23
 });
 formatter.step({
-  "name": "an empty element is returned",
+  "name": "an empty reserve team is returned",
   "keyword": "Then ",
   "line": 24
 });
@@ -925,23 +982,22 @@ formatter.match({
   "location": "team_summary.my_team()"
 });
 formatter.result({
-  "duration": 45956,
+  "duration": 44978,
   "status": "passed"
 });
 formatter.match({
   "location": "team_summary.my_secondary_team_does_not_have_players()"
 });
 formatter.result({
-  "duration": 21022,
+  "duration": 82622,
   "status": "passed"
 });
 formatter.match({
-  "location": "team_summary.an_empty_element_is_returned()"
+  "location": "team_summary.an_empty_reserve_team_is_returned()"
 });
 formatter.result({
-  "duration": 182355,
-  "status": "failed",
-  "error_message": "java.lang.ArrayIndexOutOfBoundsException: -1\r\n\tat java.util.ArrayList.elementData(ArrayList.java:400)\r\n\tat java.util.ArrayList.get(ArrayList.java:413)\r\n\tat junitx.framework.ListAssert.failNotContains(ListAssert.java:131)\r\n\tat junitx.framework.ListAssert.assertContains(ListAssert.java:118)\r\n\tat junitx.framework.ListAssert.assertEquals(ListAssert.java:91)\r\n\tat junitx.framework.ListAssert.assertEquals(ListAssert.java:78)\r\n\tat gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:67)\r\n\tat ✽.Then an empty element is returned(team_summary.feature:24)\r\n"
+  "duration": 163778,
+  "status": "passed"
 });
 formatter.scenario({
   "id": "team-summary;team-score",
@@ -970,7 +1026,7 @@ formatter.match({
   "location": "team_summary.my_team()"
 });
 formatter.result({
-  "duration": 51822,
+  "duration": 38622,
   "status": "passed"
 });
 formatter.match({
@@ -983,14 +1039,14 @@ formatter.match({
   "location": "team_summary.i_press_the_something_button(String)"
 });
 formatter.result({
-  "duration": 55244,
+  "duration": 57689,
   "status": "passed"
 });
 formatter.match({
   "location": "team_summary.my_team_money_will_be_returned()"
 });
 formatter.result({
-  "duration": 39600,
+  "duration": 49867,
   "status": "passed"
 });
 formatter.uri("vender.feature");
@@ -1028,21 +1084,21 @@ formatter.match({
   "location": "vender.a_team_and_player()"
 });
 formatter.result({
-  "duration": 95334,
+  "duration": 71378,
   "status": "passed"
 });
 formatter.match({
   "location": "vender.i_want_to_sell_a_player_but_does_not_belong_to_the_team()"
 });
 formatter.result({
-  "duration": 29823,
+  "duration": 19066,
   "status": "passed"
 });
 formatter.match({
   "location": "vender.i_can_not_put_it_on_sale()"
 });
 formatter.result({
-  "duration": 53778,
+  "duration": 42044,
   "status": "passed"
 });
 formatter.scenario({
@@ -1072,21 +1128,21 @@ formatter.match({
   "location": "vender.a_team_and_player()"
 });
 formatter.result({
-  "duration": 45956,
+  "duration": 36178,
   "status": "passed"
 });
 formatter.match({
   "location": "vender.i_want_to_sell_a_player_but_that_player_does_not_exist()"
 });
 formatter.result({
-  "duration": 23956,
+  "duration": 28845,
   "status": "passed"
 });
 formatter.match({
   "location": "vender.i_can_not_put_it_on_sale()"
 });
 formatter.result({
-  "duration": 13689,
+  "duration": 12223,
   "status": "passed"
 });
 formatter.scenario({
@@ -1116,21 +1172,21 @@ formatter.match({
   "location": "vender.a_team_and_player()"
 });
 formatter.result({
-  "duration": 58177,
+  "duration": 40089,
   "status": "passed"
 });
 formatter.match({
   "location": "vender.i_want_to_sell_a_player_and_exists_and_belongs_to_the_team()"
 });
 formatter.result({
-  "duration": 19555,
+  "duration": 15645,
   "status": "passed"
 });
 formatter.match({
   "location": "vender.i_can_put_it_on_sale()"
 });
 formatter.result({
-  "duration": 29823,
+  "duration": 21511,
   "status": "passed"
 });
 formatter.scenario({
@@ -1160,21 +1216,21 @@ formatter.match({
   "location": "vender.a_team_and_player()"
 });
 formatter.result({
-  "duration": 44978,
+  "duration": 39600,
   "status": "passed"
 });
 formatter.match({
   "location": "vender.i_want_to_sell_a_player_and_is_already_sold()"
 });
 formatter.result({
-  "duration": 18089,
+  "duration": 17600,
   "status": "passed"
 });
 formatter.match({
   "location": "vender.i_can_not_put_it_on_sale()"
 });
 formatter.result({
-  "duration": 13689,
+  "duration": 16622,
   "status": "passed"
 });
 formatter.scenario({
@@ -1204,21 +1260,21 @@ formatter.match({
   "location": "vender.a_team_and_player()"
 });
 formatter.result({
-  "duration": 41066,
+  "duration": 42533,
   "status": "passed"
 });
 formatter.match({
   "location": "vender.i_want_to_sell_a_player_and_the_team_to_which_it_belongs_does_not_exist()"
 });
 formatter.result({
-  "duration": 14178,
+  "duration": 13689,
   "status": "passed"
 });
 formatter.match({
   "location": "vender.i_can_not_put_it_on_sale()"
 });
 formatter.result({
-  "duration": 12711,
+  "duration": 12223,
   "status": "passed"
 });
 });

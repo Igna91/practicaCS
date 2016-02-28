@@ -11,7 +11,7 @@ Feature: Team summary
     Scenario: empty team principal team
         Given my team
         When My main team does not have players
-        Then an empty element is returned
+        Then an empty principal team is returned
 
     Scenario: not empty reserve team
         Given my team
@@ -21,7 +21,7 @@ Feature: Team summary
     Scenario: empty team reserve team
         Given my team
         When My secondary team does not have players
-        Then an empty element is returned
+        Then an empty reserve team is returned
 
     Scenario: team score
         Given my team

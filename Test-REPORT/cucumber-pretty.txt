@@ -62,29 +62,64 @@ Feature: menu
     To navigate
 
   Scenario: See the team               # menu.feature:6
-    Given the app menu
+    Given the app menu                 # menu.the_app_menu()
     When I press the "Equipo" button   # team_summary.i_press_the_something_button(String)
-    Then I can see the "Equipo" screen
+    Then I can see the "Equipo" screen # menu.i_can_see_the_screen(String)
+      java.lang.AssertionError
+      	at org.junit.Assert.fail(Assert.java:86)
+      	at org.junit.Assert.assertTrue(Assert.java:41)
+      	at org.junit.Assert.assertTrue(Assert.java:52)
+      	at gradle.cucumber.menu.i_can_see_the_screen(menu.java:34)
+      	at ✽.Then I can see the "Equipo" screen(menu.feature:9)
+
 
   Scenario: See calendario                 # menu.feature:11
-    Given the app menu
+    Given the app menu                     # menu.the_app_menu()
     When I press the "Calendario" button   # team_summary.i_press_the_something_button(String)
-    Then I can see the "Calendario" screen
+    Then I can see the "Calendario" screen # menu.i_can_see_the_screen(String)
+      java.lang.AssertionError
+      	at org.junit.Assert.fail(Assert.java:86)
+      	at org.junit.Assert.assertTrue(Assert.java:41)
+      	at org.junit.Assert.assertTrue(Assert.java:52)
+      	at gradle.cucumber.menu.i_can_see_the_screen(menu.java:34)
+      	at ✽.Then I can see the "Calendario" screen(menu.feature:14)
+
 
   Scenario: See clasificacion                 # menu.feature:16
-    Given the app menu
+    Given the app menu                        # menu.the_app_menu()
     When I press the "Clasificacion" button   # team_summary.i_press_the_something_button(String)
-    Then I can see the "Clasificacion" screen
+    Then I can see the "Clasificacion" screen # menu.i_can_see_the_screen(String)
+      java.lang.AssertionError
+      	at org.junit.Assert.fail(Assert.java:86)
+      	at org.junit.Assert.assertTrue(Assert.java:41)
+      	at org.junit.Assert.assertTrue(Assert.java:52)
+      	at gradle.cucumber.menu.i_can_see_the_screen(menu.java:34)
+      	at ✽.Then I can see the "Clasificacion" screen(menu.feature:19)
+
 
   Scenario: See fichajes               # menu.feature:21
-    Given the app menu
+    Given the app menu                 # menu.the_app_menu()
     When I press the "Fichajes" button # team_summary.i_press_the_something_button(String)
-    Then I can see the Fichajes screen
+    Then I can see the Fichajes screen # menu.i_can_see_the_Fichajes_screen()
+      java.lang.AssertionError
+      	at org.junit.Assert.fail(Assert.java:86)
+      	at org.junit.Assert.assertTrue(Assert.java:41)
+      	at org.junit.Assert.assertTrue(Assert.java:52)
+      	at gradle.cucumber.menu.i_can_see_the_Fichajes_screen(menu.java:39)
+      	at ✽.Then I can see the Fichajes screen(menu.feature:24)
+
 
   Scenario: Share                                 # menu.feature:26
-    Given the app menu
+    Given the app menu                            # menu.the_app_menu()
     When I press the "Comparte en Twitter" button # team_summary.i_press_the_something_button(String)
-    Then I can share my score
+    Then I can share my score                     # menu.i_can_share_my_score()
+      java.lang.AssertionError
+      	at org.junit.Assert.fail(Assert.java:86)
+      	at org.junit.Assert.assertTrue(Assert.java:41)
+      	at org.junit.Assert.assertTrue(Assert.java:52)
+      	at gradle.cucumber.menu.i_can_share_my_score(menu.java:44)
+      	at ✽.Then I can share my score(menu.feature:29)
+
 Feature: Team summary
     As player
     I want to see my team players and score
@@ -95,20 +130,10 @@ Feature: Team summary
     When My main team has players     # team_summary.my_main_team_has_players()
     Then my main football team return # team_summary.my_main_football_team_return()
 
-  Scenario: empty team principal team       # team_summary.feature:11
-    Given my team                           # team_summary.my_team()
-    When My main team does not have players # team_summary.my_main_team_does_not_have_players()
-    Then an empty element is returned       # team_summary.an_empty_element_is_returned()
-      java.lang.ArrayIndexOutOfBoundsException: -1
-      	at java.util.ArrayList.elementData(ArrayList.java:400)
-      	at java.util.ArrayList.get(ArrayList.java:413)
-      	at junitx.framework.ListAssert.failNotContains(ListAssert.java:131)
-      	at junitx.framework.ListAssert.assertContains(ListAssert.java:118)
-      	at junitx.framework.ListAssert.assertEquals(ListAssert.java:91)
-      	at junitx.framework.ListAssert.assertEquals(ListAssert.java:78)
-      	at gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:67)
-      	at ✽.Then an empty element is returned(team_summary.feature:14)
-
+  Scenario: empty team principal team        # team_summary.feature:11
+    Given my team                            # team_summary.my_team()
+    When My main team does not have players  # team_summary.my_main_team_does_not_have_players()
+    Then an empty principal team is returned # team_summary.an_empty_principal_team_is_returned()
 
   Scenario: not empty reserve team       # team_summary.feature:16
     Given my team                        # team_summary.my_team()
@@ -118,17 +143,7 @@ Feature: Team summary
   Scenario: empty team reserve team              # team_summary.feature:21
     Given my team                                # team_summary.my_team()
     When My secondary team does not have players # team_summary.my_secondary_team_does_not_have_players()
-    Then an empty element is returned            # team_summary.an_empty_element_is_returned()
-      java.lang.ArrayIndexOutOfBoundsException: -1
-      	at java.util.ArrayList.elementData(ArrayList.java:400)
-      	at java.util.ArrayList.get(ArrayList.java:413)
-      	at junitx.framework.ListAssert.failNotContains(ListAssert.java:131)
-      	at junitx.framework.ListAssert.assertContains(ListAssert.java:118)
-      	at junitx.framework.ListAssert.assertEquals(ListAssert.java:91)
-      	at junitx.framework.ListAssert.assertEquals(ListAssert.java:78)
-      	at gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:67)
-      	at ✽.Then an empty element is returned(team_summary.feature:24)
-
+    Then an empty reserve team is returned       # team_summary.an_empty_reserve_team_is_returned()
 
   Scenario: team score                  # team_summary.feature:26
     Given my team                       # team_summary.my_team()

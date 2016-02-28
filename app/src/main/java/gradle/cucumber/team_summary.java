@@ -4,6 +4,8 @@ import com.ps.grupo2.comunio.GestionEquipo;
 import com.ps.grupo2.comunio.ItemsFichajes;
 import com.ps.grupo2.comunio.Team;
 
+import java.util.ArrayList;
+
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -15,6 +17,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertSame;
 import static org.junit.Assert.assertTrue;
 
@@ -28,27 +31,39 @@ public class team_summary {
 
     @Given("^my team$")
     public void my_team() throws Throwable {
-        this.equipo = equipo = new Team("Chunguitos", 999, 250, 2);
+        this.equipo = new Team("Chunguitos", 999, 250, 2);
     }
 
     @When("^My main team has players$")
     public void my_main_team_has_players() throws Throwable {
         equipo.agregar1Titular(futbolista1);
+        equipo.agregar1Titular(futbolista2);
+        System.out.println("--> El equipo principal SI tiene jugadores:" + equipo.getFutbolistas().size());
     }
 
     @When("^My main team does not have players$")
     public void my_main_team_does_not_have_players() throws Throwable {
         equipo.eliminarFutbolista(futbolista1, 1);
+        equipo.eliminarFutbolista(futbolista2, 1);
+        equipo.eliminarFutbolista(futbolista1, 2);
+        equipo.eliminarFutbolista(futbolista2, 2);
+        System.out.println("--> El equipo principal NO tiene jugadores:" + equipo.getFutbolistas().size());
     }
 
     @When("^My secondary team has players$")
     public void my_secondary_team_has_players() throws Throwable {
         equipo.agregar1Suplente(futbolista1);
+        equipo.agregar1Suplente(futbolista2);
+        System.out.println("--> El equipo secundario SI tiene jugadores:" + equipo.getSuplentes().size());
     }
 
     @When("^My secondary team does not have players$")
     public void my_secondary_team_does_not_have_players() throws Throwable {
-        equipo.eliminarFutbolista(futbolista1, 5);
+        equipo.eliminarFutbolista(futbolista1, 1);
+        equipo.eliminarFutbolista(futbolista2, 1);
+        equipo.eliminarFutbolista(futbolista1, 2);
+        equipo.eliminarFutbolista(futbolista2, 2);
+        System.out.println("--> El equipo secundario NO tiene jugadores:"+equipo.getSuplentes().size());
     }
 
     @When("^I press the \"([^\"]*)\" button$")
@@ -58,18 +73,37 @@ public class team_summary {
 
     @Then("^my main football team return$")
     public void my_main_football_team_return() throws Throwable {
-        ListAssert.assertEquals(equipo.getFutbolistas(), equipo.getFutbolistas());
+        System.out.println("+++++ EQUIPO PRINCIPAL NO VACÍO +++++++++++");
+        System.out.println("Comprobación tamaño principal: " + equipo.getFutbolistas().size());
+        System.out.println("TIENE QUE SER VERDADERO (>0)");
+        assertTrue((equipo.getFutbolistas().size() > 0));
         //assertArrayEquals(bbdd.equipo.getFutbolistasBD(), equipo.getFutbolistas());
     }
 
-    @Then("^an empty element is returned$")
-    public void an_empty_element_is_returned() throws Throwable {
-        ListAssert.assertEquals(bbdd.equipo.getFutbolistasBD(), equipo.getFutbolistas());
+    @Then("^an empty principal team is returned$")
+    public void an_empty_principal_team_is_returned() throws Throwable {
+        System.out.println("+++++ EQUIPO PRINCIPAL VACÍO +++++++++++");
+        System.out.println("Comprobación tamaño: principal" + equipo.getFutbolistas().size());
+        System.out.println("TIENE QUE SER VERDADERO (==0)");
+        assertTrue(equipo.getFutbolistas().size() == 0);
     }
+
+    @Then("^an empty reserve team is returned$")
+    public void an_empty_reserve_team_is_returned() throws Throwable {
+        System.out.println("+++++ EQUIPO PRINCIPAL VACÍO +++++++++++");
+        System.out.println("Comprobación tamaño suplentes: " + equipo.getSuplentes().size());
+        System.out.println("TIENE QUE SER VERDADERO  (==0)");
+        assertTrue(equipo.getSuplentes().size() == 0);
+    }
+
 
     @Then("^my backup equipment will return$")
     public void my_backup_equipment_will_return() throws Throwable {
-        assertNotEquals(bbdd.equipo.getFutbolistasBD(), equipo.getFutbolistas());
+        System.out.println("+++++ EQUIPO RESERVA NO VACÍO +++++++++++");
+        System.out.println("Comprobación tamaño suplentes: " + equipo.getSuplentes().size());
+        System.out.println("TIENE QUE SER VERDADERO (>0)");
+        assertTrue(equipo.getSuplentes().size() > 0);
+        //assertNotEquals(bbdd.equipo.getFutbolistasBD(), equipo.getFutbolistas());
     }
 
     @Then("^my team money will be returned$")
