@@ -65,53 +65,21 @@ Feature: Team summary
     Given my team                     # team_summary.my_team()
     When My main team has players     # team_summary.my_main_team_has_players()
     Then my main football team return # team_summary.my_main_football_team_return()
-      java.lang.AssertionError: expected same:<[com.ps.grupo2.comunio.Futbolista@2c7bc1cd]> was not:<[com.ps.grupo2.comunio.Futbolista@d6a1fe]>
-      	at org.junit.Assert.fail(Assert.java:88)
-      	at org.junit.Assert.failNotSame(Assert.java:737)
-      	at org.junit.Assert.assertSame(Assert.java:680)
-      	at org.junit.Assert.assertSame(Assert.java:691)
-      	at gradle.cucumber.team_summary.my_main_football_team_return(team_summary.java:59)
-      	at ✽.Then my main football team return(team_summary.feature:9)
-
 
   Scenario: empty team principal team       # team_summary.feature:11
     Given my team                           # team_summary.my_team()
     When My main team does not have players # team_summary.my_main_team_does_not_have_players()
     Then an empty element is returned       # team_summary.an_empty_element_is_returned()
-      java.lang.AssertionError: expected same:<[com.ps.grupo2.comunio.Futbolista@559e9684]> was not:<[]>
-      	at org.junit.Assert.fail(Assert.java:88)
-      	at org.junit.Assert.failNotSame(Assert.java:737)
-      	at org.junit.Assert.assertSame(Assert.java:680)
-      	at org.junit.Assert.assertSame(Assert.java:691)
-      	at gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:65)
-      	at ✽.Then an empty element is returned(team_summary.feature:14)
-
 
   Scenario: not empty reserve team       # team_summary.feature:16
     Given my team                        # team_summary.my_team()
     When My secondary team has players   # team_summary.my_secondary_team_has_players()
     Then my backup equipment will return # team_summary.my_backup_equipment_will_return()
-      java.lang.AssertionError: expected same:<[com.ps.grupo2.comunio.Futbolista@2ed6ecf5]> was not:<[]>
-      	at org.junit.Assert.fail(Assert.java:88)
-      	at org.junit.Assert.failNotSame(Assert.java:737)
-      	at org.junit.Assert.assertSame(Assert.java:680)
-      	at org.junit.Assert.assertSame(Assert.java:691)
-      	at gradle.cucumber.team_summary.my_backup_equipment_will_return(team_summary.java:70)
-      	at ✽.Then my backup equipment will return(team_summary.feature:19)
-
 
   Scenario: empty team reserve team              # team_summary.feature:21
     Given my team                                # team_summary.my_team()
     When My secondary team does not have players # team_summary.my_secondary_team_does_not_have_players()
     Then an empty element is returned            # team_summary.an_empty_element_is_returned()
-      java.lang.AssertionError: expected same:<[com.ps.grupo2.comunio.Futbolista@4f7b2c6c]> was not:<[]>
-      	at org.junit.Assert.fail(Assert.java:88)
-      	at org.junit.Assert.failNotSame(Assert.java:737)
-      	at org.junit.Assert.assertSame(Assert.java:680)
-      	at org.junit.Assert.assertSame(Assert.java:691)
-      	at gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:65)
-      	at ✽.Then an empty element is returned(team_summary.feature:24)
-
 
   Scenario: team score                  # team_summary.feature:26
     Given my team                       # team_summary.my_team()

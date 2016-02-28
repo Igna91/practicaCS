@@ -1,156 +1,120 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="4" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="20" time="0.084235">
-<testcase classname="comprar" name="The player is not for sale" time="0.076187">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="20" time="0.057876">
+<testcase classname="comprar" name="The player is not for sale" time="0.054186">
 <system-out><![CDATA[Given a <futboll player> and a <team id>....................................passed
 When I press the "Comprar jugador" button AND the player is not for sale....passed
 Then I should be able to not buy............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="comprar" name="The player does not exist" time="0.000128">
+<testcase classname="comprar" name="The player does not exist" time="0.000064">
 <system-out><![CDATA[Given a <futboll player> and a <team id>....................................passed
 When I press the "Comprar jugador" button AND the player not exist..........passed
 Then I should be able to not buy............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="comprar" name="Not having enough money" time="0.000134">
+<testcase classname="comprar" name="Not having enough money" time="0.000062">
 <system-out><![CDATA[Given a <futboll player> and a <team id>....................................passed
 When I press the "Comprar jugador" button AND I don't have enough money.....passed
 Then I should be able to not buy............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="comprar" name="Having enough money to buy a football player and the team there" time="0.001742">
+<testcase classname="comprar" name="Having enough money to buy a football player and the team there" time="0.000698">
 <system-out><![CDATA[Given a <futboll player> and a <team id>....................................passed
 When I press the "Comprar jugador" button AND I have enough money...........passed
 Then I should be able to buy my money should be increased...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="comprar" name="Having enough money to buy a football player but the team not exist" time="0.000315">
+<testcase classname="comprar" name="Having enough money to buy a football player but the team not exist" time="0.00006">
 <system-out><![CDATA[Given a <futboll player> and a <team id>....................................passed
 When I press the "Comprar jugador" button AND I have enough money but team not exist.passed
 Then I should be able to not buy............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login" name="main screen user" time="0.000474">
+<testcase classname="login" name="main screen user" time="0.000169">
 <system-out><![CDATA[Given a user "user" and password "password".................................passed
 When <password> is empty and <user> is not empty............................passed
 Then should let me not access...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login" name="main screen password" time="0.00022">
+<testcase classname="login" name="main screen password" time="0.000091">
 <system-out><![CDATA[Given a user "user" and password "password".................................passed
 When <password> is not empty and user <user> is empty.......................passed
 Then should let me not access...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login" name="user incorrect and password correct" time="0.000396">
+<testcase classname="login" name="user incorrect and password correct" time="0.000102">
 <system-out><![CDATA[Given a user "user" and password "password".................................passed
 When the <password> is valid and the <user> is invalid......................passed
 Then should let me not access...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login" name="user and password are correct" time="0.000278">
+<testcase classname="login" name="user and password are correct" time="0.000114">
 <system-out><![CDATA[Given a user "user" and password "password".................................passed
 When the <password> is valid and the <user> is valid........................passed
 Then should let me access...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login" name="user correct and password incorrect" time="0.000194">
+<testcase classname="login" name="user correct and password incorrect" time="0.000095">
 <system-out><![CDATA[Given a user "user" and password "password".................................passed
 When the <password> is invalid and the <user> is valid......................passed
 Then should let me not access...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Team summary" name="not empty principal team" time="0.001275">
-<failure message="java.lang.AssertionError: expected same:&lt;[com.ps.grupo2.comunio.Futbolista@2c7bc1cd]&gt; was not:&lt;[com.ps.grupo2.comunio.Futbolista@d6a1fe]&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotSame(Assert.java:737)&#13;&#10;&#9;at org.junit.Assert.assertSame(Assert.java:680)&#13;&#10;&#9;at org.junit.Assert.assertSame(Assert.java:691)&#13;&#10;&#9;at gradle.cucumber.team_summary.my_main_football_team_return(team_summary.java:59)&#13;&#10;&#9;at ✽.Then my main football team return(team_summary.feature:9)&#13;&#10;"><![CDATA[Given my team...............................................................passed
+<testcase classname="Team summary" name="not empty principal team" time="0.001025">
+<system-out><![CDATA[Given my team...............................................................passed
 When My main team has players...............................................passed
-Then my main football team return...........................................failed
-
-StackTrace:
-java.lang.AssertionError: expected same:<[com.ps.grupo2.comunio.Futbolista@2c7bc1cd]> was not:<[com.ps.grupo2.comunio.Futbolista@d6a1fe]>
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotSame(Assert.java:737)
-	at org.junit.Assert.assertSame(Assert.java:680)
-	at org.junit.Assert.assertSame(Assert.java:691)
-	at gradle.cucumber.team_summary.my_main_football_team_return(team_summary.java:59)
-	at ✽.Then my main football team return(team_summary.feature:9)
-]]></failure>
+Then my main football team return...........................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Team summary" name="empty team principal team" time="0.000358">
-<failure message="java.lang.AssertionError: expected same:&lt;[com.ps.grupo2.comunio.Futbolista@559e9684]&gt; was not:&lt;[]&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotSame(Assert.java:737)&#13;&#10;&#9;at org.junit.Assert.assertSame(Assert.java:680)&#13;&#10;&#9;at org.junit.Assert.assertSame(Assert.java:691)&#13;&#10;&#9;at gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:65)&#13;&#10;&#9;at ✽.Then an empty element is returned(team_summary.feature:14)&#13;&#10;"><![CDATA[Given my team...............................................................passed
+<testcase classname="Team summary" name="empty team principal team" time="0.000057">
+<system-out><![CDATA[Given my team...............................................................passed
 When My main team does not have players.....................................passed
-Then an empty element is returned...........................................failed
-
-StackTrace:
-java.lang.AssertionError: expected same:<[com.ps.grupo2.comunio.Futbolista@559e9684]> was not:<[]>
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotSame(Assert.java:737)
-	at org.junit.Assert.assertSame(Assert.java:680)
-	at org.junit.Assert.assertSame(Assert.java:691)
-	at gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:65)
-	at ✽.Then an empty element is returned(team_summary.feature:14)
-]]></failure>
+Then an empty element is returned...........................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Team summary" name="not empty reserve team" time="0.000292">
-<failure message="java.lang.AssertionError: expected same:&lt;[com.ps.grupo2.comunio.Futbolista@2ed6ecf5]&gt; was not:&lt;[]&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotSame(Assert.java:737)&#13;&#10;&#9;at org.junit.Assert.assertSame(Assert.java:680)&#13;&#10;&#9;at org.junit.Assert.assertSame(Assert.java:691)&#13;&#10;&#9;at gradle.cucumber.team_summary.my_backup_equipment_will_return(team_summary.java:70)&#13;&#10;&#9;at ✽.Then my backup equipment will return(team_summary.feature:19)&#13;&#10;"><![CDATA[Given my team...............................................................passed
+<testcase classname="Team summary" name="not empty reserve team" time="0.000452">
+<system-out><![CDATA[Given my team...............................................................passed
 When My secondary team has players..........................................passed
-Then my backup equipment will return........................................failed
-
-StackTrace:
-java.lang.AssertionError: expected same:<[com.ps.grupo2.comunio.Futbolista@2ed6ecf5]> was not:<[]>
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotSame(Assert.java:737)
-	at org.junit.Assert.assertSame(Assert.java:680)
-	at org.junit.Assert.assertSame(Assert.java:691)
-	at gradle.cucumber.team_summary.my_backup_equipment_will_return(team_summary.java:70)
-	at ✽.Then my backup equipment will return(team_summary.feature:19)
-]]></failure>
+Then my backup equipment will return........................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Team summary" name="empty team reserve team" time="0.000391">
-<failure message="java.lang.AssertionError: expected same:&lt;[com.ps.grupo2.comunio.Futbolista@4f7b2c6c]&gt; was not:&lt;[]&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotSame(Assert.java:737)&#13;&#10;&#9;at org.junit.Assert.assertSame(Assert.java:680)&#13;&#10;&#9;at org.junit.Assert.assertSame(Assert.java:691)&#13;&#10;&#9;at gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:65)&#13;&#10;&#9;at ✽.Then an empty element is returned(team_summary.feature:24)&#13;&#10;"><![CDATA[Given my team...............................................................passed
+<testcase classname="Team summary" name="empty team reserve team" time="0.000051">
+<system-out><![CDATA[Given my team...............................................................passed
 When My secondary team does not have players................................passed
-Then an empty element is returned...........................................failed
-
-StackTrace:
-java.lang.AssertionError: expected same:<[com.ps.grupo2.comunio.Futbolista@4f7b2c6c]> was not:<[]>
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotSame(Assert.java:737)
-	at org.junit.Assert.assertSame(Assert.java:680)
-	at org.junit.Assert.assertSame(Assert.java:691)
-	at gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:65)
-	at ✽.Then an empty element is returned(team_summary.feature:24)
-]]></failure>
+Then an empty element is returned...........................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Team summary" name="team score" time="0.00124">
+<testcase classname="Team summary" name="team score" time="0.000335">
 <system-out><![CDATA[Given my team...............................................................passed
 When I press the "Datos" button.............................................passed
 Then my team money will be returned.........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="vender" name="Sell a player and that player does not belong to the team" time="0.000193">
+<testcase classname="vender" name="Sell a player and that player does not belong to the team" time="0.000105">
 <system-out><![CDATA[Given a team and Player.....................................................passed
 When I want to sell a player but does not belong to the team................passed
 Then I can not put it on sale...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="vender" name="Sell a player and that player not exist" time="0.000092">
+<testcase classname="vender" name="Sell a player and that player not exist" time="0.000049">
 <system-out><![CDATA[Given a team and Player.....................................................passed
 When I want to sell a player, but that player does not exist................passed
 Then I can not put it on sale...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="vender" name="Sell a player and that player does belong to the team" time="0.000105">
+<testcase classname="vender" name="Sell a player and that player does belong to the team" time="0.000063">
 <system-out><![CDATA[Given a team and Player.....................................................passed
 When I want to sell a player and exists and belongs to the team.............passed
 Then I can put it on sale...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="vender" name="Sell a player and the player is already on sale" time="0.000116">
+<testcase classname="vender" name="Sell a player and the player is already on sale" time="0.00005">
 <system-out><![CDATA[Given a team and Player.....................................................passed
 When I want to sell a player and is already sold............................passed
 Then I can not put it on sale...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="vender" name="Sell a player and the team to which it belongs does not exist" time="0.000105">
+<testcase classname="vender" name="Sell a player and the team to which it belongs does not exist" time="0.000048">
 <system-out><![CDATA[Given a team and Player.....................................................passed
 When I want to sell a player and the team to which it belongs does not exist.passed
 Then I can not put it on sale...............................................passed

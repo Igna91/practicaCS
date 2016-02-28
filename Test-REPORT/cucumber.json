@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 72708054,
+              "duration": 52189903,
               "status": "passed"
             },
             "line": 7,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 2109555,
+              "duration": 1131055,
               "status": "passed"
             },
             "line": 8,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 1369867,
+              "duration": 865436,
               "status": "passed"
             },
             "line": 9,
@@ -64,7 +64,7 @@
         "steps": [
           {
             "result": {
-              "duration": 42533,
+              "duration": 22652,
               "status": "passed"
             },
             "line": 12,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 67955,
+              "duration": 31961,
               "status": "passed"
             },
             "line": 13,
@@ -94,7 +94,7 @@
           },
           {
             "result": {
-              "duration": 17600,
+              "duration": 9309,
               "status": "passed"
             },
             "line": 14,
@@ -116,7 +116,7 @@
         "steps": [
           {
             "result": {
-              "duration": 47911,
+              "duration": 21721,
               "status": "passed"
             },
             "line": 17,
@@ -128,7 +128,7 @@
           },
           {
             "result": {
-              "duration": 69422,
+              "duration": 29169,
               "status": "passed"
             },
             "line": 18,
@@ -146,7 +146,7 @@
           },
           {
             "result": {
-              "duration": 17111,
+              "duration": 10861,
               "status": "passed"
             },
             "line": 19,
@@ -168,7 +168,7 @@
         "steps": [
           {
             "result": {
-              "duration": 81155,
+              "duration": 22032,
               "status": "passed"
             },
             "line": 22,
@@ -180,7 +180,7 @@
           },
           {
             "result": {
-              "duration": 117822,
+              "duration": 30720,
               "status": "passed"
             },
             "line": 23,
@@ -198,7 +198,7 @@
           },
           {
             "result": {
-              "duration": 1543423,
+              "duration": 645431,
               "status": "passed"
             },
             "line": 24,
@@ -220,7 +220,7 @@
         "steps": [
           {
             "result": {
-              "duration": 47911,
+              "duration": 21411,
               "status": "passed"
             },
             "line": 27,
@@ -232,7 +232,7 @@
           },
           {
             "result": {
-              "duration": 246400,
+              "duration": 28548,
               "status": "passed"
             },
             "line": 28,
@@ -250,7 +250,7 @@
           },
           {
             "result": {
-              "duration": 20533,
+              "duration": 9930,
               "status": "passed"
             },
             "line": 29,
@@ -282,7 +282,7 @@
         "steps": [
           {
             "result": {
-              "duration": 129555,
+              "duration": 59888,
               "status": "passed"
             },
             "line": 7,
@@ -304,7 +304,7 @@
           },
           {
             "result": {
-              "duration": 45467,
+              "duration": 13032,
               "status": "passed"
             },
             "line": 8,
@@ -316,7 +316,7 @@
           },
           {
             "result": {
-              "duration": 298711,
+              "duration": 96504,
               "status": "passed"
             },
             "line": 9,
@@ -338,7 +338,7 @@
         "steps": [
           {
             "result": {
-              "duration": 96800,
+              "duration": 38167,
               "status": "passed"
             },
             "line": 12,
@@ -360,7 +360,7 @@
           },
           {
             "result": {
-              "duration": 19067,
+              "duration": 11481,
               "status": "passed"
             },
             "line": 13,
@@ -372,7 +372,7 @@
           },
           {
             "result": {
-              "duration": 104622,
+              "duration": 41270,
               "status": "passed"
             },
             "line": 14,
@@ -394,7 +394,7 @@
         "steps": [
           {
             "result": {
-              "duration": 87022,
+              "duration": 38167,
               "status": "passed"
             },
             "line": 17,
@@ -416,7 +416,7 @@
           },
           {
             "result": {
-              "duration": 57200,
+              "duration": 15205,
               "status": "passed"
             },
             "line": 18,
@@ -428,7 +428,7 @@
           },
           {
             "result": {
-              "duration": 252267,
+              "duration": 48717,
               "status": "passed"
             },
             "line": 19,
@@ -450,7 +450,7 @@
         "steps": [
           {
             "result": {
-              "duration": 182844,
+              "duration": 44684,
               "status": "passed"
             },
             "line": 22,
@@ -472,7 +472,7 @@
           },
           {
             "result": {
-              "duration": 18578,
+              "duration": 12412,
               "status": "passed"
             },
             "line": 23,
@@ -484,7 +484,7 @@
           },
           {
             "result": {
-              "duration": 76267,
+              "duration": 56785,
               "status": "passed"
             },
             "line": 24,
@@ -506,7 +506,7 @@
         "steps": [
           {
             "result": {
-              "duration": 77733,
+              "duration": 40340,
               "status": "passed"
             },
             "line": 27,
@@ -528,7 +528,7 @@
           },
           {
             "result": {
-              "duration": 24445,
+              "duration": 14274,
               "status": "passed"
             },
             "line": 28,
@@ -540,7 +540,7 @@
           },
           {
             "result": {
-              "duration": 91911,
+              "duration": 40340,
               "status": "passed"
             },
             "line": 29,
@@ -572,7 +572,7 @@
         "steps": [
           {
             "result": {
-              "duration": 117823,
+              "duration": 60509,
               "status": "passed"
             },
             "line": 7,
@@ -584,7 +584,7 @@
           },
           {
             "result": {
-              "duration": 50844,
+              "duration": 18618,
               "status": "passed"
             },
             "line": 8,
@@ -596,9 +596,8 @@
           },
           {
             "result": {
-              "duration": 1106356,
-              "error_message": "java.lang.AssertionError: expected same:\u003c[com.ps.grupo2.comunio.Futbolista@2c7bc1cd]\u003e was not:\u003c[com.ps.grupo2.comunio.Futbolista@d6a1fe]\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotSame(Assert.java:737)\r\n\tat org.junit.Assert.assertSame(Assert.java:680)\r\n\tat org.junit.Assert.assertSame(Assert.java:691)\r\n\tat gradle.cucumber.team_summary.my_main_football_team_return(team_summary.java:59)\r\n\tat ✽.Then my main football team return(team_summary.feature:9)\r\n",
-              "status": "failed"
+              "duration": 945805,
+              "status": "passed"
             },
             "line": 9,
             "name": "my main football team return",
@@ -619,7 +618,7 @@
         "steps": [
           {
             "result": {
-              "duration": 62578,
+              "duration": 25755,
               "status": "passed"
             },
             "line": 12,
@@ -631,7 +630,7 @@
           },
           {
             "result": {
-              "duration": 31778,
+              "duration": 19549,
               "status": "passed"
             },
             "line": 13,
@@ -643,9 +642,8 @@
           },
           {
             "result": {
-              "duration": 263511,
-              "error_message": "java.lang.AssertionError: expected same:\u003c[com.ps.grupo2.comunio.Futbolista@559e9684]\u003e was not:\u003c[]\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotSame(Assert.java:737)\r\n\tat org.junit.Assert.assertSame(Assert.java:680)\r\n\tat org.junit.Assert.assertSame(Assert.java:691)\r\n\tat gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:65)\r\n\tat ✽.Then an empty element is returned(team_summary.feature:14)\r\n",
-              "status": "failed"
+              "duration": 12102,
+              "status": "passed"
             },
             "line": 14,
             "name": "an empty element is returned",
@@ -666,7 +664,7 @@
         "steps": [
           {
             "result": {
-              "duration": 54267,
+              "duration": 27307,
               "status": "passed"
             },
             "line": 17,
@@ -678,7 +676,7 @@
           },
           {
             "result": {
-              "duration": 25911,
+              "duration": 16136,
               "status": "passed"
             },
             "line": 18,
@@ -690,9 +688,8 @@
           },
           {
             "result": {
-              "duration": 212178,
-              "error_message": "java.lang.AssertionError: expected same:\u003c[com.ps.grupo2.comunio.Futbolista@2ed6ecf5]\u003e was not:\u003c[]\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotSame(Assert.java:737)\r\n\tat org.junit.Assert.assertSame(Assert.java:680)\r\n\tat org.junit.Assert.assertSame(Assert.java:691)\r\n\tat gradle.cucumber.team_summary.my_backup_equipment_will_return(team_summary.java:70)\r\n\tat ✽.Then my backup equipment will return(team_summary.feature:19)\r\n",
-              "status": "failed"
+              "duration": 408359,
+              "status": "passed"
             },
             "line": 19,
             "name": "my backup equipment will return",
@@ -713,7 +710,7 @@
         "steps": [
           {
             "result": {
-              "duration": 63555,
+              "duration": 28858,
               "status": "passed"
             },
             "line": 22,
@@ -725,7 +722,7 @@
           },
           {
             "result": {
-              "duration": 16622,
+              "duration": 12412,
               "status": "passed"
             },
             "line": 23,
@@ -737,9 +734,8 @@
           },
           {
             "result": {
-              "duration": 310933,
-              "error_message": "java.lang.AssertionError: expected same:\u003c[com.ps.grupo2.comunio.Futbolista@4f7b2c6c]\u003e was not:\u003c[]\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotSame(Assert.java:737)\r\n\tat org.junit.Assert.assertSame(Assert.java:680)\r\n\tat org.junit.Assert.assertSame(Assert.java:691)\r\n\tat gradle.cucumber.team_summary.an_empty_element_is_returned(team_summary.java:65)\r\n\tat ✽.Then an empty element is returned(team_summary.feature:24)\r\n",
-              "status": "failed"
+              "duration": 9930,
+              "status": "passed"
             },
             "line": 24,
             "name": "an empty element is returned",
@@ -760,7 +756,7 @@
         "steps": [
           {
             "result": {
-              "duration": 60133,
+              "duration": 30409,
               "status": "passed"
             },
             "line": 27,
@@ -772,7 +768,7 @@
           },
           {
             "result": {
-              "duration": 66978,
+              "duration": 48407,
               "status": "passed"
             },
             "line": 28,
@@ -790,7 +786,7 @@
           },
           {
             "result": {
-              "duration": 1112712,
+              "duration": 256000,
               "status": "passed"
             },
             "line": 29,
@@ -822,7 +818,7 @@
         "steps": [
           {
             "result": {
-              "duration": 108533,
+              "duration": 51821,
               "status": "passed"
             },
             "line": 7,
@@ -834,7 +830,7 @@
           },
           {
             "result": {
-              "duration": 27867,
+              "duration": 18928,
               "status": "passed"
             },
             "line": 8,
@@ -846,7 +842,7 @@
           },
           {
             "result": {
-              "duration": 56223,
+              "duration": 33823,
               "status": "passed"
             },
             "line": 9,
@@ -868,7 +864,7 @@
         "steps": [
           {
             "result": {
-              "duration": 56223,
+              "duration": 22652,
               "status": "passed"
             },
             "line": 12,
@@ -880,7 +876,7 @@
           },
           {
             "result": {
-              "duration": 22489,
+              "duration": 15515,
               "status": "passed"
             },
             "line": 13,
@@ -892,7 +888,7 @@
           },
           {
             "result": {
-              "duration": 13689,
+              "duration": 10550,
               "status": "passed"
             },
             "line": 14,
@@ -914,7 +910,7 @@
         "steps": [
           {
             "result": {
-              "duration": 52311,
+              "duration": 28858,
               "status": "passed"
             },
             "line": 17,
@@ -926,7 +922,7 @@
           },
           {
             "result": {
-              "duration": 20045,
+              "duration": 13653,
               "status": "passed"
             },
             "line": 18,
@@ -938,7 +934,7 @@
           },
           {
             "result": {
-              "duration": 32755,
+              "duration": 20480,
               "status": "passed"
             },
             "line": 19,
@@ -960,7 +956,7 @@
         "steps": [
           {
             "result": {
-              "duration": 81155,
+              "duration": 26065,
               "status": "passed"
             },
             "line": 22,
@@ -972,7 +968,7 @@
           },
           {
             "result": {
-              "duration": 16622,
+              "duration": 12412,
               "status": "passed"
             },
             "line": 23,
@@ -984,7 +980,7 @@
           },
           {
             "result": {
-              "duration": 18578,
+              "duration": 11791,
               "status": "passed"
             },
             "line": 24,
@@ -1006,7 +1002,7 @@
         "steps": [
           {
             "result": {
-              "duration": 51333,
+              "duration": 24203,
               "status": "passed"
             },
             "line": 27,
@@ -1018,7 +1014,7 @@
           },
           {
             "result": {
-              "duration": 33245,
+              "duration": 12722,
               "status": "passed"
             },
             "line": 28,
@@ -1030,7 +1026,7 @@
           },
           {
             "result": {
-              "duration": 20044,
+              "duration": 10860,
               "status": "passed"
             },
             "line": 29,
