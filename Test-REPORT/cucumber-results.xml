@@ -1,190 +1,90 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="5" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="25" time="0.101656">
-<testcase classname="comprar" name="The player is not for sale" time="0.094405">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="15" time="0.083783">
+<testcase classname="comprar" name="The player is not for sale" time="0.079368">
 <system-out><![CDATA[Given a <futboll player> and a <team id>....................................passed
 When I press the "Comprar jugador" button AND the player is not for sale....passed
 Then I should be able to not buy............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="comprar" name="The player does not exist" time="0.000106">
+<testcase classname="comprar" name="The player does not exist" time="0.000087">
 <system-out><![CDATA[Given a <futboll player> and a <team id>....................................passed
 When I press the "Comprar jugador" button AND the player not exist..........passed
 Then I should be able to not buy............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="comprar" name="Not having enough money" time="0.000099">
+<testcase classname="comprar" name="Not having enough money" time="0.001204">
 <system-out><![CDATA[Given a <futboll player> and a <team id>....................................passed
 When I press the "Comprar jugador" button AND I don't have enough money.....passed
 Then I should be able to not buy............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="comprar" name="Having enough money to buy a football player and the team there" time="0.001674">
+<testcase classname="comprar" name="Having enough money to buy a football player and the team there" time="0.001511">
 <system-out><![CDATA[Given a <futboll player> and a <team id>....................................passed
 When I press the "Comprar jugador" button AND I have enough money...........passed
 Then I should be able to buy my money should be increased...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="comprar" name="Having enough money to buy a football player but the team not exist" time="0.000112">
+<testcase classname="comprar" name="Having enough money to buy a football player but the team not exist" time="0.000103">
 <system-out><![CDATA[Given a <futboll player> and a <team id>....................................passed
 When I press the "Comprar jugador" button AND I have enough money but team not exist.passed
 Then I should be able to not buy............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login" name="main screen user" time="0.000404">
+<testcase classname="login" name="main screen user" time="0.000312">
 <system-out><![CDATA[Given a user "user" and password "password".................................passed
 When <password> is empty and <user> is not empty............................passed
 Then should let me not access...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login" name="main screen password" time="0.000279">
+<testcase classname="login" name="main screen password" time="0.000169">
 <system-out><![CDATA[Given a user "user" and password "password".................................passed
 When <password> is not empty and user <user> is empty.......................passed
 Then should let me not access...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login" name="user incorrect and password correct" time="0.000304">
+<testcase classname="login" name="user incorrect and password correct" time="0.000173">
 <system-out><![CDATA[Given a user "user" and password "password".................................passed
 When the <password> is valid and the <user> is invalid......................passed
 Then should let me not access...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login" name="user and password are correct" time="0.000335">
+<testcase classname="login" name="user and password are correct" time="0.000162">
 <system-out><![CDATA[Given a user "user" and password "password".................................passed
 When the <password> is valid and the <user> is valid........................passed
 Then should let me access...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login" name="user correct and password incorrect" time="0.000328">
+<testcase classname="login" name="user correct and password incorrect" time="0.000138">
 <system-out><![CDATA[Given a user "user" and password "password".................................passed
 When the <password> is invalid and the <user> is valid......................passed
 Then should let me not access...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="menu" name="See the team" time="0.000557">
-<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at gradle.cucumber.menu.i_can_see_the_screen(menu.java:34)&#13;&#10;&#9;at ✽.Then I can see the &quot;Equipo&quot; screen(menu.feature:9)&#13;&#10;"><![CDATA[Given the app menu..........................................................passed
-When I press the "Equipo" button............................................passed
-Then I can see the "Equipo" screen..........................................failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at gradle.cucumber.menu.i_can_see_the_screen(menu.java:34)
-	at ✽.Then I can see the "Equipo" screen(menu.feature:9)
-]]></failure>
-</testcase>
-<testcase classname="menu" name="See calendario" time="0.000224">
-<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at gradle.cucumber.menu.i_can_see_the_screen(menu.java:34)&#13;&#10;&#9;at ✽.Then I can see the &quot;Calendario&quot; screen(menu.feature:14)&#13;&#10;"><![CDATA[Given the app menu..........................................................passed
-When I press the "Calendario" button........................................passed
-Then I can see the "Calendario" screen......................................failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at gradle.cucumber.menu.i_can_see_the_screen(menu.java:34)
-	at ✽.Then I can see the "Calendario" screen(menu.feature:14)
-]]></failure>
-</testcase>
-<testcase classname="menu" name="See clasificacion" time="0.000252">
-<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at gradle.cucumber.menu.i_can_see_the_screen(menu.java:34)&#13;&#10;&#9;at ✽.Then I can see the &quot;Clasificacion&quot; screen(menu.feature:19)&#13;&#10;"><![CDATA[Given the app menu..........................................................passed
-When I press the "Clasificacion" button.....................................passed
-Then I can see the "Clasificacion" screen...................................failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at gradle.cucumber.menu.i_can_see_the_screen(menu.java:34)
-	at ✽.Then I can see the "Clasificacion" screen(menu.feature:19)
-]]></failure>
-</testcase>
-<testcase classname="menu" name="See fichajes" time="0.000194">
-<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at gradle.cucumber.menu.i_can_see_the_Fichajes_screen(menu.java:39)&#13;&#10;&#9;at ✽.Then I can see the Fichajes screen(menu.feature:24)&#13;&#10;"><![CDATA[Given the app menu..........................................................passed
-When I press the "Fichajes" button..........................................passed
-Then I can see the Fichajes screen..........................................failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at gradle.cucumber.menu.i_can_see_the_Fichajes_screen(menu.java:39)
-	at ✽.Then I can see the Fichajes screen(menu.feature:24)
-]]></failure>
-</testcase>
-<testcase classname="menu" name="Share" time="0.000212">
-<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at gradle.cucumber.menu.i_can_share_my_score(menu.java:44)&#13;&#10;&#9;at ✽.Then I can share my score(menu.feature:29)&#13;&#10;"><![CDATA[Given the app menu..........................................................passed
-When I press the "Comparte en Twitter" button...............................passed
-Then I can share my score...................................................failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at gradle.cucumber.menu.i_can_share_my_score(menu.java:44)
-	at ✽.Then I can share my score(menu.feature:29)
-]]></failure>
-</testcase>
-<testcase classname="Team summary" name="not empty principal team" time="0.000689">
-<system-out><![CDATA[Given my team...............................................................passed
-When My main team has players...............................................passed
-Then my main football team return...........................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Team summary" name="empty team principal team" time="0.000285">
-<system-out><![CDATA[Given my team...............................................................passed
-When My main team does not have players.....................................passed
-Then an empty principal team is returned....................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Team summary" name="not empty reserve team" time="0.000332">
-<system-out><![CDATA[Given my team...............................................................passed
-When My secondary team has players..........................................passed
-Then my backup equipment will return........................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Team summary" name="empty team reserve team" time="0.000291">
-<system-out><![CDATA[Given my team...............................................................passed
-When My secondary team does not have players................................passed
-Then an empty reserve team is returned......................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Team summary" name="team score" time="0.000146">
-<system-out><![CDATA[Given my team...............................................................passed
-When I press the "Datos" button.............................................passed
-Then my team money will be returned.........................................passed
-]]></system-out>
-</testcase>
-<testcase classname="vender" name="Sell a player and that player does not belong to the team" time="0.000132">
+<testcase classname="vender" name="Sell a player and that player does not belong to the team" time="0.000209">
 <system-out><![CDATA[Given a team and Player.....................................................passed
 When I want to sell a player but does not belong to the team................passed
 Then I can not put it on sale...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="vender" name="Sell a player and that player not exist" time="0.000077">
+<testcase classname="vender" name="Sell a player and that player not exist" time="0.000078">
 <system-out><![CDATA[Given a team and Player.....................................................passed
 When I want to sell a player, but that player does not exist................passed
 Then I can not put it on sale...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="vender" name="Sell a player and that player does belong to the team" time="0.000077">
+<testcase classname="vender" name="Sell a player and that player does belong to the team" time="0.000099">
 <system-out><![CDATA[Given a team and Player.....................................................passed
 When I want to sell a player and exists and belongs to the team.............passed
 Then I can put it on sale...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="vender" name="Sell a player and the player is already on sale" time="0.000074">
+<testcase classname="vender" name="Sell a player and the player is already on sale" time="0.000079">
 <system-out><![CDATA[Given a team and Player.....................................................passed
 When I want to sell a player and is already sold............................passed
 Then I can not put it on sale...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="vender" name="Sell a player and the team to which it belongs does not exist" time="0.000068">
+<testcase classname="vender" name="Sell a player and the team to which it belongs does not exist" time="0.000091">
 <system-out><![CDATA[Given a team and Player.....................................................passed
 When I want to sell a player and the team to which it belongs does not exist.passed
 Then I can not put it on sale...............................................passed
