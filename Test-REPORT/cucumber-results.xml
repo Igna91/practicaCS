@@ -1,114 +1,114 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="20" time="0.063588">
-<testcase classname="comprar" name="The player is not for sale" time="0.060765">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="20" time="0.05605">
+<testcase classname="comprar" name="The player is not for sale" time="0.053115">
 <system-out><![CDATA[Given a <futboll player> and a <team id>....................................passed
 When I press the "Comprar jugador" button AND the player is not for sale....passed
 Then I should be able to not buy............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="comprar" name="The player does not exist" time="0.000078">
+<testcase classname="comprar" name="The player does not exist" time="0.000065">
 <system-out><![CDATA[Given a <futboll player> and a <team id>....................................passed
 When I press the "Comprar jugador" button AND the player not exist..........passed
 Then I should be able to not buy............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="comprar" name="Not having enough money" time="0.000067">
+<testcase classname="comprar" name="Not having enough money" time="0.000064">
 <system-out><![CDATA[Given a <futboll player> and a <team id>....................................passed
 When I press the "Comprar jugador" button AND I don't have enough money.....passed
 Then I should be able to not buy............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="comprar" name="Having enough money to buy a football player and the team there" time="0.000674">
+<testcase classname="comprar" name="Having enough money to buy a football player and the team there" time="0.00091">
 <system-out><![CDATA[Given a <futboll player> and a <team id>....................................passed
 When I press the "Comprar jugador" button AND I have enough money...........passed
 Then I should be able to buy my money should be increased...................passed
 ]]></system-out>
 </testcase>
-<testcase classname="comprar" name="Having enough money to buy a football player but the team not exist" time="0.000074">
+<testcase classname="comprar" name="Having enough money to buy a football player but the team not exist" time="0.000066">
 <system-out><![CDATA[Given a <futboll player> and a <team id>....................................passed
 When I press the "Comprar jugador" button AND I have enough money but team not exist.passed
 Then I should be able to not buy............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login" name="main screen user" time="0.000194">
+<testcase classname="login" name="main screen user" time="0.000186">
 <system-out><![CDATA[Given a user "user" and password "password".................................passed
 When <password> is empty and <user> is not empty............................passed
 Then should let me not access...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login" name="main screen password" time="0.000125">
+<testcase classname="login" name="main screen password" time="0.0001">
 <system-out><![CDATA[Given a user "user" and password "password".................................passed
 When <password> is not empty and user <user> is empty.......................passed
 Then should let me not access...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login" name="user incorrect and password correct" time="0.000127">
+<testcase classname="login" name="user incorrect and password correct" time="0.000092">
 <system-out><![CDATA[Given a user "user" and password "password".................................passed
 When the <password> is valid and the <user> is invalid......................passed
 Then should let me not access...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login" name="user and password are correct" time="0.000112">
+<testcase classname="login" name="user and password are correct" time="0.0001">
 <system-out><![CDATA[Given a user "user" and password "password".................................passed
 When the <password> is valid and the <user> is valid........................passed
 Then should let me access...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login" name="user correct and password incorrect" time="0.000103">
+<testcase classname="login" name="user correct and password incorrect" time="0.000094">
 <system-out><![CDATA[Given a user "user" and password "password".................................passed
 When the <password> is invalid and the <user> is valid......................passed
 Then should let me not access...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Team summary" name="not empty principal team" time="0.0004">
+<testcase classname="Team summary" name="not empty principal team" time="0.000401">
 <system-out><![CDATA[Given my team...............................................................passed
 When My main team has players...............................................passed
 Then my main football team return...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Team summary" name="empty team principal team" time="0.000155">
+<testcase classname="Team summary" name="empty team principal team" time="0.000135">
 <system-out><![CDATA[Given my team...............................................................passed
 When My main team does not have players.....................................passed
 Then an empty principal team is returned....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Team summary" name="not empty reserve team" time="0.000138">
+<testcase classname="Team summary" name="not empty reserve team" time="0.000133">
 <system-out><![CDATA[Given my team...............................................................passed
 When My secondary team has players..........................................passed
 Then my backup equipment will return........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Team summary" name="empty team reserve team" time="0.000155">
+<testcase classname="Team summary" name="empty team reserve team" time="0.000169">
 <system-out><![CDATA[Given my team...............................................................passed
 When My secondary team does not have players................................passed
 Then an empty reserve team is returned......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Team summary" name="team score" time="0.000104">
+<testcase classname="Team summary" name="team score" time="0.000113">
 <system-out><![CDATA[Given my team...............................................................passed
 When I press the "Datos" button.............................................passed
 Then my team money will be returned.........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="vender" name="Sell a player and that player does not belong to the team" time="0.00011">
+<testcase classname="vender" name="Sell a player and that player does not belong to the team" time="0.000108">
 <system-out><![CDATA[Given a team and Player.....................................................passed
 When I want to sell a player but does not belong to the team................passed
 Then I can not put it on sale...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="vender" name="Sell a player and that player not exist" time="0.000052">
+<testcase classname="vender" name="Sell a player and that player not exist" time="0.00005">
 <system-out><![CDATA[Given a team and Player.....................................................passed
 When I want to sell a player, but that player does not exist................passed
 Then I can not put it on sale...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="vender" name="Sell a player and that player does belong to the team" time="0.000055">
+<testcase classname="vender" name="Sell a player and that player does belong to the team" time="0.000054">
 <system-out><![CDATA[Given a team and Player.....................................................passed
 When I want to sell a player and exists and belongs to the team.............passed
 Then I can put it on sale...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="vender" name="Sell a player and the player is already on sale" time="0.000053">
+<testcase classname="vender" name="Sell a player and the player is already on sale" time="0.000048">
 <system-out><![CDATA[Given a team and Player.....................................................passed
 When I want to sell a player and is already sold............................passed
 Then I can not put it on sale...............................................passed
