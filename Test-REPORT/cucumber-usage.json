@@ -1,119 +1,17 @@
 [
   {
-    "source": "^I should be able to not buy$",
+    "source": "^I press the \"([^\"]*)\" button$",
     "steps": [
       {
-        "name": "I should be able to not buy",
+        "name": "I press the \"Datos\" button",
         "aggregatedDurations": {
-          "average": 0.000379744,
-          "median": 0.000016377
+          "average": 0.000034444,
+          "median": 0.000034444
         },
         "durations": [
           {
-            "duration": 0.001475467,
-            "location": "comprar.feature:9"
-          },
-          {
-            "duration": 0.000010756,
-            "location": "comprar.feature:14"
-          },
-          {
-            "duration": 0.000019067,
-            "location": "comprar.feature:19"
-          },
-          {
-            "duration": 0.000013688,
-            "location": "comprar.feature:29"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^the \u003cpassword\u003e is valid and the \u003cuser\u003e is valid$",
-    "steps": [
-      {
-        "name": "the \u003cpassword\u003e is valid and the \u003cuser\u003e is valid",
-        "aggregatedDurations": {
-          "average": 0.000014177,
-          "median": 0.000014177
-        },
-        "durations": [
-          {
-            "duration": 0.000014177,
-            "location": "login.feature:23"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^I press the \"(.*?)\" button AND I have enough money but team not exist$",
-    "steps": [
-      {
-        "name": "I press the \"Comprar jugador\" button AND I have enough money but team not exist",
-        "aggregatedDurations": {
-          "average": 0.000056222,
-          "median": 0.000056222
-        },
-        "durations": [
-          {
-            "duration": 0.000056222,
-            "location": "comprar.feature:28"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^I press the \"([^\"]*)\" button AND I have enough money$",
-    "steps": [
-      {
-        "name": "I press the \"Comprar jugador\" button AND I have enough money",
-        "aggregatedDurations": {
-          "average": 0.000053777,
-          "median": 0.000053777
-        },
-        "durations": [
-          {
-            "duration": 0.000053777,
-            "location": "comprar.feature:23"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^I want to sell a player and exists and belongs to the team$",
-    "steps": [
-      {
-        "name": "I want to sell a player and exists and belongs to the team",
-        "aggregatedDurations": {
-          "average": 0.000018089,
-          "median": 0.000018089
-        },
-        "durations": [
-          {
-            "duration": 0.000018089,
-            "location": "vender.feature:18"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^I press the \"([^\"]*)\" button AND the player not exist$",
-    "steps": [
-      {
-        "name": "I press the \"Comprar jugador\" button AND the player not exist",
-        "aggregatedDurations": {
-          "average": 0.000044,
-          "median": 0.000044
-        },
-        "durations": [
-          {
-            "duration": 0.000044,
-            "location": "comprar.feature:13"
+            "duration": 0.000034444,
+            "location": "team_summary.feature:28"
           }
         ]
       }
@@ -125,31 +23,13 @@
       {
         "name": "the \u003cpassword\u003e is invalid and the \u003cuser\u003e is valid",
         "aggregatedDurations": {
-          "average": 0.000015156,
-          "median": 0.000015156
+          "average": 0.000013964,
+          "median": 0.000013964
         },
         "durations": [
           {
-            "duration": 0.000015156,
+            "duration": 0.000013964,
             "location": "login.feature:28"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^I can put it on sale$",
-    "steps": [
-      {
-        "name": "I can put it on sale",
-        "aggregatedDurations": {
-          "average": 0.000027377,
-          "median": 0.000027377
-        },
-        "durations": [
-          {
-            "duration": 0.000027377,
-            "location": "vender.feature:19"
           }
         ]
       }
@@ -161,28 +41,28 @@
       {
         "name": "a \u003cfutboll player\u003e and a \u003cteam id\u003e",
         "aggregatedDurations": {
-          "average": 0.015282766,
-          "median": 0.000055244
+          "average": 0.011731331,
+          "median": 0.000023583
         },
         "durations": [
           {
-            "duration": 0.076211921,
+            "duration": 0.058562637,
             "location": "comprar.feature:7"
           },
           {
-            "duration": 0.000031778,
+            "duration": 0.000024514,
             "location": "comprar.feature:12"
           },
           {
-            "duration": 0.000081644,
+            "duration": 0.000023583,
             "location": "comprar.feature:17"
           },
           {
-            "duration": 0.000055244,
+            "duration": 0.000023273,
             "location": "comprar.feature:22"
           },
           {
-            "duration": 0.000033244,
+            "duration": 0.000022652,
             "location": "comprar.feature:27"
           }
         ]
@@ -195,31 +75,13 @@
       {
         "name": "\u003cpassword\u003e is empty and \u003cuser\u003e is not empty",
         "aggregatedDurations": {
-          "average": 0.000019555,
-          "median": 0.000019555
+          "average": 0.000014584,
+          "median": 0.000014584
         },
         "durations": [
           {
-            "duration": 0.000019555,
+            "duration": 0.000014584,
             "location": "login.feature:8"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^I press the \"([^\"]*)\" button AND the player is not for sale$",
-    "steps": [
-      {
-        "name": "I press the \"Comprar jugador\" button AND the player is not for sale",
-        "aggregatedDurations": {
-          "average": 0.001680311,
-          "median": 0.001680311
-        },
-        "durations": [
-          {
-            "duration": 0.001680311,
-            "location": "comprar.feature:8"
           }
         ]
       }
@@ -231,61 +93,25 @@
       {
         "name": "I can not put it on sale",
         "aggregatedDurations": {
-          "average": 0.000033366,
-          "median": 0.000018333
+          "average": 0.000016601,
+          "median": 0.00001117
         },
         "durations": [
           {
-            "duration": 0.000081644,
+            "duration": 0.000033513,
             "location": "vender.feature:9"
           },
           {
-            "duration": 0.000015156,
+            "duration": 0.000011481,
             "location": "vender.feature:14"
           },
           {
-            "duration": 0.000017111,
+            "duration": 0.00001086,
             "location": "vender.feature:24"
           },
           {
-            "duration": 0.000019556,
+            "duration": 0.00001055,
             "location": "vender.feature:29"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^I press the \"([^\"]*)\" button AND I don\u0027t have enough money$",
-    "steps": [
-      {
-        "name": "I press the \"Comprar jugador\" button AND I don\u0027t have enough money",
-        "aggregatedDurations": {
-          "average": 0.001103423,
-          "median": 0.001103423
-        },
-        "durations": [
-          {
-            "duration": 0.001103423,
-            "location": "comprar.feature:18"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^should let me access$",
-    "steps": [
-      {
-        "name": "should let me access",
-        "aggregatedDurations": {
-          "average": 0.000089467,
-          "median": 0.000089467
-        },
-        "durations": [
-          {
-            "duration": 0.000089467,
-            "location": "login.feature:24"
           }
         ]
       }
@@ -297,61 +123,13 @@
       {
         "name": "I want to sell a player and is already sold",
         "aggregatedDurations": {
-          "average": 0.000018578,
-          "median": 0.000018578
+          "average": 0.000013343,
+          "median": 0.000013343
         },
         "durations": [
           {
-            "duration": 0.000018578,
+            "duration": 0.000013343,
             "location": "vender.feature:23"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^should let me not access$",
-    "steps": [
-      {
-        "name": "should let me not access",
-        "aggregatedDurations": {
-          "average": 0.000109755,
-          "median": 0.000092644
-        },
-        "durations": [
-          {
-            "duration": 0.000179422,
-            "location": "login.feature:9"
-          },
-          {
-            "duration": 0.000098755,
-            "location": "login.feature:14"
-          },
-          {
-            "duration": 0.000086533,
-            "location": "login.feature:19"
-          },
-          {
-            "duration": 0.000074311,
-            "location": "login.feature:29"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^I want to sell a player and the team to which it belongs does not exist$",
-    "steps": [
-      {
-        "name": "I want to sell a player and the team to which it belongs does not exist",
-        "aggregatedDurations": {
-          "average": 0.0000176,
-          "median": 0.0000176
-        },
-        "durations": [
-          {
-            "duration": 0.0000176,
-            "location": "vender.feature:28"
           }
         ]
       }
@@ -363,12 +141,12 @@
       {
         "name": "the \u003cpassword\u003e is valid and the \u003cuser\u003e is invalid",
         "aggregatedDurations": {
-          "average": 0.000019067,
-          "median": 0.000019067
+          "average": 0.000022652,
+          "median": 0.000022652
         },
         "durations": [
           {
-            "duration": 0.000019067,
+            "duration": 0.000022652,
             "location": "login.feature:18"
           }
         ]
@@ -381,12 +159,12 @@
       {
         "name": "I should be able to buy my money should be increased",
         "aggregatedDurations": {
-          "average": 0.001401644,
-          "median": 0.001401644
+          "average": 0.000619676,
+          "median": 0.000619676
         },
         "durations": [
           {
-            "duration": 0.001401644,
+            "duration": 0.000619676,
             "location": "comprar.feature:24"
           }
         ]
@@ -399,65 +177,13 @@
       {
         "name": "I want to sell a player, but that player does not exist",
         "aggregatedDurations": {
-          "average": 0.000021511,
-          "median": 0.000021511
+          "average": 0.000016135,
+          "median": 0.000016135
         },
         "durations": [
           {
-            "duration": 0.000021511,
+            "duration": 0.000016135,
             "location": "vender.feature:13"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^a user \"(.*?)\" and password \"(.*?)\"$",
-    "steps": [
-      {
-        "name": "a user \"user\" and password \"password\"",
-        "aggregatedDurations": {
-          "average": 0.000069031,
-          "median": 0.000058178
-        },
-        "durations": [
-          {
-            "duration": 0.000113422,
-            "location": "login.feature:7"
-          },
-          {
-            "duration": 0.0000572,
-            "location": "login.feature:12"
-          },
-          {
-            "duration": 0.000067467,
-            "location": "login.feature:17"
-          },
-          {
-            "duration": 0.000058178,
-            "location": "login.feature:22"
-          },
-          {
-            "duration": 0.000048889,
-            "location": "login.feature:27"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^\u003cpassword\u003e is not empty and user \u003cuser\u003e is empty$",
-    "steps": [
-      {
-        "name": "\u003cpassword\u003e is not empty and user \u003cuser\u003e is empty",
-        "aggregatedDurations": {
-          "average": 0.000012711,
-          "median": 0.000012711
-        },
-        "durations": [
-          {
-            "duration": 0.000012711,
-            "location": "login.feature:13"
           }
         ]
       }
@@ -469,28 +195,28 @@
       {
         "name": "a team and Player",
         "aggregatedDurations": {
-          "average": 0.000054755,
-          "median": 0.000053289
+          "average": 0.000031775,
+          "median": 0.000024513
         },
         "durations": [
           {
-            "duration": 0.000081645,
+            "duration": 0.000057096,
             "location": "vender.feature:7"
           },
           {
-            "duration": 0.000041555,
+            "duration": 0.000024513,
             "location": "vender.feature:12"
           },
           {
-            "duration": 0.000053289,
+            "duration": 0.000023894,
             "location": "vender.feature:17"
           },
           {
-            "duration": 0.000043022,
+            "duration": 0.000029168,
             "location": "vender.feature:22"
           },
           {
-            "duration": 0.000054267,
+            "duration": 0.000024204,
             "location": "vender.feature:27"
           }
         ]
@@ -503,13 +229,501 @@
       {
         "name": "I want to sell a player but does not belong to the team",
         "aggregatedDurations": {
-          "average": 0.000045956,
-          "median": 0.000045956
+          "average": 0.000019859,
+          "median": 0.000019859
         },
         "durations": [
           {
-            "duration": 0.000045956,
+            "duration": 0.000019859,
             "location": "vender.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^my backup equipment will return$",
+    "steps": [
+      {
+        "name": "my backup equipment will return",
+        "aggregatedDurations": {
+          "average": 0.000098056,
+          "median": 0.000098056
+        },
+        "durations": [
+          {
+            "duration": 0.000098056,
+            "location": "team_summary.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should be able to not buy$",
+    "steps": [
+      {
+        "name": "I should be able to not buy",
+        "aggregatedDurations": {
+          "average": 0.000233503,
+          "median": 0.00001117
+        },
+        "durations": [
+          {
+            "duration": 0.000901432,
+            "location": "comprar.feature:9"
+          },
+          {
+            "duration": 0.00001055,
+            "location": "comprar.feature:14"
+          },
+          {
+            "duration": 0.000011791,
+            "location": "comprar.feature:19"
+          },
+          {
+            "duration": 0.00001024,
+            "location": "comprar.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^my main football team return$",
+    "steps": [
+      {
+        "name": "my main football team return",
+        "aggregatedDurations": {
+          "average": 0.000318061,
+          "median": 0.000318061
+        },
+        "durations": [
+          {
+            "duration": 0.000318061,
+            "location": "team_summary.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^an empty reserve team is returned$",
+    "steps": [
+      {
+        "name": "an empty reserve team is returned",
+        "aggregatedDurations": {
+          "average": 0.000114812,
+          "median": 0.000114812
+        },
+        "durations": [
+          {
+            "duration": 0.000114812,
+            "location": "team_summary.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the \u003cpassword\u003e is valid and the \u003cuser\u003e is valid$",
+    "steps": [
+      {
+        "name": "the \u003cpassword\u003e is valid and the \u003cuser\u003e is valid",
+        "aggregatedDurations": {
+          "average": 0.000012723,
+          "median": 0.000012723
+        },
+        "durations": [
+          {
+            "duration": 0.000012723,
+            "location": "login.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I press the \"(.*?)\" button AND I have enough money but team not exist$",
+    "steps": [
+      {
+        "name": "I press the \"Comprar jugador\" button AND I have enough money but team not exist",
+        "aggregatedDurations": {
+          "average": 0.00004065,
+          "median": 0.00004065
+        },
+        "durations": [
+          {
+            "duration": 0.00004065,
+            "location": "comprar.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I press the \"([^\"]*)\" button AND I have enough money$",
+    "steps": [
+      {
+        "name": "I press the \"Comprar jugador\" button AND I have enough money",
+        "aggregatedDurations": {
+          "average": 0.00003103,
+          "median": 0.00003103
+        },
+        "durations": [
+          {
+            "duration": 0.00003103,
+            "location": "comprar.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I want to sell a player and exists and belongs to the team$",
+    "steps": [
+      {
+        "name": "I want to sell a player and exists and belongs to the team",
+        "aggregatedDurations": {
+          "average": 0.000012413,
+          "median": 0.000012413
+        },
+        "durations": [
+          {
+            "duration": 0.000012413,
+            "location": "vender.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I press the \"([^\"]*)\" button AND the player not exist$",
+    "steps": [
+      {
+        "name": "I press the \"Comprar jugador\" button AND the player not exist",
+        "aggregatedDurations": {
+          "average": 0.000042512,
+          "median": 0.000042512
+        },
+        "durations": [
+          {
+            "duration": 0.000042512,
+            "location": "comprar.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^my team$",
+    "steps": [
+      {
+        "name": "my team",
+        "aggregatedDurations": {
+          "average": 0.000036305,
+          "median": 0.000032892
+        },
+        "durations": [
+          {
+            "duration": 0.000062371,
+            "location": "team_summary.feature:7"
+          },
+          {
+            "duration": 0.000035996,
+            "location": "team_summary.feature:12"
+          },
+          {
+            "duration": 0.000025134,
+            "location": "team_summary.feature:17"
+          },
+          {
+            "duration": 0.000025135,
+            "location": "team_summary.feature:22"
+          },
+          {
+            "duration": 0.000032892,
+            "location": "team_summary.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I can put it on sale$",
+    "steps": [
+      {
+        "name": "I can put it on sale",
+        "aggregatedDurations": {
+          "average": 0.000018307,
+          "median": 0.000018307
+        },
+        "durations": [
+          {
+            "duration": 0.000018307,
+            "location": "vender.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^my team money will be returned$",
+    "steps": [
+      {
+        "name": "my team money will be returned",
+        "aggregatedDurations": {
+          "average": 0.000036616,
+          "median": 0.000036616
+        },
+        "durations": [
+          {
+            "duration": 0.000036616,
+            "location": "team_summary.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I press the \"([^\"]*)\" button AND the player is not for sale$",
+    "steps": [
+      {
+        "name": "I press the \"Comprar jugador\" button AND the player is not for sale",
+        "aggregatedDurations": {
+          "average": 0.001300481,
+          "median": 0.001300481
+        },
+        "durations": [
+          {
+            "duration": 0.001300481,
+            "location": "comprar.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I press the \"([^\"]*)\" button AND I don\u0027t have enough money$",
+    "steps": [
+      {
+        "name": "I press the \"Comprar jugador\" button AND I don\u0027t have enough money",
+        "aggregatedDurations": {
+          "average": 0.000031962,
+          "median": 0.000031962
+        },
+        "durations": [
+          {
+            "duration": 0.000031962,
+            "location": "comprar.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^should let me access$",
+    "steps": [
+      {
+        "name": "should let me access",
+        "aggregatedDurations": {
+          "average": 0.000050579,
+          "median": 0.000050579
+        },
+        "durations": [
+          {
+            "duration": 0.000050579,
+            "location": "login.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^should let me not access$",
+    "steps": [
+      {
+        "name": "should let me not access",
+        "aggregatedDurations": {
+          "average": 0.000071835,
+          "median": 0.000060664
+        },
+        "durations": [
+          {
+            "duration": 0.000115123,
+            "location": "login.feature:9"
+          },
+          {
+            "duration": 0.000063302,
+            "location": "login.feature:14"
+          },
+          {
+            "duration": 0.000058027,
+            "location": "login.feature:19"
+          },
+          {
+            "duration": 0.00005089,
+            "location": "login.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^My secondary team does not have players$",
+    "steps": [
+      {
+        "name": "My secondary team does not have players",
+        "aggregatedDurations": {
+          "average": 0.000014585,
+          "median": 0.000014585
+        },
+        "durations": [
+          {
+            "duration": 0.000014585,
+            "location": "team_summary.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I want to sell a player and the team to which it belongs does not exist$",
+    "steps": [
+      {
+        "name": "I want to sell a player and the team to which it belongs does not exist",
+        "aggregatedDurations": {
+          "average": 0.000012722,
+          "median": 0.000012722
+        },
+        "durations": [
+          {
+            "duration": 0.000012722,
+            "location": "vender.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^My main team does not have players$",
+    "steps": [
+      {
+        "name": "My main team does not have players",
+        "aggregatedDurations": {
+          "average": 0.00002048,
+          "median": 0.00002048
+        },
+        "durations": [
+          {
+            "duration": 0.00002048,
+            "location": "team_summary.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^an empty principal team is returned$",
+    "steps": [
+      {
+        "name": "an empty principal team is returned",
+        "aggregatedDurations": {
+          "average": 0.000098987,
+          "median": 0.000098987
+        },
+        "durations": [
+          {
+            "duration": 0.000098987,
+            "location": "team_summary.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^My secondary team has players$",
+    "steps": [
+      {
+        "name": "My secondary team has players",
+        "aggregatedDurations": {
+          "average": 0.000014895,
+          "median": 0.000014895
+        },
+        "durations": [
+          {
+            "duration": 0.000014895,
+            "location": "team_summary.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^a user \"(.*?)\" and password \"(.*?)\"$",
+    "steps": [
+      {
+        "name": "a user \"user\" and password \"password\"",
+        "aggregatedDurations": {
+          "average": 0.000049028,
+          "median": 0.000048408
+        },
+        "durations": [
+          {
+            "duration": 0.000063923,
+            "location": "login.feature:7"
+          },
+          {
+            "duration": 0.000048718,
+            "location": "login.feature:12"
+          },
+          {
+            "duration": 0.000045925,
+            "location": "login.feature:17"
+          },
+          {
+            "duration": 0.000048408,
+            "location": "login.feature:22"
+          },
+          {
+            "duration": 0.000038167,
+            "location": "login.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^\u003cpassword\u003e is not empty and user \u003cuser\u003e is empty$",
+    "steps": [
+      {
+        "name": "\u003cpassword\u003e is not empty and user \u003cuser\u003e is empty",
+        "aggregatedDurations": {
+          "average": 0.000013033,
+          "median": 0.000013033
+        },
+        "durations": [
+          {
+            "duration": 0.000013033,
+            "location": "login.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^My main team has players$",
+    "steps": [
+      {
+        "name": "My main team has players",
+        "aggregatedDurations": {
+          "average": 0.000019859,
+          "median": 0.000019859
+        },
+        "durations": [
+          {
+            "duration": 0.000019859,
+            "location": "team_summary.feature:8"
           }
         ]
       }

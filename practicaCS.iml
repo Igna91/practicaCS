@@ -7,16 +7,6 @@
         <option name="BUILDABLE" value="true" />
       </configuration>
     </facet>
-    <facet type="android-gradle" name="Android-Gradle">
-      <configuration>
-        <option name="GRADLE_PROJECT_PATH" value=":" />
-      </configuration>
-    </facet>
-    <facet type="android" name="Android">
-      <configuration>
-        <option name="ALLOW_USER_CONFIGURATION" value="false" />
-      </configuration>
-    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/build/classes/main" />
@@ -51,5 +41,6 @@
     <orderEntry type="library" exported="" scope="TEST" name="cucumber-html-0.2.3" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="cucumber-jvm-deps-1.0.3" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="gherkin-2.12.2" level="project" />
+    <orderEntry type="library" exported="" name="practicaCS.practicaCS" level="project" />
   </component>
 </module>

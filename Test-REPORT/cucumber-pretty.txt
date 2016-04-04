@@ -56,6 +56,35 @@ Feature: login
     Given a user "user" and password "password"            # login.a_user_and_password(String,String)
     When the <password> is invalid and the <user> is valid # login.the_password_is_invalid_and_the_user_is_valid()
     Then should let me not access                          # login.should_let_me_not_access()
+Feature: Team summary
+    As player
+    I want to see my team players and score
+    To keep me updated
+
+  Scenario: not empty principal team  # team_summary.feature:6
+    Given my team                     # team_summary.my_team()
+    When My main team has players     # team_summary.my_main_team_has_players()
+    Then my main football team return # team_summary.my_main_football_team_return()
+
+  Scenario: empty team principal team        # team_summary.feature:11
+    Given my team                            # team_summary.my_team()
+    When My main team does not have players  # team_summary.my_main_team_does_not_have_players()
+    Then an empty principal team is returned # team_summary.an_empty_principal_team_is_returned()
+
+  Scenario: not empty reserve team       # team_summary.feature:16
+    Given my team                        # team_summary.my_team()
+    When My secondary team has players   # team_summary.my_secondary_team_has_players()
+    Then my backup equipment will return # team_summary.my_backup_equipment_will_return()
+
+  Scenario: empty team reserve team              # team_summary.feature:21
+    Given my team                                # team_summary.my_team()
+    When My secondary team does not have players # team_summary.my_secondary_team_does_not_have_players()
+    Then an empty reserve team is returned       # team_summary.an_empty_reserve_team_is_returned()
+
+  Scenario: team score                  # team_summary.feature:26
+    Given my team                       # team_summary.my_team()
+    When I press the "Datos" button     # team_summary.i_press_the_something_button(String)
+    Then my team money will be returned # team_summary.my_team_money_will_be_returned()
 Feature: vender
     As user
     I want to sell players

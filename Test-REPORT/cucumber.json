@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 76211921,
+              "duration": 58562637,
               "status": "passed"
             },
             "line": 7,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 1680311,
+              "duration": 1300481,
               "status": "passed"
             },
             "line": 8,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 1475467,
+              "duration": 901432,
               "status": "passed"
             },
             "line": 9,
@@ -64,7 +64,7 @@
         "steps": [
           {
             "result": {
-              "duration": 31778,
+              "duration": 24514,
               "status": "passed"
             },
             "line": 12,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 44000,
+              "duration": 42512,
               "status": "passed"
             },
             "line": 13,
@@ -94,7 +94,7 @@
           },
           {
             "result": {
-              "duration": 10756,
+              "duration": 10550,
               "status": "passed"
             },
             "line": 14,
@@ -116,7 +116,7 @@
         "steps": [
           {
             "result": {
-              "duration": 81644,
+              "duration": 23583,
               "status": "passed"
             },
             "line": 17,
@@ -128,7 +128,7 @@
           },
           {
             "result": {
-              "duration": 1103423,
+              "duration": 31962,
               "status": "passed"
             },
             "line": 18,
@@ -146,7 +146,7 @@
           },
           {
             "result": {
-              "duration": 19067,
+              "duration": 11791,
               "status": "passed"
             },
             "line": 19,
@@ -168,7 +168,7 @@
         "steps": [
           {
             "result": {
-              "duration": 55244,
+              "duration": 23273,
               "status": "passed"
             },
             "line": 22,
@@ -180,7 +180,7 @@
           },
           {
             "result": {
-              "duration": 53777,
+              "duration": 31030,
               "status": "passed"
             },
             "line": 23,
@@ -198,7 +198,7 @@
           },
           {
             "result": {
-              "duration": 1401644,
+              "duration": 619676,
               "status": "passed"
             },
             "line": 24,
@@ -220,7 +220,7 @@
         "steps": [
           {
             "result": {
-              "duration": 33244,
+              "duration": 22652,
               "status": "passed"
             },
             "line": 27,
@@ -232,7 +232,7 @@
           },
           {
             "result": {
-              "duration": 56222,
+              "duration": 40650,
               "status": "passed"
             },
             "line": 28,
@@ -250,7 +250,7 @@
           },
           {
             "result": {
-              "duration": 13688,
+              "duration": 10240,
               "status": "passed"
             },
             "line": 29,
@@ -282,7 +282,7 @@
         "steps": [
           {
             "result": {
-              "duration": 113422,
+              "duration": 63923,
               "status": "passed"
             },
             "line": 7,
@@ -304,7 +304,7 @@
           },
           {
             "result": {
-              "duration": 19555,
+              "duration": 14584,
               "status": "passed"
             },
             "line": 8,
@@ -316,7 +316,7 @@
           },
           {
             "result": {
-              "duration": 179422,
+              "duration": 115123,
               "status": "passed"
             },
             "line": 9,
@@ -338,7 +338,7 @@
         "steps": [
           {
             "result": {
-              "duration": 57200,
+              "duration": 48718,
               "status": "passed"
             },
             "line": 12,
@@ -360,7 +360,7 @@
           },
           {
             "result": {
-              "duration": 12711,
+              "duration": 13033,
               "status": "passed"
             },
             "line": 13,
@@ -372,7 +372,7 @@
           },
           {
             "result": {
-              "duration": 98755,
+              "duration": 63302,
               "status": "passed"
             },
             "line": 14,
@@ -394,7 +394,7 @@
         "steps": [
           {
             "result": {
-              "duration": 67467,
+              "duration": 45925,
               "status": "passed"
             },
             "line": 17,
@@ -416,7 +416,7 @@
           },
           {
             "result": {
-              "duration": 19067,
+              "duration": 22652,
               "status": "passed"
             },
             "line": 18,
@@ -428,7 +428,7 @@
           },
           {
             "result": {
-              "duration": 86533,
+              "duration": 58027,
               "status": "passed"
             },
             "line": 19,
@@ -450,7 +450,7 @@
         "steps": [
           {
             "result": {
-              "duration": 58178,
+              "duration": 48408,
               "status": "passed"
             },
             "line": 22,
@@ -472,7 +472,7 @@
           },
           {
             "result": {
-              "duration": 14177,
+              "duration": 12723,
               "status": "passed"
             },
             "line": 23,
@@ -484,7 +484,7 @@
           },
           {
             "result": {
-              "duration": 89467,
+              "duration": 50579,
               "status": "passed"
             },
             "line": 24,
@@ -506,7 +506,7 @@
         "steps": [
           {
             "result": {
-              "duration": 48889,
+              "duration": 38167,
               "status": "passed"
             },
             "line": 27,
@@ -528,7 +528,7 @@
           },
           {
             "result": {
-              "duration": 15156,
+              "duration": 13964,
               "status": "passed"
             },
             "line": 28,
@@ -540,7 +540,7 @@
           },
           {
             "result": {
-              "duration": 74311,
+              "duration": 50890,
               "status": "passed"
             },
             "line": 29,
@@ -564,6 +564,252 @@
     "elements": [
       {
         "line": 6,
+        "name": "not empty principal team",
+        "description": "",
+        "id": "team-summary;not-empty-principal-team",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 62371,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "my team",
+            "match": {
+              "location": "team_summary.my_team()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19859,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "My main team has players",
+            "match": {
+              "location": "team_summary.my_main_team_has_players()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 318061,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "my main football team return",
+            "match": {
+              "location": "team_summary.my_main_football_team_return()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "empty team principal team",
+        "description": "",
+        "id": "team-summary;empty-team-principal-team",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35996,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "my team",
+            "match": {
+              "location": "team_summary.my_team()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20480,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "My main team does not have players",
+            "match": {
+              "location": "team_summary.my_main_team_does_not_have_players()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98987,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "an empty principal team is returned",
+            "match": {
+              "location": "team_summary.an_empty_principal_team_is_returned()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "not empty reserve team",
+        "description": "",
+        "id": "team-summary;not-empty-reserve-team",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25134,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "my team",
+            "match": {
+              "location": "team_summary.my_team()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14895,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "My secondary team has players",
+            "match": {
+              "location": "team_summary.my_secondary_team_has_players()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98056,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "my backup equipment will return",
+            "match": {
+              "location": "team_summary.my_backup_equipment_will_return()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "empty team reserve team",
+        "description": "",
+        "id": "team-summary;empty-team-reserve-team",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25135,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "my team",
+            "match": {
+              "location": "team_summary.my_team()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14585,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "My secondary team does not have players",
+            "match": {
+              "location": "team_summary.my_secondary_team_does_not_have_players()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114812,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "an empty reserve team is returned",
+            "match": {
+              "location": "team_summary.an_empty_reserve_team_is_returned()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "team score",
+        "description": "",
+        "id": "team-summary;team-score",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32892,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "my team",
+            "match": {
+              "location": "team_summary.my_team()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34444,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I press the \"Datos\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Datos",
+                  "offset": 13
+                }
+              ],
+              "location": "team_summary.i_press_the_something_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36616,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "my team money will be returned",
+            "match": {
+              "location": "team_summary.my_team_money_will_be_returned()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Team summary",
+    "description": "  As player\r\n  I want to see my team players and score\r\n  To keep me updated",
+    "id": "team-summary",
+    "keyword": "Feature",
+    "uri": "team_summary.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
         "name": "Sell a player and that player does not belong to the team",
         "description": "",
         "id": "vender;sell-a-player-and-that-player-does-not-belong-to-the-team",
@@ -572,7 +818,7 @@
         "steps": [
           {
             "result": {
-              "duration": 81645,
+              "duration": 57096,
               "status": "passed"
             },
             "line": 7,
@@ -584,7 +830,7 @@
           },
           {
             "result": {
-              "duration": 45956,
+              "duration": 19859,
               "status": "passed"
             },
             "line": 8,
@@ -596,7 +842,7 @@
           },
           {
             "result": {
-              "duration": 81644,
+              "duration": 33513,
               "status": "passed"
             },
             "line": 9,
@@ -618,7 +864,7 @@
         "steps": [
           {
             "result": {
-              "duration": 41555,
+              "duration": 24513,
               "status": "passed"
             },
             "line": 12,
@@ -630,7 +876,7 @@
           },
           {
             "result": {
-              "duration": 21511,
+              "duration": 16135,
               "status": "passed"
             },
             "line": 13,
@@ -642,7 +888,7 @@
           },
           {
             "result": {
-              "duration": 15156,
+              "duration": 11481,
               "status": "passed"
             },
             "line": 14,
@@ -664,7 +910,7 @@
         "steps": [
           {
             "result": {
-              "duration": 53289,
+              "duration": 23894,
               "status": "passed"
             },
             "line": 17,
@@ -676,7 +922,7 @@
           },
           {
             "result": {
-              "duration": 18089,
+              "duration": 12413,
               "status": "passed"
             },
             "line": 18,
@@ -688,7 +934,7 @@
           },
           {
             "result": {
-              "duration": 27377,
+              "duration": 18307,
               "status": "passed"
             },
             "line": 19,
@@ -710,7 +956,7 @@
         "steps": [
           {
             "result": {
-              "duration": 43022,
+              "duration": 29168,
               "status": "passed"
             },
             "line": 22,
@@ -722,7 +968,7 @@
           },
           {
             "result": {
-              "duration": 18578,
+              "duration": 13343,
               "status": "passed"
             },
             "line": 23,
@@ -734,7 +980,7 @@
           },
           {
             "result": {
-              "duration": 17111,
+              "duration": 10860,
               "status": "passed"
             },
             "line": 24,
@@ -756,7 +1002,7 @@
         "steps": [
           {
             "result": {
-              "duration": 54267,
+              "duration": 24204,
               "status": "passed"
             },
             "line": 27,
@@ -768,7 +1014,7 @@
           },
           {
             "result": {
-              "duration": 17600,
+              "duration": 12722,
               "status": "passed"
             },
             "line": 28,
@@ -780,7 +1026,7 @@
           },
           {
             "result": {
-              "duration": 19556,
+              "duration": 10550,
               "status": "passed"
             },
             "line": 29,
