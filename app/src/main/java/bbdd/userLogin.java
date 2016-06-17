@@ -2,7 +2,7 @@ package bbdd;
 
 
 public class userLogin {
-
+    //Clase userLogin
     String user;
     String pass;
 
