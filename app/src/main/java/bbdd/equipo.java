@@ -5,7 +5,7 @@ import com.ps.grupo2.comunio.Team;
 import java.util.ArrayList;
 
 public class equipo {
-
+    //Clase Equipo
     public static boolean saveEquipo(Team t){
         return true;
     }
